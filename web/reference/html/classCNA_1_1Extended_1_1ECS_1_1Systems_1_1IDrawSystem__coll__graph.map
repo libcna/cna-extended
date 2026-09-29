@@ -1,0 +1,7 @@
+<map id="CNA::Extended::ECS::Systems::IDrawSystem" name="CNA::Extended::ECS::Systems::IDrawSystem">
+<area shape="rect" id="Node000001" title="An ISystem that draws once per frame. See UpdateSystem.hpp&#39;s header comment for why ISystem is inheri..." alt="" coords="5,167,187,207"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1ISystem.html" title="Base interface for anything World can register and initialize (update and/or draw systems)." alt="" coords="20,79,172,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,133,99,166,93,166,93,133"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="19,5,173,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,44,99,79,93,79,93,44"/>
+</map>

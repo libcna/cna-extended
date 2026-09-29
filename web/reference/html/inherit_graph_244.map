@@ -1,0 +1,25 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Interpolator3DEXT.html" title="Base class for particle interpolators: computes a target property value from a normalized [0,..." alt="" coords="5,229,212,269"/>
+<area shape="rect" id="Node000001" href="$classCNA_1_1Extended_1_1World3DEXT_1_1InterpolatorOfT3DEXT.html" title=" " alt="" coords="260,12,471,81"/>
+<area shape="poly" id="edge94_Node000000_Node000001" title=" " alt="" coords="139,218,194,169,258,115,309,79,312,84,262,119,197,173,143,222"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1World3DEXT_1_1InterpolatorOfT3DEXT.html" title=" " alt="" coords="262,130,469,185"/>
+<area shape="poly" id="edge96_Node000000_Node000003" title=" " alt="" coords="177,222,287,182,289,187,179,227"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1World3DEXT_1_1InterpolatorOfT3DEXT.html" title=" " alt="" coords="260,215,471,284"/>
+<area shape="poly" id="edge100_Node000000_Node000007" title=" " alt="" coords="226,247,260,247,260,252,226,252"/>
+<area shape="rect" id="Node000009" href="$classCNA_1_1Extended_1_1World3DEXT_1_1InterpolatorOfT3DEXT.html" title=" " alt="" coords="260,308,471,377"/>
+<area shape="poly" id="edge102_Node000000_Node000009" title=" " alt="" coords="178,271,271,305,269,310,176,276"/>
+<area shape="rect" id="Node000011" href="$classCNA_1_1Extended_1_1World3DEXT_1_1InterpolatorOfT3DEXT.html" title="Generic interpolator base holding the start/end values to interpolate between." alt="" coords="260,401,471,441"/>
+<area shape="poly" id="edge104_Node000000_Node000011" title=" " alt="" coords="137,278,191,334,225,362,261,387,286,399,284,404,259,392,222,367,187,338,133,282"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1ColorInterpolator3DEXT.html" title="Interpolates a particle&#39;s RGB color between StartValue and EndValue over its lifetime (alpha always e..." alt="" coords="519,5,725,45"/>
+<area shape="poly" id="edge95_Node000001_Node000002" title=" " alt="" coords="484,34,518,31,519,37,484,39"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1World3DEXT_1_1HueInterpolator3DEXT.html" title="Interpolates only a particle&#39;s hue between StartValue and EndValue (0..1), preserving its current sat..." alt="" coords="519,69,725,109"/>
+<area shape="poly" id="edge97_Node000003_Node000004" title=" " alt="" coords="482,124,545,107,546,112,483,129"/>
+<area shape="rect" id="Node000005" href="$classCNA_1_1Extended_1_1World3DEXT_1_1OpacityInterpolator3DEXT.html" title="Interpolates a particle&#39;s opacity between StartValue and EndValue over its lifetime." alt="" coords="519,133,725,173"/>
+<area shape="poly" id="edge98_Node000003_Node000005" title=" " alt="" coords="482,153,519,152,519,158,482,158"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1World3DEXT_1_1RotationInterpolator3DEXT.html" title="Interpolates a particle&#39;s RotationEXT between StartValue and EndValue over its lifetime." alt="" coords="519,197,725,237"/>
+<area shape="poly" id="edge99_Node000003_Node000006" title=" " alt="" coords="483,182,536,195,535,200,481,187"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1World3DEXT_1_1ScaleInterpolator3DEXT.html" title="Interpolates a particle&#39;s ScaleEXT between StartValue and EndValue over its lifetime." alt="" coords="519,261,725,301"/>
+<area shape="poly" id="edge101_Node000007_Node000008" title=" " alt="" coords="484,261,519,266,518,271,484,267"/>
+<area shape="rect" id="Node000010" href="$classCNA_1_1Extended_1_1World3DEXT_1_1VelocityInterpolator3DEXT.html" title="Interpolates a particle&#39;s VelocityEXT between StartValue and EndValue over its lifetime." alt="" coords="519,325,725,365"/>
+<area shape="poly" id="edge103_Node000009_Node000010" title=" " alt="" coords="484,341,518,342,518,347,484,347"/>
+</map>

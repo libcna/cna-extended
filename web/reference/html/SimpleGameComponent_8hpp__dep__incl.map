@@ -1,0 +1,9 @@
+<map id="CNA/Extended/SimpleGameComponent.hpp" name="CNA/Extended/SimpleGameComponent.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="67,5,373,31"/>
+<area shape="rect" id="Node000002" href="$SimpleDrawableGameComponent_8hpp.html" title=" " alt="" coords="107,79,333,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,44,223,79,217,79,217,44"/>
+<area shape="rect" id="Node000003" href="$World_8hpp.html" title=" " alt="" coords="5,174,219,199"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,129,129,176,125,171,184,125"/>
+<area shape="rect" id="Node000004" href="$ScreenManager_8hpp.html" title=" " alt="" coords="243,167,413,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="256,125,306,164,302,169,253,129"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="CNA/Extended/Tilemaps/TilemapTile.hpp" name="CNA/Extended/Tilemaps/TilemapTile.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,5,190,45"/>
+<area shape="rect" id="Node000002" href="$TilemapTileFlipFlags_8hpp.html" title=" " alt="" coords="5,93,196,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,46,103,79,98,79,98,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="15,181,82,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,135,66,171,62,168,86,132"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,181,199,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="115,132,140,168,135,171,111,135"/>
+</map>

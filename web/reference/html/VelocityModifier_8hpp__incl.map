@@ -1,0 +1,14 @@
+<map id="CNA/Extended/Particles/Modifiers/VelocityModifier.hpp" name="CNA/Extended/Particles/Modifiers/VelocityModifier.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="255,5,477,45"/>
+<area shape="rect" id="Node000002" href="$Interpolator_8hpp.html" title=" " alt="" coords="5,93,180,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="312,48,183,91,182,86,310,43"/>
+<area shape="rect" id="Node000004" href="$Modifier_8hpp.html" title=" " alt="" coords="204,101,379,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="353,47,317,92,313,88,349,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="403,108,481,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="383,44,426,96,422,99,379,47"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="505,108,568,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="404,43,494,91,508,99,505,103,491,96,402,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="162,196,221,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,146,169,185,166,189,121,150"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="271,143,217,189,214,185,267,139"/>
+</map>

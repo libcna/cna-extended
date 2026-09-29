@@ -1,0 +1,21 @@
+<map id="CNA/Extended/World3DEXT/Interpolator3DEXT.hpp" name="CNA/Extended/World3DEXT/Interpolator3DEXT.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="595,5,793,45"/>
+<area shape="rect" id="Node000002" href="$AgeModifier3DEXT_8hpp.html" title=" " alt="" coords="372,93,571,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="633,53,521,96,519,91,632,48"/>
+<area shape="rect" id="Node000003" href="$InterpolatorOfT3DEXT_8hpp.html" title=" " alt="" coords="595,93,793,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="697,59,697,93,691,93,691,59"/>
+<area shape="rect" id="Node000010" href="$VelocityModifier3DEXT_8hpp.html" title=" " alt="" coords="817,93,1019,133"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="757,48,870,91,868,96,755,53"/>
+<area shape="rect" id="Node000004" href="$ColorInterpolator3DEXT_8hpp.html" title=" " alt="" coords="5,181,212,221"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="582,136,224,184,213,186,212,180,223,179,581,131"/>
+<area shape="rect" id="Node000005" href="$HueInterpolator3DEXT_8hpp.html" title=" " alt="" coords="236,181,435,221"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="603,139,414,184,413,179,601,134"/>
+<area shape="rect" id="Node000006" href="$OpacityInterpolator3DEXT_8hpp.html" title=" " alt="" coords="459,181,681,221"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="657,143,599,183,596,179,654,139"/>
+<area shape="rect" id="Node000007" href="$RotationInterpolator3DEXT_8hpp.html" title=" " alt="" coords="706,181,933,221"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="735,139,793,179,790,183,732,144"/>
+<area shape="rect" id="Node000008" href="$ScaleInterpolator3DEXT_8hpp.html" title=" " alt="" coords="957,181,1164,221"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="788,134,981,179,980,184,787,139"/>
+<area shape="rect" id="Node000009" href="$VelocityInterpolator3DEXT_8hpp.html" title=" " alt="" coords="1189,181,1413,221"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="807,131,994,155,1177,179,1189,180,1188,186,1176,184,993,161,806,136"/>
+</map>

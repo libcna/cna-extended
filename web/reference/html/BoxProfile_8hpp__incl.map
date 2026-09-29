@@ -1,0 +1,11 @@
+<map id="CNA/Extended/Particles/Profiles/BoxProfile.hpp" name="CNA/Extended/Particles/Profiles/BoxProfile.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="169,5,344,45"/>
+<area shape="rect" id="Node000002" href="$Profile_8hpp.html" title=" " alt="" coords="169,93,344,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,46,259,79,254,79,254,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,193,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,136,147,177,144,173,221,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="218,189,295,214"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="259,134,259,175,254,175,254,134"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="319,189,378,214"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="279,132,328,177,324,181,275,136"/>
+</map>

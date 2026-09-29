@@ -1,0 +1,7 @@
+<map id="CNA::Extended::Input::InputListeners::TouchListener" name="CNA::Extended::Input::InputListeners::TouchListener">
+<area shape="rect" id="Node000001" title="Polls the touch panel each Update() and raises started/moved/ended/cancelled events per touch locatio..." alt="" coords="53,93,271,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,127,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,45,143,91,139,95,87,49"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Input_1_1InputListeners_1_1InputListener.html" title="Abstract base for input listeners (keyboard, mouse, gamepad, touch), each polling and diffing device ..." alt="" coords="151,5,365,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,57,185,95,181,91,225,53"/>
+</map>

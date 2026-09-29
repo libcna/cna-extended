@@ -1,0 +1,5 @@
+<map id="CNA::Extended::World3DEXT::RotationModifier3DEXT" name="CNA::Extended::World3DEXT::RotationModifier3DEXT">
+<area shape="rect" id="Node000001" title="Applies a constant rotational velocity (RotationRateEXT radians/second) to particles&#39; RotationEXT." alt="" coords="5,93,212,133"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Modifier3DEXT.html" title="Base class for particle modifiers: alters particle properties over time, at a configurable update fre..." alt="" coords="5,5,212,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,59,111,93,106,93,106,59"/>
+</map>

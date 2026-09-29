@@ -1,0 +1,7 @@
+<map id="CNA::Extended::World3DEXT::DebugLineEXT" name="CNA::Extended::World3DEXT::DebugLineEXT">
+<area shape="rect" id="Node000001" title="One world&#45;space debug line segment." alt="" coords="5,108,212,148"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="29,5,100,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,42,103,107,98,109,72,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="125,5,181,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,44,119,109,114,107,140,42"/>
+</map>

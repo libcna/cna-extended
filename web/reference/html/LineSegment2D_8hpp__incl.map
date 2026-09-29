@@ -1,0 +1,9 @@
+<map id="CNA/Extended/LineSegment2D.hpp" name="CNA/Extended/LineSegment2D.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="149,5,361,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,193,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,48,147,89,144,84,220,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="218,101,293,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,46,258,87,253,87,253,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="317,101,375,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="277,44,325,89,322,93,274,48"/>
+</map>

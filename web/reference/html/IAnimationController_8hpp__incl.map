@@ -1,0 +1,13 @@
+<map id="CNA/Extended/Animations/IAnimationController.hpp" name="CNA/Extended/Animations/IAnimationController.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="436,5,629,45"/>
+<area shape="rect" id="Node000002" href="$AnimationEventTrigger_8hpp.html" title=" " alt="" coords="5,93,207,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="440,48,213,93,212,88,439,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="231,93,419,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="488,48,384,91,382,86,486,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="443,101,622,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="535,46,535,87,530,87,530,46"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="647,101,851,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="581,43,708,93,706,98,579,48"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="875,101,1043,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="627,43,890,95,889,101,626,48"/>
+</map>

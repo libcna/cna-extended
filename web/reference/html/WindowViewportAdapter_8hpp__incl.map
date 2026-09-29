@@ -1,0 +1,26 @@
+<map id="CNA/Extended/ViewportAdapters/WindowViewportAdapter.hpp" name="CNA/Extended/ViewportAdapters/WindowViewportAdapter.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1213,5,1447,45"/>
+<area shape="rect" id="Node000002" href="$ViewportAdapter_8hpp.html" title=" " alt="" coords="753,93,987,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1230,48,984,93,984,88,1229,43"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1299,189,1444,214"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="1281,48,1251,67,1227,95,1221,114,1227,132,1241,149,1258,162,1298,182,1296,187,1255,167,1237,153,1222,135,1215,114,1222,92,1247,63,1278,43"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1236,93,1424,133"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1333,46,1333,79,1327,79,1327,46"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1448,101,1617,126"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1376,43,1494,93,1492,98,1373,48"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1642,101,1701,126"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="1440,43,1534,63,1631,91,1637,93,1635,98,1629,96,1532,68,1439,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,223,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="753,128,518,151,237,184,236,178,518,146,752,123"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="247,181,435,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="753,135,449,184,448,178,752,130"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="459,181,647,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="801,136,636,180,635,175,800,131"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="671,181,859,221"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="848,136,800,175,797,171,845,132"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="883,181,1071,221"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="895,132,944,171,941,175,892,136"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1095,189,1274,214"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="940,131,1130,182,1129,188,938,136"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="988,129,1286,179,1309,183,1308,188,1286,184,987,134"/>
+</map>

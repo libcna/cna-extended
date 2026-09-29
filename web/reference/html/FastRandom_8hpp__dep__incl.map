@@ -1,0 +1,22 @@
+<map id="CNA/Extended/FastRandom.hpp" name="CNA/Extended/FastRandom.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="400,5,627,31"/>
+<area shape="rect" id="Node000002" href="$ParticleColorParameter_8hpp.html" title=" " alt="" coords="5,79,243,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="444,36,218,81,217,76,443,31"/>
+<area shape="rect" id="Node000007" href="$ParticleFloatParameter_8hpp.html" title=" " alt="" coords="266,79,502,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="484,40,417,81,414,76,481,36"/>
+<area shape="rect" id="Node000008" href="$ParticleInt32Parameter_8hpp.html" title=" " alt="" coords="526,79,762,119"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="546,36,614,76,611,81,543,40"/>
+<area shape="rect" id="Node000009" href="$ParticleVector2Parameter_8hpp.html" title=" " alt="" coords="786,79,1038,119"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="585,31,817,76,816,81,584,36"/>
+<area shape="rect" id="Node000003" href="$ParticleReleaseParameters_8hpp.html" title=" " alt="" coords="382,167,645,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,119,429,164,428,169,222,124"/>
+<area shape="rect" id="Node000004" href="$ParticleEmitter_8hpp.html" title=" " alt="" coords="426,255,601,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="516,221,516,254,511,254,511,221"/>
+<area shape="rect" id="Node000005" href="$ParticleEffect_8hpp.html" title=" " alt="" coords="426,343,601,383"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="516,309,516,342,511,342,511,309"/>
+<area shape="rect" id="Node000006" href="$ParticleEffectSerializer_8hpp.html" title=" " alt="" coords="414,431,613,471"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="516,397,516,430,511,430,511,397"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="426,124,486,164,483,169,423,129"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="605,128,544,169,541,164,602,124"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="812,124,601,169,600,164,811,119"/>
+</map>

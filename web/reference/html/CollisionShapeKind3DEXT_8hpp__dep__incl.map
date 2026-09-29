@@ -1,0 +1,9 @@
+<map id="CNA/Extended/World3DEXT/CollisionShapeKind3DEXT.hpp" name="CNA/Extended/World3DEXT/CollisionShapeKind3DEXT.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="14,5,235,45"/>
+<area shape="rect" id="Node000002" href="$CollisionShape3DEXT_8hpp.html" title=" " alt="" coords="25,93,224,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,59,127,93,122,93,122,59"/>
+<area shape="rect" id="Node000003" href="$ICollisionActor3DEXT_8hpp.html" title=" " alt="" coords="25,181,224,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,147,127,181,122,181,122,147"/>
+<area shape="rect" id="Node000004" href="$TilemapCollisionActor3DEXT_8hpp.html" title=" " alt="" coords="5,269,244,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="127,235,127,269,122,269,122,235"/>
+</map>

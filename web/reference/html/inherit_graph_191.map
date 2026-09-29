@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Tiled_1_1Document_1_1TiledTilesetXml.html" title="Represents a tileset element from a Tiled TMX or TSX file." alt="" coords="5,13,252,53"/>
+<area shape="rect" id="Node000001" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Tiled_1_1Document_1_1TiledTilesetRefXml.html" title="A tileset reference in a Tiled TMX file (can be inline or external)." alt="" coords="300,5,521,60"/>
+<area shape="poly" id="edge62_Node000000_Node000001" title=" " alt="" coords="266,30,300,30,300,35,266,35"/>
+</map>

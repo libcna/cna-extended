@@ -1,0 +1,5 @@
+<map id="CNA::Extended::BoundingBox2D" name="CNA::Extended::BoundingBox2D">
+<area shape="rect" id="Node000001" title="Represents an axis&#45;aligned bounding box in 2D space, defined by minimum and maximum corner points." alt="" coords="5,108,236,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="85,5,156,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,45,123,108,118,108,118,45"/>
+</map>

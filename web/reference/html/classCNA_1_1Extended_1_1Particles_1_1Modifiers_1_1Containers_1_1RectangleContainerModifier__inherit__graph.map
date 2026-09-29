@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Particles::Modifiers::Containers::RectangleContainerModifier" name="CNA::Extended::Particles::Modifiers::Containers::RectangleContainerModifier">
+<area shape="rect" id="Node000001" title="Constrains particles inside a rectangle centered at each particle&#39;s trigger position,..." alt="" coords="5,93,216,148"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Modifier.html" title="Base class for particle modifiers: alters particle properties over time, at a configurable update fre..." alt="" coords="19,5,202,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,59,113,93,108,93,108,59"/>
+</map>

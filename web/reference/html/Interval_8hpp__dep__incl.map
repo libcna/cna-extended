@@ -1,0 +1,28 @@
+<map id="CNA/Extended/Interval.hpp" name="CNA/Extended/Interval.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="688,5,885,31"/>
+<area shape="rect" id="Node000002" href="$FastRandom_8hpp.html" title=" " alt="" coords="400,86,627,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="735,37,554,89,552,83,733,32"/>
+<area shape="rect" id="Node000011" href="$RandomExtensions_8hpp.html" title=" " alt="" coords="651,86,923,111"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="789,44,789,86,784,86,784,44"/>
+<area shape="rect" id="Node000012" href="$IntervalJsonConverter_8hpp.html" title=" " alt="" coords="946,79,1171,119"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="840,32,994,76,993,81,838,37"/>
+<area shape="rect" id="Node000003" href="$ParticleColorParameter_8hpp.html" title=" " alt="" coords="5,167,243,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,117,210,169,209,164,447,112"/>
+<area shape="rect" id="Node000008" href="$ParticleFloatParameter_8hpp.html" title=" " alt="" coords="266,167,502,207"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="486,121,414,169,411,164,483,117"/>
+<area shape="rect" id="Node000009" href="$ParticleInt32Parameter_8hpp.html" title=" " alt="" coords="526,167,762,207"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="544,117,617,164,614,169,541,121"/>
+<area shape="rect" id="Node000010" href="$ParticleVector2Parameter_8hpp.html" title=" " alt="" coords="786,167,1038,207"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="581,112,825,164,824,169,579,117"/>
+<area shape="rect" id="Node000004" href="$ParticleReleaseParameters_8hpp.html" title=" " alt="" coords="382,255,645,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="223,207,429,252,428,257,222,212"/>
+<area shape="rect" id="Node000005" href="$ParticleEmitter_8hpp.html" title=" " alt="" coords="426,343,601,383"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="516,309,516,342,511,342,511,309"/>
+<area shape="rect" id="Node000006" href="$ParticleEffect_8hpp.html" title=" " alt="" coords="426,431,601,471"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="516,397,516,430,511,430,511,397"/>
+<area shape="rect" id="Node000007" href="$ParticleEffectSerializer_8hpp.html" title=" " alt="" coords="414,519,613,559"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="516,485,516,518,511,518,511,485"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="426,212,486,252,483,257,423,217"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="605,216,544,257,541,252,602,212"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="812,212,601,257,600,252,811,207"/>
+</map>

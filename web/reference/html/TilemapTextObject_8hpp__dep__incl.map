@@ -1,0 +1,13 @@
+<map id="CNA/Extended/Tilemaps/TilemapTextObject.hpp" name="CNA/Extended/Tilemaps/TilemapTextObject.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="404,5,583,45"/>
+<area shape="rect" id="Node000002" href="$TilemapData_8hpp.html" title=" " alt="" coords="404,93,583,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="496,59,496,93,491,93,491,59"/>
+<area shape="rect" id="Node000003" href="$LDtkTilemapDataConverter_8hpp.html" title=" " alt="" coords="5,181,224,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="404,139,222,184,220,179,403,134"/>
+<area shape="rect" id="Node000004" href="$OgmoTilemapDataConverter_8hpp.html" title=" " alt="" coords="249,181,485,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="458,144,404,183,401,179,455,139"/>
+<area shape="rect" id="Node000005" href="$TiledTilemapDataConverter_8hpp.html" title=" " alt="" coords="509,181,731,236"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="532,139,586,179,583,183,529,144"/>
+<area shape="rect" id="Node000006" href="$TilemapFactory_8hpp.html" title=" " alt="" coords="756,189,935,229"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="579,134,775,186,774,191,577,139"/>
+</map>

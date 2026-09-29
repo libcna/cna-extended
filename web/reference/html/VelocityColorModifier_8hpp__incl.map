@@ -1,0 +1,16 @@
+<map id="CNA/Extended/Particles/Modifiers/VelocityColorModifier.hpp" name="CNA/Extended/Particles/Modifiers/VelocityColorModifier.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="238,5,494,45"/>
+<area shape="rect" id="Node000002" href="$HslColor_8hpp.html" title=" " alt="" coords="160,101,361,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="344,48,287,94,284,90,341,44"/>
+<area shape="rect" id="Node000007" href="$Modifier_8hpp.html" title=" " alt="" coords="385,93,560,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="391,44,440,83,437,87,388,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,193,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,129,148,177,146,172,238,124"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="217,189,304,214"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="263,126,263,174,258,174,258,126"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="328,189,415,214"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="277,124,347,178,344,182,274,128"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="442,189,501,214"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="291,124,428,179,433,181,431,186,426,184,289,129"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="475,134,474,175,469,175,470,134"/>
+</map>

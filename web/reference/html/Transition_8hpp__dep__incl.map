@@ -1,0 +1,9 @@
+<map id="CNA/Extended/Screens/Transitions/Transition.hpp" name="CNA/Extended/Screens/Transitions/Transition.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="225,5,415,45"/>
+<area shape="rect" id="Node000002" href="$ScreenManager_8hpp.html" title=" " alt="" coords="5,93,176,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,53,142,96,140,91,256,48"/>
+<area shape="rect" id="Node000003" href="$ExpandTransition_8hpp.html" title=" " alt="" coords="201,93,439,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="323,59,323,93,317,93,317,59"/>
+<area shape="rect" id="Node000004" href="$FadeTransition_8hpp.html" title=" " alt="" coords="464,93,685,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="390,47,520,91,518,96,388,52"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="CNA/Extended/Input/MouseExtended.hpp" name="CNA/Extended/Input/MouseExtended.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="570,5,729,45"/>
+<area shape="rect" id="Node000002" href="$MouseStateExtended_8hpp.html" title=" " alt="" coords="341,93,533,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="604,48,497,91,495,86,602,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="505,181,693,221"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="638,47,624,69,613,94,605,132,602,168,596,167,600,131,608,92,620,67,633,44"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="622,93,810,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="666,44,695,81,691,84,662,47"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="835,101,901,126"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="700,43,824,91,829,93,827,98,822,96,698,48"/>
+<area shape="rect" id="Node000003" href="$MouseButton_8hpp.html" title=" " alt="" coords="5,181,157,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="360,136,171,181,170,176,359,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="182,181,370,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="403,136,324,177,322,173,401,131"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="474,131,553,173,550,177,471,136"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="394,189,481,214"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="440,134,440,175,435,175,435,134"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="35,269,127,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="84,222,84,255,79,255,79,222"/>
+</map>

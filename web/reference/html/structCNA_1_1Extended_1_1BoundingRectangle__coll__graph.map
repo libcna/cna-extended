@@ -1,0 +1,6 @@
+<map id="CNA::Extended::BoundingRectangle" name="CNA::Extended::BoundingRectangle">
+<area shape="rect" id="Node000001" title="An axis&#45;aligned, four sided, two dimensional box defined by a centre Vector2 and a radii Vector2." alt="" coords="5,108,259,133"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="274,112,285,120,277,128,259,131,258,126,275,123,280,121,271,117"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="97,5,167,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="135,45,135,108,129,108,129,45"/>
+</map>

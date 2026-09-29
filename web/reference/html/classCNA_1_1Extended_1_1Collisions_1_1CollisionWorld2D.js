@@ -1,0 +1,25 @@
+var classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D =
+[
+    [ "CollisionWorld2D", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a511af272d202933c5ba887b8deb83e0d", null ],
+    [ "CollisionWorld2D", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a197552ec5cd9b204eaaa1e76f4aa7481", null ],
+    [ "AddLayer", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a11c5e5428ae0580cee9778f94bb8ee50", null ],
+    [ "Contains", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a3f964b5dfbd19fa440277f383822c09e", null ],
+    [ "DisableCollisionBetweenLayers", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a15183faa7d86f1d86d42e95c31a20098", null ],
+    [ "EnableCollisionBetweenLayers", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a491955c06bb36f773f2c4f46891e8417", null ],
+    [ "GetLayerName", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a5e3c7c23554ec1b11d7e972ebda5c5a8", null ],
+    [ "getLayersProperty", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a9413beef2918fa78afae02098ebd4ef5", null ],
+    [ "Insert", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#ae31dfb53d4b9b245c141cfef08b8fd91", null ],
+    [ "Insert", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a6b46763e83cfaaee7d48b756c591143b", null ],
+    [ "IsCollisionEnabledBetweenLayers", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a85da97162c427c0f93e744848dcc2e3f", null ],
+    [ "MoveToLayer", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a3d3699add196d16e5068589ad4e57978", null ],
+    [ "QueryCandidates", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#ac58eee157db95736f7e44782eb301744", null ],
+    [ "QueryCandidates", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a7c3c7eb3fb0c9a171c89ffbcca58624a", null ],
+    [ "QueryCollisionPairs", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#aec24e1b3b4c52c871fe928a859fb1c37", null ],
+    [ "QueryCollisions", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#ab0b27b2bad4d30d4a829b41aead38aaa", null ],
+    [ "RebuildDynamicLayers", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a20e610298f3e1c9833d47073f876cdf5", null ],
+    [ "Remove", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a627def5849c6dcd264f5d1fc7ae2c7f8", null ],
+    [ "RemoveLayer", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#af7bc7bfdc122e7230f4905c4389abc1d", null ],
+    [ "SetDefaultLayer", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a31afbf210443ca550485ab72e0efa772", null ],
+    [ "TryGetLayerName", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a63af348a8d90c7b6293587625a1c9aae", null ],
+    [ "DefaultLayerName", "classCNA_1_1Extended_1_1Collisions_1_1CollisionWorld2D.html#a7098d2bf9168434c42882b3253164168", null ]
+];

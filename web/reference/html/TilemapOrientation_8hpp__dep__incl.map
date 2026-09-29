@@ -1,0 +1,32 @@
+<map id="CNA/Extended/Tilemaps/TilemapOrientation.hpp" name="CNA/Extended/Tilemaps/TilemapOrientation.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="914,5,1094,45"/>
+<area shape="rect" id="Node000002" href="$Tilemap_8hpp.html" title=" " alt="" coords="703,93,881,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="946,53,839,96,837,91,944,48"/>
+<area shape="rect" id="Node000012" href="$TilemapData_8hpp.html" title=" " alt="" coords="1128,93,1307,133"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1064,48,1172,91,1170,96,1062,53"/>
+<area shape="rect" id="Node000003" href="$ITilemapParser_8hpp.html" title=" " alt="" coords="222,189,423,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="690,136,443,184,408,191,407,186,442,179,689,131"/>
+<area shape="rect" id="Node000007" href="$TilemapSpriteBatchRenderer_8hpp.html" title=" " alt="" coords="455,181,679,236"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="735,141,631,184,629,179,733,136"/>
+<area shape="rect" id="Node000008" href="$TilemapFactory_8hpp.html" title=" " alt="" coords="905,189,1084,229"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="847,137,955,186,953,191,844,142"/>
+<area shape="rect" id="Node000009" href="$TilemapWorld_8hpp.html" title=" " alt="" coords="703,189,881,229"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="795,147,795,189,789,189,789,147"/>
+<area shape="rect" id="Node000004" href="$LDtkJsonParser_8hpp.html" title=" " alt="" coords="5,291,189,331"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="269,237,141,294,138,289,267,232"/>
+<area shape="rect" id="Node000005" href="$OgmoJsonParser_8hpp.html" title=" " alt="" coords="213,291,416,331"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="323,242,319,291,314,291,317,242"/>
+<area shape="rect" id="Node000006" href="$TiledTmxParser_8hpp.html" title=" " alt="" coords="441,291,631,331"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="376,232,497,289,495,294,374,237"/>
+<area shape="rect" id="Node000010" href="$TilemapWorldRenderer_8hpp.html" title=" " alt="" coords="656,291,928,331"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="795,243,795,291,789,291,789,243"/>
+<area shape="rect" id="Node000011" href="$TilemapWorldSpriteBatchRenderer_8hpp.html" title=" " alt="" coords="952,284,1176,339"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="857,231,994,281,992,286,855,236"/>
+<area shape="poly" id="edge15_Node000012_Node000008" title=" " alt="" coords="1161,141,1041,191,1039,186,1159,136"/>
+<area shape="rect" id="Node000013" href="$LDtkTilemapDataConverter_8hpp.html" title=" " alt="" coords="1108,181,1327,236"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1220,147,1220,181,1215,181,1215,147"/>
+<area shape="rect" id="Node000014" href="$OgmoTilemapDataConverter_8hpp.html" title=" " alt="" coords="1351,181,1587,236"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="1282,136,1399,179,1397,184,1280,141"/>
+<area shape="rect" id="Node000015" href="$TiledTilemapDataConverter_8hpp.html" title=" " alt="" coords="1611,181,1834,236"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="1321,129,1600,179,1612,181,1611,186,1600,184,1320,134"/>
+</map>

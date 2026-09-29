@@ -1,0 +1,78 @@
+<map id="CNA/Extended/Tilemaps/TilemapPropertyValue.hpp" name="CNA/Extended/Tilemaps/TilemapPropertyValue.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="677,5,875,45"/>
+<area shape="rect" id="Node000002" href="$TilemapProperties_8hpp.html" title=" " alt="" coords="687,93,865,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="779,59,779,93,773,93,773,59"/>
+<area shape="rect" id="Node000003" href="$Tilemap_8hpp.html" title=" " alt="" coords="656,548,835,588"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="673,126,523,144,440,158,360,176,288,198,230,224,208,238,191,254,181,270,177,288,177,379,175,446,181,472,202,498,234,518,280,533,337,545,401,554,536,563,656,565,655,571,535,568,400,559,336,550,278,538,231,522,198,502,177,474,169,446,172,379,172,288,176,268,187,251,204,234,227,219,286,193,359,171,439,153,522,139,673,120"/>
+<area shape="rect" id="Node000013" href="$TilemapLayer_8hpp.html" title=" " alt="" coords="813,357,992,397"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="802,143,842,199,880,268,895,315,903,357,898,358,890,317,875,270,837,202,798,146"/>
+<area shape="rect" id="Node000020" href="$TilemapObject_8hpp.html" title=" " alt="" coords="1393,181,1572,221"/>
+<area shape="poly" id="edge23_Node000002_Node000020" title=" " alt="" coords="879,124,1393,186,1392,192,879,130"/>
+<area shape="rect" id="Node000031" href="$TilemapTileData_8hpp.html" title=" " alt="" coords="687,269,865,309"/>
+<area shape="poly" id="edge41_Node000002_Node000031" title=" " alt="" coords="779,147,779,269,773,269,773,147"/>
+<area shape="rect" id="Node000032" href="$TilemapTileset_8hpp.html" title=" " alt="" coords="560,357,739,397"/>
+<area shape="poly" id="edge42_Node000002_Node000032" title=" " alt="" coords="754,146,715,202,677,270,662,317,654,358,649,357,657,315,672,268,710,199,750,143"/>
+<area shape="rect" id="Node000004" href="$ITilemapParser_8hpp.html" title=" " alt="" coords="333,643,534,683"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="670,595,497,646,496,641,668,589"/>
+<area shape="rect" id="Node000008" href="$TilemapSpriteBatchRenderer_8hpp.html" title=" " alt="" coords="952,636,1176,691"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="824,589,975,633,974,638,822,594"/>
+<area shape="rect" id="Node000009" href="$TilemapFactory_8hpp.html" title=" " alt="" coords="1637,643,1816,683"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="848,585,1075,611,1295,631,1637,655,1637,660,1295,637,1074,617,848,591"/>
+<area shape="rect" id="Node000010" href="$TilemapWorld_8hpp.html" title=" " alt="" coords="703,643,881,683"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="763,599,785,642,780,644,759,602"/>
+<area shape="rect" id="Node000005" href="$LDtkJsonParser_8hpp.html" title=" " alt="" coords="448,746,632,786"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="465,691,522,744,518,748,462,695"/>
+<area shape="rect" id="Node000006" href="$OgmoJsonParser_8hpp.html" title=" " alt="" coords="5,746,208,786"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="360,690,169,748,167,743,358,685"/>
+<area shape="rect" id="Node000007" href="$TiledTmxParser_8hpp.html" title=" " alt="" coords="233,746,423,786"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="405,695,350,748,346,744,402,691"/>
+<area shape="rect" id="Node000011" href="$TilemapWorldRenderer_8hpp.html" title=" " alt="" coords="656,746,928,786"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="795,697,795,746,789,746,789,697"/>
+<area shape="rect" id="Node000012" href="$TilemapWorldSpriteBatchRenderer_8hpp.html" title=" " alt="" coords="952,739,1176,793"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="857,686,994,736,992,741,855,691"/>
+<area shape="rect" id="Node000014" href="$TilemapDataLayer_8hpp.html" title=" " alt="" coords="940,453,1119,493"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="941,403,1005,450,1002,455,938,408"/>
+<area shape="rect" id="Node000015" href="$TilemapGroupLayer_8hpp.html" title=" " alt="" coords="452,453,633,493"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="817,403,616,455,615,450,816,398"/>
+<area shape="rect" id="Node000016" href="$TilemapImageLayer_8hpp.html" title=" " alt="" coords="859,548,1042,588"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="911,410,931,499,946,547,941,548,925,501,906,411"/>
+<area shape="rect" id="Node000017" href="$TilemapLayerCollection_8hpp.html" title=" " alt="" coords="657,453,865,493"/>
+<area shape="poly" id="edge17_Node000013_Node000017" title=" " alt="" coords="864,407,791,455,788,450,861,403"/>
+<area shape="rect" id="Node000018" href="$TilemapObjectLayer_8hpp.html" title=" " alt="" coords="1193,453,1377,493"/>
+<area shape="poly" id="edge19_Node000013_Node000018" title=" " alt="" coords="994,398,1209,450,1207,455,993,403"/>
+<area shape="rect" id="Node000019" href="$TilemapTileLayer_8hpp.html" title=" " alt="" coords="1067,548,1245,588"/>
+<area shape="poly" id="edge21_Node000013_Node000019" title=" " alt="" coords="1006,395,1082,416,1112,429,1133,443,1148,468,1157,497,1160,547,1155,548,1152,498,1144,471,1129,447,1110,434,1080,421,1005,401"/>
+<area shape="poly" id="edge16_Node000016_Node000008" title=" " alt="" coords="986,595,1034,634,1030,638,982,599"/>
+<area shape="poly" id="edge18_Node000017_Node000003" title=" " alt="" coords="758,506,751,548,746,547,753,505"/>
+<area shape="poly" id="edge20_Node000018_Node000008" title=" " alt="" coords="1288,507,1281,549,1272,571,1259,590,1222,621,1178,642,1175,637,1219,616,1255,586,1267,568,1275,548,1283,506"/>
+<area shape="poly" id="edge22_Node000019_Node000008" title=" " alt="" coords="1130,600,1092,638,1088,634,1126,596"/>
+<area shape="poly" id="edge25_Node000020_Node000018" title=" " alt="" coords="1380,207,1287,212,1191,223,1108,242,1077,255,1057,271,1047,285,1043,298,1042,311,1045,324,1061,350,1088,375,1122,398,1160,418,1233,450,1231,455,1158,423,1119,402,1085,379,1057,354,1040,327,1037,312,1037,297,1043,282,1053,268,1074,251,1106,237,1190,217,1287,206,1379,201"/>
+<area shape="rect" id="Node000021" href="$TilemapEllipseObject_8hpp.html" title=" " alt="" coords="1067,269,1259,309"/>
+<area shape="poly" id="edge24_Node000020_Node000021" title=" " alt="" coords="1400,228,1233,272,1232,267,1398,222"/>
+<area shape="rect" id="Node000022" href="$TilemapPointObject_8hpp.html" title=" " alt="" coords="1283,269,1466,309"/>
+<area shape="poly" id="edge26_Node000020_Node000022" title=" " alt="" coords="1450,232,1400,271,1397,267,1446,228"/>
+<area shape="rect" id="Node000023" href="$TilemapPolygonObject_8hpp.html" title=" " alt="" coords="1490,269,1691,309"/>
+<area shape="poly" id="edge27_Node000020_Node000023" title=" " alt="" coords="1519,228,1568,267,1565,271,1516,232"/>
+<area shape="rect" id="Node000024" href="$TilemapPolylineObject_8hpp.html" title=" " alt="" coords="1919,269,2121,309"/>
+<area shape="poly" id="edge28_Node000020_Node000024" title=" " alt="" coords="1586,216,1907,267,1920,269,1919,274,1906,272,1585,221"/>
+<area shape="rect" id="Node000025" href="$TilemapRectangleObject_8hpp.html" title=" " alt="" coords="2145,269,2359,309"/>
+<area shape="poly" id="edge29_Node000020_Node000025" title=" " alt="" coords="1586,209,1836,233,2134,267,2145,268,2144,273,2133,272,1835,238,1586,214"/>
+<area shape="rect" id="Node000026" href="$TilemapTextObject_8hpp.html" title=" " alt="" coords="1716,269,1895,309"/>
+<area shape="poly" id="edge30_Node000020_Node000026" title=" " alt="" coords="1567,222,1735,267,1734,272,1566,227"/>
+<area shape="poly" id="edge36_Node000020_Node000031" title=" " alt="" coords="1380,218,866,280,866,274,1379,212"/>
+<area shape="rect" id="Node000034" href="$TilemapTileObject_8hpp.html" title=" " alt="" coords="2384,269,2563,309"/>
+<area shape="poly" id="edge40_Node000020_Node000034" title=" " alt="" coords="1586,204,1936,225,2153,243,2372,267,2384,268,2384,274,2372,272,2153,248,1935,230,1586,209"/>
+<area shape="rect" id="Node000027" href="$TilemapData_8hpp.html" title=" " alt="" coords="1716,357,1895,397"/>
+<area shape="poly" id="edge31_Node000026_Node000027" title=" " alt="" coords="1808,323,1808,357,1803,357,1803,323"/>
+<area shape="poly" id="edge35_Node000027_Node000009" title=" " alt="" coords="1909,378,2004,387,2050,396,2092,407,2126,423,2148,444,2154,456,2155,470,2151,485,2142,502,2111,538,2074,569,2033,595,1989,615,1899,643,1817,658,1816,653,1898,638,1987,610,2030,590,2071,565,2107,535,2138,498,2146,483,2150,470,2149,458,2144,447,2123,428,2090,412,2049,401,2003,393,1908,384"/>
+<area shape="rect" id="Node000028" href="$LDtkTilemapDataConverter_8hpp.html" title=" " alt="" coords="1401,445,1620,500"/>
+<area shape="poly" id="edge32_Node000027_Node000028" title=" " alt="" coords="1733,404,1594,448,1593,443,1732,399"/>
+<area shape="rect" id="Node000029" href="$OgmoTilemapDataConverter_8hpp.html" title=" " alt="" coords="1645,445,1881,500"/>
+<area shape="poly" id="edge33_Node000027_Node000029" title=" " alt="" coords="1793,411,1777,446,1772,444,1789,409"/>
+<area shape="rect" id="Node000030" href="$TiledTilemapDataConverter_8hpp.html" title=" " alt="" coords="1905,445,2127,500"/>
+<area shape="poly" id="edge34_Node000027_Node000030" title=" " alt="" coords="1861,400,1958,443,1956,448,1859,405"/>
+<area shape="poly" id="edge37_Node000031_Node000032" title=" " alt="" coords="738,320,679,359,676,355,735,315"/>
+<area shape="rect" id="Node000033" href="$TilemapTilesetCollection_8hpp.html" title=" " alt="" coords="212,453,428,493"/>
+<area shape="poly" id="edge38_Node000032_Node000033" title=" " alt="" coords="570,404,387,455,386,450,569,399"/>
+<area shape="poly" id="edge39_Node000033_Node000003" title=" " alt="" coords="420,493,660,545,659,551,419,498"/>
+</map>

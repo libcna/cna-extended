@@ -1,0 +1,9 @@
+<map id="CNA::Extended::World3DEXT::Particle3DEXT" name="CNA::Extended::World3DEXT::Particle3DEXT">
+<area shape="rect" id="Node000001" title="An individual 3D particle, owned by a ParticleEmitter3DEXT." alt="" coords="105,123,312,163"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,76,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,44,52,72,68,97,86,111,107,121,104,126,83,115,64,100,47,74,40,45"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="181,5,237,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,44,211,122,206,122,206,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="268,5,339,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="301,45,292,73,276,100,248,125,244,121,272,97,287,70,296,43"/>
+</map>

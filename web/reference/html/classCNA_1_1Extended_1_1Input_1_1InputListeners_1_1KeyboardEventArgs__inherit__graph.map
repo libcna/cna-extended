@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Input::InputListeners::KeyboardEventArgs" name="CNA::Extended::Input::InputListeners::KeyboardEventArgs">
+<area shape="rect" id="Node000001" title="Carries data for a KeyboardListener key event: which key, and which modifiers were held." alt="" coords="5,79,263,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="61,5,207,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,44,137,79,131,79,131,44"/>
+</map>

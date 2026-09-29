@@ -1,0 +1,28 @@
+var classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer =
+[
+    [ "TilemapImageLayer", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#ab3c3c3a91eb45f7f9f6dd6fd25c3e696", null ],
+    [ "getBoundsProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#ae0f8b20c1e8b5fe69995ccd5ef6f9b19", null ],
+    [ "getClassProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#ad94ca3a537769e26c76a9356f0e062f8", null ],
+    [ "getIsVisibleProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a283b94bf27f74e316d5abf4de04555bb", null ],
+    [ "getNameProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a15ef28ddf4dd6ad6db6e278469a4dd7f", null ],
+    [ "getOffsetProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a8735f2c20d6ba9523475fbfd6b7d8dc1", null ],
+    [ "getOpacityProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a45b477f39e7f87f808c504220ea32785", null ],
+    [ "getParallaxFactorProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#afdaf3954ea262cc9b858375eff260a20", null ],
+    [ "getPositionProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#acc59f2bbeb6d3fec9edb738e1f27786a", null ],
+    [ "getPropertiesProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#abb401f4d1716982479e8bd33ccaeda5d", null ],
+    [ "getPropertiesProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a39f4b3c255322a62124b7f74ea216896", null ],
+    [ "getRepeatXProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#af31ae6039424a4fe461bc2cf2a56f367", null ],
+    [ "getRepeatYProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#ab07f560291a013713e3e40775ec42f41", null ],
+    [ "getTextureProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a19c6e11735d481324859c0d76166b872", null ],
+    [ "getTintColorProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a27a411cbe95a14abecb78edbe3e0f5b3", null ],
+    [ "setClassProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a8353669cb4be3d25380ec714c3fe38af", null ],
+    [ "setIsVisibleProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a4a4f8e01b947ccac145e338c46e1c01b", null ],
+    [ "setOffsetProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#ac7ba9f32f10e4deb01717105deead219", null ],
+    [ "setOpacityProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a26b98ac089576b43547f4ffbaefb0dca", null ],
+    [ "setParallaxFactorProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a873572068422630a304e3b717d9b0d35", null ],
+    [ "setPositionProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a3f45ae7582de8e05987687e05c9b82ec", null ],
+    [ "setRepeatXProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a07a43395753334c84e61d82ffdfc91d5", null ],
+    [ "setRepeatYProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a9e89a24819bc8fa8ad637eb38410e1f1", null ],
+    [ "setTextureProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a0361168f829d5ade6ecc46ee8e4a8be9", null ],
+    [ "setTintColorProperty", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html#a6a8d56a4c7413ecb3d7a672eadce78e4", null ]
+];

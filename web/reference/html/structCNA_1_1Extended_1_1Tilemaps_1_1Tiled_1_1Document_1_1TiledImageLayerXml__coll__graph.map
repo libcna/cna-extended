@@ -1,0 +1,7 @@
+<map id="CNA::Extended::Tilemaps::Tiled::Document::TiledImageLayerXml" name="CNA::Extended::Tilemaps::Tiled::Document::TiledImageLayerXml">
+<area shape="rect" id="Node000001" title=" " alt="" coords="109,108,327,163"/>
+<area shape="rect" id="Node000002" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Tiled_1_1Document_1_1TiledLayerXml.html" title="Base for all Tiled layer types." alt="" coords="5,5,244,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,54,197,106,193,110,148,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="269,13,357,38"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="296,50,243,110,239,106,292,47"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Modifier3DEXT.html" title="Base class for particle modifiers: alters particle properties over time, at a configurable update fre..." alt="" coords="5,325,212,365"/>
+<area shape="rect" id="Node000001" href="$classCNA_1_1Extended_1_1World3DEXT_1_1AgeModifier3DEXT.html" title="Applies a collection of Interpolator3DEXT instances to each particle, driven by the particle&#39;s age (a..." alt="" coords="279,5,486,45"/>
+<area shape="poly" id="edge105_Node000000_Node000001" title=" " alt="" coords="115,311,133,255,161,186,202,115,228,83,258,55,277,43,280,48,262,59,232,87,207,118,166,188,138,257,120,313"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1BoxContainerModifier3DEXT.html" title="Constrains particles inside a box centered at each particle&#39;s trigger position, reflecting off the fa..." alt="" coords="275,69,490,109"/>
+<area shape="poly" id="edge106_Node000000_Node000002" title=" " alt="" coords="121,311,141,267,171,215,210,163,258,119,279,107,282,112,262,123,214,167,176,218,146,270,125,313"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1World3DEXT_1_1BoxLoopContainerModifier3DEXT.html" title="Wraps particles to the opposite face when they cross a box centered at each particle&#39;s trigger positi..." alt="" coords="260,133,505,173"/>
+<area shape="poly" id="edge107_Node000000_Node000003" title=" " alt="" coords="129,313,182,247,218,212,259,183,283,171,286,176,261,188,222,216,186,250,133,316"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1World3DEXT_1_1DragModifier3DEXT.html" title="Applies fluid&#45;resistance drag to particles, damping VelocityEXT proportional to VelocityEXT * MassEXT..." alt="" coords="279,197,486,237"/>
+<area shape="poly" id="edge108_Node000000_Node000004" title=" " alt="" coords="146,315,198,280,259,247,291,235,293,240,261,252,201,284,149,319"/>
+<area shape="rect" id="Node000005" href="$classCNA_1_1Extended_1_1World3DEXT_1_1LinearGravityModifier3DEXT.html" title="Applies a constant acceleration (GravityEXT) to every touched particle&#39;s velocity,..." alt="" coords="275,261,490,301"/>
+<area shape="poly" id="edge109_Node000000_Node000005" title=" " alt="" coords="208,320,296,299,297,304,209,325"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1World3DEXT_1_1OpacityFastFadeModifier3DEXT.html" title="Sets each particle&#39;s OpacityEXT to (1 &#45; AgeEXT) every update, fading it out linearly over a 1&#45;second ..." alt="" coords="267,325,499,365"/>
+<area shape="poly" id="edge110_Node000000_Node000006" title=" " alt="" coords="226,343,266,343,266,348,226,348"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1World3DEXT_1_1RotationModifier3DEXT.html" title="Applies a constant rotational velocity (RotationRateEXT radians/second) to particles&#39; RotationEXT." alt="" coords="279,389,486,429"/>
+<area shape="poly" id="edge111_Node000000_Node000007" title=" " alt="" coords="209,366,297,387,296,392,208,371"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1World3DEXT_1_1SphereContainerModifier3DEXT.html" title="Constrains particles inside (or outside) a sphere centered at each particle&#39;s trigger position,..." alt="" coords="265,453,500,493"/>
+<area shape="poly" id="edge112_Node000000_Node000008" title=" " alt="" coords="149,372,201,406,261,439,293,451,291,456,259,444,198,411,146,376"/>
+<area shape="rect" id="Node000009" href="$classCNA_1_1Extended_1_1World3DEXT_1_1VelocityColorModifier3DEXT.html" title="Colors particles between StationaryColorEXT and VelocityColorEXT based on their speed relative to Vel..." alt="" coords="277,517,489,557"/>
+<area shape="poly" id="edge113_Node000000_Node000009" title=" " alt="" coords="133,375,186,440,222,474,261,503,286,515,283,520,259,508,218,478,182,444,129,378"/>
+<area shape="rect" id="Node000010" href="$classCNA_1_1Extended_1_1World3DEXT_1_1VelocityModifier3DEXT.html" title="Applies a collection of Interpolator3DEXT instances to particles, with intensity based on velocity ma..." alt="" coords="279,581,486,621"/>
+<area shape="poly" id="edge114_Node000000_Node000010" title=" " alt="" coords="125,377,146,421,176,472,214,524,262,567,282,579,279,583,258,571,210,527,171,475,141,423,121,379"/>
+<area shape="rect" id="Node000011" href="$classCNA_1_1Extended_1_1World3DEXT_1_1VortexModifier3DEXT.html" title="Applies a rotated gravitational force around an axis line, creating spiral/orbital/vortex particle mo..." alt="" coords="279,645,486,685"/>
+<area shape="poly" id="edge115_Node000000_Node000011" title=" " alt="" coords="120,378,138,434,166,502,207,572,232,604,262,631,280,643,277,648,258,635,228,607,202,575,161,505,133,436,115,380"/>
+</map>

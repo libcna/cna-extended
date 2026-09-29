@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Particles::Modifiers::Containers::CircleContainerModifier" name="CNA::Extended::Particles::Modifiers::Containers::CircleContainerModifier">
+<area shape="rect" id="Node000001" title="Constrains particles inside (or outside) a circle centered at each particle&#39;s trigger position,..." alt="" coords="5,93,188,148"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Modifier.html" title="Base class for particle modifiers: alters particle properties over time, at a configurable update fre..." alt="" coords="5,5,188,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,59,99,93,94,93,94,59"/>
+</map>

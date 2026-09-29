@@ -1,0 +1,20 @@
+<map id="CNA/Extended/Graphics/Texture2DRegion.hpp" name="CNA/Extended/Graphics/Texture2DRegion.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="491,5,667,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,193,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,45,207,96,206,90,491,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="217,93,405,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="521,48,384,92,382,87,520,43"/>
+<area shape="rect" id="Node000004" href="$Size_8hpp.html" title=" " alt="" coords="429,101,604,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="568,47,535,91,531,88,563,44"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="629,189,687,214"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="593,44,619,92,652,175,647,177,614,94,589,47"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="680,101,825,126"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="619,43,719,92,716,97,616,48"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="850,101,925,126"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="662,43,839,91,847,93,845,98,837,96,661,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="181,181,369,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="485,129,342,179,340,174,483,124"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="394,181,605,221"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="517,127,509,168,503,167,512,126"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="537,124,629,179,626,184,534,128"/>
+</map>

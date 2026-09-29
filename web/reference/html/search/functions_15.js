@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['wasanykeyjustdown_0',['WasAnyKeyJustDown',['../structCNA_1_1Extended_1_1Input_1_1KeyboardStateExtended.html#addcd1388badb24f0010fe9f6bb0302f4',1,'CNA::Extended::Input::KeyboardStateExtended']]],
+  ['wasbuttonpressed_1',['WasButtonPressed',['../structCNA_1_1Extended_1_1Input_1_1MouseStateExtended.html#aecd85159b2118216db4b42cfbe798e4c',1,'CNA::Extended::Input::MouseStateExtended']]],
+  ['wasbuttonreleased_2',['WasButtonReleased',['../structCNA_1_1Extended_1_1Input_1_1MouseStateExtended.html#a8727af2bee08025c919c77b29df2a4b0',1,'CNA::Extended::Input::MouseStateExtended']]],
+  ['waskeypressed_3',['WasKeyPressed',['../structCNA_1_1Extended_1_1Input_1_1KeyboardStateExtended.html#aba6fd2a1c2f04996a3ae2d99a1b48d87',1,'CNA::Extended::Input::KeyboardStateExtended']]],
+  ['waskeyreleased_4',['WasKeyReleased',['../structCNA_1_1Extended_1_1Input_1_1KeyboardStateExtended.html#a39167700c033997b71b04ce7135eba48',1,'CNA::Extended::Input::KeyboardStateExtended']]],
+  ['windowviewportadapter_5',['WindowViewportAdapter',['../classCNA_1_1Extended_1_1ViewportAdapters_1_1WindowViewportAdapter.html#a6655374a46ac62880498bb81fb88f533',1,'CNA::Extended::ViewportAdapters::WindowViewportAdapter']]],
+  ['world_6',['World',['../classCNA_1_1Extended_1_1ECS_1_1World.html#a00966bbeebe4734293bb59c4e8dd2335',1,'CNA::Extended::ECS::World']]],
+  ['world3dscreenext_7',['World3DScreenEXT',['../classCNA_1_1Extended_1_1World3DEXT_1_1World3DScreenEXT.html#accec1432dab8ecd07a8dbce60c746c62',1,'CNA::Extended::World3DEXT::World3DScreenEXT']]],
+  ['worldbuilder_8',['WorldBuilder',['../classCNA_1_1Extended_1_1ECS_1_1WorldBuilder.html#af0dee74132f017f60fdced03c92d591b',1,'CNA::Extended::ECS::WorldBuilder']]],
+  ['worldmatrixbecamedirty_9',['WorldMatrixBecameDirty',['../classCNA_1_1Extended_1_1BaseTransform.html#a256d2a6b85204f3842cc734c2ac1b9c9',1,'CNA::Extended::BaseTransform']]],
+  ['worldtoscreen_10',['worldtoscreen',['../classCNA_1_1Extended_1_1Camera.html#a7a84ee40ded8ccfd7ed6a3564d602aa1',1,'CNA::Extended::Camera::WorldToScreen()'],['../classCNA_1_1Extended_1_1OrthographicCamera.html#afe77592c373213c6c5655bad2f919046',1,'CNA::Extended::OrthographicCamera::WorldToScreen(float x, float y) const'],['../classCNA_1_1Extended_1_1OrthographicCamera.html#a586531b765374637c3e677a94eac4156',1,'CNA::Extended::OrthographicCamera::WorldToScreen(const Vector2 &amp;worldPosition) const override']]],
+  ['worldtotileposition_11',['WorldToTilePosition',['../classCNA_1_1Extended_1_1Tilemaps_1_1Tilemap.html#ab5b154adee70c427bee6238bcfb4f1d3',1,'CNA::Extended::Tilemaps::Tilemap']]],
+  ['wrap_12',['Wrap',['../classCNA_1_1Extended_1_1Angle.html#af353060d2383d4b745c67b55988fdda3',1,'CNA::Extended::Angle']]],
+  ['wrappositive_13',['WrapPositive',['../classCNA_1_1Extended_1_1Angle.html#a472df07f4274e89a20ff377edbef7157',1,'CNA::Extended::Angle']]],
+  ['write_14',['write',['../classCNA_1_1Extended_1_1Serialization_1_1Json_1_1ContentManagerJsonConverter.html#a291df99521d065d649757e42433fe0dc',1,'CNA::Extended::Serialization::Json::ContentManagerJsonConverter::Write()'],['../classCNA_1_1Extended_1_1Serialization_1_1Json_1_1NinePatchJsonConverter.html#a931843b31e77617635ad621a6bc6bdf4',1,'CNA::Extended::Serialization::Json::NinePatchJsonConverter::Write()'],['../classCNA_1_1Extended_1_1Serialization_1_1Json_1_1TextureRegion2DJsonConverter.html#a7bb9496f026ebcf055d77cc0a950e6b1',1,'CNA::Extended::Serialization::Json::TextureRegion2DJsonConverter::Write()']]],
+  ['writeattributebool_15',['WriteAttributeBool',['../namespaceCNA_1_1Extended_1_1Serialization_1_1Xml.html#abdea1ee20be12252654f0cdc9c5fae90',1,'CNA::Extended::Serialization::Xml']]],
+  ['writeattributefloat_16',['WriteAttributeFloat',['../namespaceCNA_1_1Extended_1_1Serialization_1_1Xml.html#a405a8bf56dd83773af054c92c486038e',1,'CNA::Extended::Serialization::Xml']]],
+  ['writeattributeint_17',['WriteAttributeInt',['../namespaceCNA_1_1Extended_1_1Serialization_1_1Xml.html#ad23cb83a925985f965b45e471ba55e1d',1,'CNA::Extended::Serialization::Xml']]],
+  ['writeattributerectangle_18',['WriteAttributeRectangle',['../namespaceCNA_1_1Extended_1_1Serialization_1_1Xml.html#af1dd79d32bf62dbded9fdbab7f537ec1',1,'CNA::Extended::Serialization::Xml']]],
+  ['writeattributevector2_19',['WriteAttributeVector2',['../namespaceCNA_1_1Extended_1_1Serialization_1_1Xml.html#a2af56c87c721d1b0cf8e60150de37b88',1,'CNA::Extended::Serialization::Xml']]],
+  ['writeattributevector3_20',['WriteAttributeVector3',['../namespaceCNA_1_1Extended_1_1Serialization_1_1Xml.html#aa85d26fcc72c0474dd386cc111fe9eef',1,'CNA::Extended::Serialization::Xml']]],
+  ['writefloatstring_21',['WriteFloatString',['../namespaceCNA_1_1Extended_1_1Serialization_1_1Json.html#a8e9ef70c921a34471a1f7cdf6f86359e',1,'CNA::Extended::Serialization::Json']]]
+];

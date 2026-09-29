@@ -1,0 +1,7 @@
+<map id="CNA::Extended::Triangulation::Triangle" name="CNA::Extended::Triangulation::Triangle">
+<area shape="rect" id="Node000001" title="A basic triangle structure that holds the three vertices that make up a given triangle." alt="" coords="5,225,216,265"/>
+<area shape="rect" id="Node000002" href="$structCNA_1_1Extended_1_1Triangulation_1_1Vertex.html" title="A vertex used during polygon triangulation: a position paired with its original index." alt="" coords="5,93,216,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,147,113,225,108,225,108,147"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="75,5,146,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,44,113,93,108,93,108,44"/>
+</map>

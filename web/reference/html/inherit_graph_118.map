@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1Profile.html" title="Base class for particle emission profiles: computes the initial offset and heading for each newly rel..." alt="" coords="5,229,188,269"/>
+<area shape="rect" id="Node000001" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1BoxFillProfile.html" title="Emits particles from anywhere within a rectangular area, random headings." alt="" coords="247,5,430,45"/>
+<area shape="poly" id="edge42_Node000000_Node000001" title=" " alt="" coords="111,216,131,179,158,136,193,92,234,55,255,43,258,48,238,59,197,96,163,139,135,181,115,218"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1BoxProfile.html" title="Emits particles from one of the four edges of a rectangle (equal probability per side),..." alt="" coords="247,69,430,109"/>
+<area shape="poly" id="edge43_Node000000_Node000002" title=" " alt="" coords="122,217,171,167,202,141,235,119,260,107,262,112,237,124,205,146,175,171,126,221"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1BoxUniformProfile.html" title="Emits particles from the perimeter of a rectangle, with probability proportional to each side&#39;s lengt..." alt="" coords="236,133,441,173"/>
+<area shape="poly" id="edge44_Node000000_Node000003" title=" " alt="" coords="149,221,235,183,268,171,270,176,237,188,151,226"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1CircleProfile.html" title="Emits particles from anywhere within a circular area, with a configurable radiation pattern for headi..." alt="" coords="247,197,430,237"/>
+<area shape="poly" id="edge45_Node000000_Node000004" title=" " alt="" coords="201,233,247,227,248,232,202,238"/>
+<area shape="rect" id="Node000005" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1LineProfile.html" title="Emits particles uniformly along a line segment, with a configurable radiation pattern for headings." alt="" coords="247,261,430,301"/>
+<area shape="poly" id="edge46_Node000000_Node000005" title=" " alt="" coords="202,261,248,267,247,272,201,266"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1PointProfile.html" title="Emits all particles from a single point (no offset) with random headings." alt="" coords="247,325,430,365"/>
+<area shape="poly" id="edge47_Node000000_Node000006" title=" " alt="" coords="151,273,237,311,270,323,268,328,235,316,149,278"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1RingProfile.html" title="Emits particles from the perimeter of a circle, with a configurable radiation pattern for headings." alt="" coords="247,389,430,429"/>
+<area shape="poly" id="edge48_Node000000_Node000007" title=" " alt="" coords="126,278,175,328,205,353,237,375,262,387,260,392,235,380,202,357,171,332,122,282"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1SprayProfile.html" title="Emits particles from a single point in a directional cone (central Direction +/&#45; Spread/2 radians)." alt="" coords="247,453,430,493"/>
+<area shape="poly" id="edge49_Node000000_Node000008" title=" " alt="" coords="115,280,135,317,163,360,197,403,238,439,258,451,255,455,234,443,193,406,158,363,131,320,111,283"/>
+</map>

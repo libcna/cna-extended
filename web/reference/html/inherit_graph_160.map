@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Ogmo_1_1Document_1_1OgmoLayerData.html" title="Abstract base for all Ogmo layer&#45;data entries. Concrete subtype is chosen by ParseOgmoLayerData based..." alt="" coords="5,113,264,153"/>
+<area shape="rect" id="Node000001" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Ogmo_1_1Document_1_1OgmoDecalLayerData.html" title=" " alt="" coords="312,5,607,45"/>
+<area shape="poly" id="edge51_Node000000_Node000001" title=" " alt="" coords="187,105,246,79,311,55,354,43,356,48,313,60,248,84,190,110"/>
+<area shape="rect" id="Node000002" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Ogmo_1_1Document_1_1OgmoEntityLayerData.html" title=" " alt="" coords="345,70,574,125"/>
+<area shape="poly" id="edge52_Node000000_Node000002" title=" " alt="" coords="278,115,344,107,345,113,278,120"/>
+<area shape="rect" id="Node000003" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Ogmo_1_1Document_1_1OgmoGridLayerData.html" title=" " alt="" coords="317,149,602,189"/>
+<area shape="poly" id="edge53_Node000000_Node000003" title=" " alt="" coords="278,147,317,151,316,156,277,152"/>
+<area shape="rect" id="Node000004" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Ogmo_1_1Document_1_1OgmoTileLayerData.html" title=" " alt="" coords="318,213,601,253"/>
+<area shape="poly" id="edge54_Node000000_Node000004" title=" " alt="" coords="195,156,313,199,358,211,356,216,311,204,194,161"/>
+</map>

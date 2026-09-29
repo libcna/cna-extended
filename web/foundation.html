@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="Foundation types, input, timers, tweening, viewport adapters and 2D collision in cna-extended." /><meta name="theme-color" content="#09101e" /><title>Foundation, input & collision — cna-extended</title><link rel="stylesheet" href="styles.css" /></head>
+  <body><div id="site-header"></div><div class="site-shell"><aside class="site-sidebar" id="site-sidebar"></aside><main class="page" id="content">
+    <section class="page-section"><div class="page-hero"><div><p class="eyebrow"><span class="eyebrow-dot"></span> 05 · FOUNDATION & GAMEPLAY</p><h1>Put the small, reliable systems under every game feature.</h1><p class="hero-copy">This area contains 2D geometry, transforms, collection utilities, collision, input listeners, timers, tweening, viewport adapters and vector debug drawing. It is the practical layer between cna’s base framework and your gameplay code.</p><div class="hero-actions"><a class="button primary" href="#collision">Build a collision world <b>↓</b></a><a class="button ghost" href="graphics.html">Continue to 2D graphics</a></div></div><div class="terminal"><div class="terminal-head"><i></i><i></i><i></i><code>update.cpp</code></div><pre><code><span class="comment">// A compact frame-level mental model.</span>
+input.Update(gameTime);
+player.Update(gameTime);
+tweener.Update(deltaSeconds);
+collisionWorld.RebuildDynamicLayers();
+
+<span class="key">for</span> (<span class="key">const auto</span>&amp; hit :
+     collisionWorld.QueryCollisions(&amp;player, <span class="string">"world"</span>))
+  player.Resolve(hit.Result);</code></pre><div class="terminal-foot">you decide which systems are needed in your loop</div></div></div></section>
+
+    <section class="page-section"><div class="section-heading"><div><p class="kicker">MATH, SHAPES & COLLECTIONS</p><h2>Use game-oriented types before reaching for ad hoc helpers.</h2></div><p>The foundation headers cover both everyday values and geometry that later modules use for queries, transforms and rendering.</p></div><div class="card-grid three"><article class="card cyan-top"><h3>Geometry</h3><p><code>RectangleF</code>, <code>CircleF</code>, <code>EllipseF</code>, lines, segments, rays, oriented rectangles and a <code>BoundingRectangle</code> complement the XNA vector/matrix types.</p></article><article class="card cyan-top"><h3>Bounding volumes</h3><p><code>BoundingBox2D</code>, circle, capsule, polygon and oriented-box volumes express the shapes that the 2D collision APIs test and query.</p></article><article class="card cyan-top"><h3>Transform and camera helpers</h3><p><code>Transform2</code>/<code>Transform3</code>, <code>Camera</code>, <code>OrthographicCamera</code>, matrix/vector extensions and <code>Angle</code> make spatial code more concise.</p></article><article class="card cyan-top"><h3>Triangulation</h3><p>Polygon and polyline shapes are paired with ear-clipping triangulation helpers, triangles, vertices and cyclic list types for geometry work.</p></article><article class="card cyan-top"><h3>Collections and pools</h3><p><code>Bag</code>, <code>Deque</code>, keyed and observable collections, <code>ObjectPool</code> and <code>Pool</code> handle common game-data patterns.</p></article><article class="card cyan-top"><h3>Frame helpers</h3><p>FPS counters, random extensions, colour helpers, sizing, thickness, intervals and framework extensions cover recurring utility work.</p></article></div></section>
+
+    <section class="page-section" id="collision"><div class="section-heading"><div><p class="kicker">2D COLLISION</p><h2>Separate broadphase, narrowphase and response.</h2></div><p><code>Collision2D</code> performs precise shape tests; <code>CollisionWorld2D</code> gives those tests an actor model, a broadphase and layer filtering.</p></div><div class="two-columns"><div class="feature-list"><article><h3>1. Represent the actor</h3><p>Implement <code>ICollisionActor</code> for the game object or an adapter around it. It supplies identity and a collision shape; your own object remains under your ownership.</p></article><article><h3>2. Select a broadphase</h3><p>Use a <code>QuadTree</code> for spatial subdivision or <code>SpatialHash</code> for bucket-based lookups. Place it inside a <code>Layer</code>.</p></article><article><h3>3. Model collision policy</h3><p>Register layers in <code>CollisionWorld2D</code> and enable only pairs that should interact — player/world, projectile/enemy, and so on.</p></article><article><h3>4. Query and resolve</h3><p>Use candidate queries for cheap proximity work, or collision/pair queries for narrowphase results. The result’s translation vector is receiver-relative.</p></article></div><article class="code-card"><div class="code-card-head"><span>collision query shape</span><button class="copy-button" type="button">Copy</button></div><pre><code>class BoxActor final : public ICollisionActor {
+public:
+  BoxActor(int id, const BoundingBox2D&amp; box) : id_(id), box_(box) {}
+  int getIdProperty() const override { return id_; }
+  CollisionShape2D getShapeProperty() const override {
+    return CollisionShape2D(box_);
+  }
+private:
+  int id_;
+  BoundingBox2D box_;
+};
+
+world.Insert(&amp;player);
+const auto nearby = world.QueryCandidates(queryBounds);</code></pre></article></div><div class="callout info"><b>i</b><p><strong>Dynamic actors:</strong> when actor bounds change, rebuild dynamic layers at the right point in your update cycle. This lets the broadphase reflect the current frame before you ask collision questions.</p></div></section>
+
+    <section class="page-section"><div class="section-heading"><div><p class="kicker">INPUT, TIME & MOTION</p><h2>Choose polling, events or a state-edge query.</h2></div><p>The library deliberately offers both device listeners and current/previous-state wrappers because games often need both forms of input.</p></div><div class="two-columns"><div class="card"><h3>InputListeners</h3><p><code>KeyboardListener</code>, <code>MouseListener</code>, <code>GamePadListener</code> and <code>TouchListener</code> poll the corresponding cna devices and raise typed events. Settings and event args live beside each listener type.</p></div><div class="card"><h3>Extended state wrappers</h3><p><code>KeyboardStateExtended</code> and <code>MouseStateExtended</code> retain current and previous snapshots, making “is down”, “was pressed” and “was released” checks deterministic in a conventional update loop.</p></div><div class="card"><h3>Timers</h3><p><code>GameTimer</code>, <code>CountdownTimer</code>, <code>ContinuousClock</code> and <code>TimerState</code> keep frame time and countdown state independent of rendering.</p></div><div class="card"><h3>Tweening</h3><p><code>Tweener</code> hosts member-targeted tweens with <code>LinearTween</code>, typed/color variants and a broad <code>EasingFunctions</code> set.</p></div></div><article class="code-card" style="margin-top: 1.4rem"><div class="code-card-head"><span>edge detection and a tween</span><button class="copy-button" type="button">Copy</button></div><pre><code>KeyboardState previous;
+KeyboardState current = Keyboard::GetState();
+KeyboardStateExtended keys(current, previous);
+
+if (keys.WasKeyPressed(Keys::Space))
+  player.Jump();
+
+if (keys.IsKeyDown(Keys::Right))
+  player.Position.X += speed * deltaSeconds;
+
+previous = current;</code></pre></article></section>
+
+    <section class="page-section"><div class="section-heading"><div><p class="kicker">VIEWPORT & DEBUG DRAW</p><h2>Keep the camera stable across display sizes.</h2></div><p>Adapters create a dedicated place for virtual-resolution decisions; vector drawing gives you a rendering path for instrumentation and collision visualisation.</p></div><div class="card-grid three"><article class="card"><h3>ScalingViewportAdapter</h3><p>Scale a designed virtual resolution to the actual viewport.</p></article><article class="card"><h3>BoxingViewportAdapter</h3><p>Preserve aspect ratio with letterboxing/pillarboxing when required.</p></article><article class="card"><h3>PrimitiveBatch & PrimitiveDrawing</h3><p>Render lines and debug primitives directly, without turning diagnostics into sprite assets.</p></article></div><div class="callout tip"><b>↗</b><p><strong>Recommended convention:</strong> update gameplay in world coordinates, use the adapter/camera to map it to the display, and draw collision diagnostics from the same bounds your collision world consumes.</p></div></section>
+  </main></div><div id="site-footer"></div><script src="app.js"></script></body></html>

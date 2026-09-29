@@ -1,0 +1,17 @@
+<map id="CNA/Extended/ISizable.hpp" name="CNA/Extended/ISizable.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="287,5,485,31"/>
+<area shape="rect" id="Node000002" href="$SizeF_8hpp.html" title=" " alt="" coords="296,79,476,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="389,31,389,65,383,65,383,31"/>
+<area shape="rect" id="Node000003" href="$Size_8hpp.html" title=" " alt="" coords="236,159,411,185"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,106,343,150,339,147,375,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,240,193,280"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="344,107,286,126,226,154,172,193,129,232,125,228,169,188,223,150,284,121,342,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="453,247,511,273"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="396,103,426,151,472,233,467,236,421,153,391,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="487,152,675,192"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="415,102,522,144,520,149,413,106"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="294,187,163,237,161,232,292,182"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="218,240,429,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="326,185,326,226,321,226,321,185"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="346,182,450,238,447,243,343,187"/>
+</map>

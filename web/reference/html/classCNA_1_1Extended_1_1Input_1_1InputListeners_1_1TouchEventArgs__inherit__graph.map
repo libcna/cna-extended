@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Input::InputListeners::TouchEventArgs" name="CNA::Extended::Input::InputListeners::TouchEventArgs">
+<area shape="rect" id="Node000001" title="Carries data for a TouchListener touch event: the raw touch location and its position translated thro..." alt="" coords="5,79,239,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="49,5,195,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,44,125,79,119,79,119,44"/>
+</map>

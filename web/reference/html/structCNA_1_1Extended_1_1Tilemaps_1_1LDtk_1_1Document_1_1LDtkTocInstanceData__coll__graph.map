@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Tilemaps::LDtk::Document::LDtkTocInstanceData" name="CNA::Extended::Tilemaps::LDtk::Document::LDtkTocInstanceData">
+<area shape="rect" id="Node000001" title="Instance data for a table&#45;of&#45;contents entry in LDtk." alt="" coords="5,123,285,163"/>
+<area shape="rect" id="Node000002" href="$structCNA_1_1Extended_1_1Tilemaps_1_1LDtk_1_1Document_1_1LDtkEntityReferenceInfos.html" title="Entity reference information in LDtk, identifying an entity instance by its IIDs." alt="" coords="40,5,251,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,74,148,122,143,122,143,74"/>
+</map>

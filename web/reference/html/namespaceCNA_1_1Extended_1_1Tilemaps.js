@@ -1,0 +1,105 @@
+var namespaceCNA_1_1Extended_1_1Tilemaps =
+[
+    [ "LDtk", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1LDtk.html", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1LDtk" ],
+    [ "Ogmo", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1Ogmo.html", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1Ogmo" ],
+    [ "Parsers", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1Parsers.html", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1Parsers" ],
+    [ "Rendering", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1Rendering.html", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1Rendering" ],
+    [ "Tiled", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1Tiled.html", "namespaceCNA_1_1Extended_1_1Tilemaps_1_1Tiled" ],
+    [ "Tilemap", "classCNA_1_1Extended_1_1Tilemaps_1_1Tilemap.html", "classCNA_1_1Extended_1_1Tilemaps_1_1Tilemap" ],
+    [ "TilemapAnimationData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapAnimationData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapAnimationData" ],
+    [ "TilemapAnimationFrameData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapAnimationFrameData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapAnimationFrameData" ],
+    [ "TilemapData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapData" ],
+    [ "TilemapDataLayer", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapDataLayer.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapDataLayer" ],
+    [ "TilemapDataLayerData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapDataLayerData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapDataLayerData" ],
+    [ "TilemapDecodedTile", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapDecodedTile.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapDecodedTile" ],
+    [ "TilemapEllipseObject", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapEllipseObject.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapEllipseObject" ],
+    [ "TilemapEllipseObjectData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapEllipseObjectData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapEllipseObjectData" ],
+    [ "TilemapGroupLayer", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapGroupLayer.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapGroupLayer" ],
+    [ "TilemapGroupLayerData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapGroupLayerData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapGroupLayerData" ],
+    [ "TilemapImageLayer", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayer" ],
+    [ "TilemapImageLayerData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayerData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapImageLayerData" ],
+    [ "TilemapLayer", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapLayer.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapLayer" ],
+    [ "TilemapLayerCollection", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapLayerCollection.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapLayerCollection" ],
+    [ "TilemapLayerData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapLayerData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapLayerData" ],
+    [ "TilemapObject", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapObject.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapObject" ],
+    [ "TilemapObjectData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapObjectData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapObjectData" ],
+    [ "TilemapObjectLayer", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapObjectLayer.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapObjectLayer" ],
+    [ "TilemapObjectLayerData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapObjectLayerData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapObjectLayerData" ],
+    [ "TilemapPointObject", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPointObject.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPointObject" ],
+    [ "TilemapPointObjectData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapPointObjectData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapPointObjectData" ],
+    [ "TilemapPolygonObject", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolygonObject.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolygonObject" ],
+    [ "TilemapPolygonObjectData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolygonObjectData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolygonObjectData" ],
+    [ "TilemapPolylineObject", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolylineObject.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolylineObject" ],
+    [ "TilemapPolylineObjectData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolylineObjectData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolylineObjectData" ],
+    [ "TilemapProperties", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapProperties.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapProperties" ],
+    [ "TilemapPropertyData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapPropertyData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapPropertyData" ],
+    [ "TilemapPropertyValue", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPropertyValue.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPropertyValue" ],
+    [ "TilemapRectangleObject", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapRectangleObject.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapRectangleObject" ],
+    [ "TilemapRectangleObjectData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapRectangleObjectData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapRectangleObjectData" ],
+    [ "TilemapTextObject", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTextObject.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTextObject" ],
+    [ "TilemapTextObjectData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTextObjectData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTextObjectData" ],
+    [ "TilemapTile", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTile.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTile" ],
+    [ "TilemapTileAnimation", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileAnimation.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileAnimation" ],
+    [ "TilemapTileAnimationFrame", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileAnimationFrame.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileAnimationFrame" ],
+    [ "TilemapTileData", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileData.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileData" ],
+    [ "TilemapTileEntry", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileEntry.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileEntry" ],
+    [ "TilemapTileEntryData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileEntryData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileEntryData" ],
+    [ "TilemapTileLayer", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileLayer.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileLayer" ],
+    [ "TilemapTileLayerData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileLayerData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileLayerData" ],
+    [ "TilemapTileObject", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileObject.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileObject" ],
+    [ "TilemapTileObjectData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileObjectData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileObjectData" ],
+    [ "TilemapTileset", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileset.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileset" ],
+    [ "TilemapTilesetCollection", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTilesetCollection.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTilesetCollection" ],
+    [ "TilemapTilesetData", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTilesetData.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTilesetData" ],
+    [ "TilemapTilesetEntry", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTilesetEntry.html", "structCNA_1_1Extended_1_1Tilemaps_1_1TilemapTilesetEntry" ],
+    [ "TilemapWorld", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapWorld.html", "classCNA_1_1Extended_1_1Tilemaps_1_1TilemapWorld" ],
+    [ "TilemapObjectDrawOrder", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ae118bf2080a50fec290dfef0df36e9d0", [
+      [ "TopDown", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ae118bf2080a50fec290dfef0df36e9d0ad9504b07e71879cc2a511f9b6fcd6606", null ],
+      [ "Index", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ae118bf2080a50fec290dfef0df36e9d0a88fa71f0a6e0dfedbb46d91cc0b37a50", null ]
+    ] ],
+    [ "TilemapOrientation", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ab735ec2dad585b930299e39a9542d639", [
+      [ "Orthogonal", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ab735ec2dad585b930299e39a9542d639a7b2e80981e360c8634aef96cbcb62e57", null ],
+      [ "Isometric", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ab735ec2dad585b930299e39a9542d639a93fe1f7c5ca2e09af063aca96d0625cc", null ],
+      [ "Staggered", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ab735ec2dad585b930299e39a9542d639af421d06a10620aa57ae6ebaec46cffe9", null ],
+      [ "Hexagonal", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ab735ec2dad585b930299e39a9542d639a28666f62a0ffe4485fb7c7e878234dda", null ]
+    ] ],
+    [ "TilemapPropertyType", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a0ad35ac44250cad03764f8bcd98f7ab9", [
+      [ "String", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a0ad35ac44250cad03764f8bcd98f7ab9a27118326006d3829667a400ad23d5d98", null ],
+      [ "Int", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a0ad35ac44250cad03764f8bcd98f7ab9a1686a6c336b71b36d77354cea19a8b52", null ],
+      [ "Float", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a0ad35ac44250cad03764f8bcd98f7ab9a22ae0e2b89e5e3d477f988cc36d3272b", null ],
+      [ "Bool", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a0ad35ac44250cad03764f8bcd98f7ab9ac26f15e86e3de4c398a8273272aba034", null ],
+      [ "Color", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a0ad35ac44250cad03764f8bcd98f7ab9acb5feb1b7314637725a2e73bdc9f7295", null ],
+      [ "File", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a0ad35ac44250cad03764f8bcd98f7ab9a0b27918290ff5323bea1e3b78a9cf04e", null ],
+      [ "Object", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a0ad35ac44250cad03764f8bcd98f7ab9a497031794414a552435f90151ac3b54b", null ]
+    ] ],
+    [ "TilemapStaggerAxis", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a714ab2e4c9a826789942d734ff6568ec", [
+      [ "X", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a714ab2e4c9a826789942d734ff6568eca02129bb861061d1a052c592e2dc6b383", null ],
+      [ "Y", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a714ab2e4c9a826789942d734ff6568eca57cec4137b614c87cb4e24a3d003a3e0", null ]
+    ] ],
+    [ "TilemapStaggerIndex", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ab03c00d874a8862559ca1b419995d2d5", [
+      [ "Even", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ab03c00d874a8862559ca1b419995d2d5a35537fbc25d87ffe59e4f35fefcd34b7", null ],
+      [ "Odd", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ab03c00d874a8862559ca1b419995d2d5a37b6bd7fe61d651735cec3d3b0356c66", null ]
+    ] ],
+    [ "TilemapTextObjectHorizontalAlignment", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a940315b7b73ef4eb916bb6e617df11e8", [
+      [ "Left", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a940315b7b73ef4eb916bb6e617df11e8a945d5e233cf7d6240f6b783b36a374ff", null ],
+      [ "Center", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a940315b7b73ef4eb916bb6e617df11e8a4f1f6016fc9f3f2353c0cc7c67b292bd", null ],
+      [ "Right", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a940315b7b73ef4eb916bb6e617df11e8a92b09c7c48c520c3c55e497875da437c", null ],
+      [ "Justify", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a940315b7b73ef4eb916bb6e617df11e8a4b425d212a2e7b36c38703bfdcd57823", null ]
+    ] ],
+    [ "TilemapTextObjectVerticalAlignment", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a1a7368c611b42bb36bcd83dbf8e137d5", [
+      [ "Top", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a1a7368c611b42bb36bcd83dbf8e137d5aa4ffdcf0dc1f31b9acaf295d75b51d00", null ],
+      [ "Center", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a1a7368c611b42bb36bcd83dbf8e137d5a4f1f6016fc9f3f2353c0cc7c67b292bd", null ],
+      [ "Bottom", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a1a7368c611b42bb36bcd83dbf8e137d5a2ad9d63b69c4a10a5cc9cad923133bc4", null ]
+    ] ],
+    [ "TilemapTileFlipFlags", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ae134b74f82d026e72cdf82ca1ee9c3b7", [
+      [ "None", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ae134b74f82d026e72cdf82ca1ee9c3b7a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "FlipHorizontally", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ae134b74f82d026e72cdf82ca1ee9c3b7a5b58248e141ac89cfd6e52299eac6ba1", null ],
+      [ "FlipVertically", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ae134b74f82d026e72cdf82ca1ee9c3b7a1f74941a9435124f723b5ca68bff4309", null ],
+      [ "FlipDiagonally", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ae134b74f82d026e72cdf82ca1ee9c3b7af4ce11a968ec32b2edf578ece4582748", null ]
+    ] ],
+    [ "Build", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a6be3bf48d1087258f384038a2a58dba0", null ],
+    [ "Build", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a2dfa481078c52cff9cbf5f745e3137a1", null ],
+    [ "operator&", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ade7d5d700336dcfd623bf889788381b6", null ],
+    [ "operator|", "namespaceCNA_1_1Extended_1_1Tilemaps.html#a9c3a6fdac14e516b05a6f61404e025ce", null ],
+    [ "operator|=", "namespaceCNA_1_1Extended_1_1Tilemaps.html#ac5b478603c0d0efaf9627482ac639483", null ]
+];

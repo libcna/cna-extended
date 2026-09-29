@@ -1,0 +1,7 @@
+<map id="CNA::Extended::Content::BitmapFonts::HeaderBlock" name="CNA::Extended::Content::BitmapFonts::HeaderBlock">
+<area shape="rect" id="Node000001" title="The 4&#45;byte BMFont binary format header." alt="" coords="5,137,208,177"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="31,5,84,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,44,53,78,61,112,80,135,75,139,56,114,48,78,50,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="125,5,190,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,45,130,114,119,138,114,136,126,112,148,43"/>
+</map>

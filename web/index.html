@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Source-backed developer documentation for cna-extended, a C++23 2D and 3D game-development toolkit." />
+    <meta name="theme-color" content="#09101e" />
+    <title>cna-extended — Developer documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <div class="site-shell">
+      <aside class="site-sidebar" id="site-sidebar"></aside>
+      <main class="page" id="content">
+        <section class="page-section">
+          <div class="page-hero">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-dot"></span> C++23 GAME-DEVELOPMENT TOOLKIT</p>
+              <h1>Build on <span class="accent">cna</span>, not on missing infrastructure.</h1>
+              <p class="hero-copy">cna-extended is a C++23 port of MonoGame.Extended for the cna ecosystem. It supplies the practical systems that tend to recur in games: spatial queries, screen flow, input, sprite work, maps, particles, ECS, and a purpose-built 3D scene extension.</p>
+              <div class="hero-actions">
+                <a class="button primary" href="getting-started.html">Write the first program <b>→</b></a>
+                <a class="button ghost" href="api.html">Browse the API catalogue</a>
+              </div>
+            </div>
+            <div class="terminal">
+              <div class="terminal-head"><i></i><i></i><i></i><code>game-plan.cpp</code></div>
+              <pre><code><span class="comment">// Pick only the systems your game needs.</span>
+<span class="key">#include</span> <span class="string">&lt;CNA/Extended.hpp&gt;</span>
+
+<span class="type">Toolkit</span> game;
+game.<span class="fn">Compose</span>({
+  <span class="key">.world</span>      = <span class="string">"ECS + 2D or 3D"</span>,
+  <span class="key">.content</span>    = <span class="string">"Tiled · LDtk · Ogmo · JSON"</span>,
+  <span class="key">.interaction</span> = <span class="string">"input · collision · tweening"</span>,
+  <span class="key">.visuals</span>    = <span class="string">"sprites · maps · particles"</span>
+});</code></pre>
+              <div class="terminal-foot">● illustrative pseudo-code — the real API is documented by module</div>
+            </div>
+          </div>
+          <dl class="stats">
+            <div><dt>390</dt><dd>public headers</dd></div>
+            <div><dt>19</dt><dd>top-level module areas</dd></div>
+            <div><dt>82</dt><dd>World3DEXT headers</dd></div>
+            <div><dt>1,960</dt><dd>generated API pages</dd></div>
+          </dl>
+        </section>
+
+        <section class="page-section">
+          <div class="lede-grid">
+            <div><p class="kicker">WHAT THIS LIBRARY IS</p><h2>A layer of useful, composable game systems.</h2></div>
+            <div class="prose">
+              <p>The library sits on <strong>cna</strong>, a C++23 XNA 4.0/FNA port, and <strong>sharp-runtime</strong>, a C++23 implementation of the required .NET BCL surface. Its 2D modules faithfully follow MonoGame.Extended wherever a direct C++ translation makes sense.</p>
+              <p>It is not a monolithic engine. You can use only the atlas loader and tweening, or combine maps, collision, screen management, particles, and ECS into a complete game. World3DEXT is an additional cna-extended 3D layer that deliberately reuses the same Screen and ECS foundations.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="section-heading">
+            <div><p class="kicker">DOCUMENTATION MAP</p><h2>Follow a path, or jump to a subsystem.</h2></div>
+            <p>Each chapter is an independent HTML page with usage notes, implementation boundaries, and links to related modules.</p>
+          </div>
+          <div class="card-grid three">
+            <a class="card cyan-top" href="getting-started.html"><span class="number">02</span><h3>Getting started</h3><p>Dependency layout, CMake modes, the public target and a first meaningful tween.</p></a>
+            <a class="card cyan-top" href="architecture.html"><span class="number">03</span><h3>Architecture</h3><p>Ownership, namespaces, properties, screen flow and when to use a module.</p></a>
+            <a class="card cyan-top" href="screens.html"><span class="number">04</span><h3>Screens & transitions</h3><p>Screen lifecycle, stacking rules, pause overlays, ownership and visual transitions.</p></a>
+            <a class="card cyan-top" href="foundation.html"><span class="number">05</span><h3>Foundation & gameplay</h3><p>Math, collections, input, timers, tweening, viewport adapters and 2D collision.</p></a>
+            <a class="card cyan-top" href="graphics.html"><span class="number">06</span><h3>2D graphics</h3><p>Texture atlases, sprites, bitmap fonts, animation, effects and debug primitives.</p></a>
+            <a class="card amber-top" href="tilemaps.html"><span class="number">07</span><h3>Tilemaps</h3><p>Direct Tiled, LDtk and Ogmo loading with two rendering paths and world-map support.</p></a>
+            <a class="card amber-top" href="particles.html"><span class="number">08</span><h3>Particles</h3><p>Effect composition, emitters, profiles, modifiers, interpolators and XML assets.</p></a>
+            <a class="card violet-top" href="ecs.html"><span class="number">09</span><h3>Entity component system</h3><p>Worlds, entities, component mappers, aspects and processing systems.</p></a>
+            <a class="card violet-top" href="world3d.html"><span class="number">10</span><h3>World3DEXT</h3><p>Camera, hierarchy, models, collisions, billboards, 3D particles and voxel maps.</p></a>
+            <a class="card cyan-top" href="assets.html"><span class="number">11</span><h3>Assets & serialization</h3><p>Open runtime formats, custom loaders and the deliberate boundary around XNB/MGCB.</p></a>
+            <a class="card cyan-top" href="build.html"><span class="number">12</span><h3>Build & testing</h3><p>CMake modes, backend options, examples, tests and render-readback diagnostics.</p></a>
+            <a class="card cyan-top" href="api.html"><span class="number">13</span><h3>API catalogue</h3><p>Search the source-backed feature index and locate the corresponding include tree.</p></a>
+            <a class="card cyan-top" href="reference/html/index.html"><span class="number">API</span><h3>Full generated reference</h3><p>1,960 Doxygen pages: classes, namespaces, files, source views and documented members.</p></a>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="section-heading">
+            <div><p class="kicker">A PRACTICAL DEFAULT</p><h2>Start with one vertical slice.</h2></div>
+            <p>A player moving in a small map is enough to establish your input, timing, rendering, collision and asset-loading conventions.</p>
+          </div>
+          <div class="diagram">
+            <p class="diagram-title">A sensible first playable loop</p>
+            <div class="pipeline">
+              <div><strong>Load content</strong><small>Map, texture and font from direct formats</small></div><b>→</b>
+              <div><strong>Update input</strong><small>Read state or listen for events</small></div><b>→</b>
+              <div><strong>Run gameplay</strong><small>Move, query collision, update animation</small></div><b>→</b>
+              <div><strong>Draw</strong><small>Map first, then sprites and UI</small></div>
+            </div>
+          </div>
+          <div class="callout tip"><b>↗</b><p><strong>Use the examples as integration references.</strong> <code>examples/tiled_demo</code> demonstrates a complete 2D loop; <code>examples/world3d_demo</code> combines the 3D features into a rendered scene. The documentation explains the choices those examples make.</p></div>
+        </section>
+      </main>
+    </div>
+    <div id="site-footer"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

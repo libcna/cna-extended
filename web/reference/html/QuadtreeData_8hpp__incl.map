@@ -1,0 +1,20 @@
+<map id="CNA/Extended/Collisions/QuadtreeData.hpp" name="CNA/Extended/Collisions/QuadtreeData.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="518,5,701,45"/>
+<area shape="rect" id="Node000002" href="$BoundingBox2D_8hpp.html" title=" " alt="" coords="397,93,611,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="588,48,539,87,536,83,584,44"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="635,93,797,133"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="635,44,684,83,680,87,631,48"/>
+<area shape="rect" id="Node000003" href="$CollisionResult2D_8hpp.html" title=" " alt="" coords="5,181,229,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,136,216,181,215,176,419,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="98,269,286,309"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="411,136,352,155,295,184,250,220,216,260,212,256,246,216,292,179,350,150,410,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="305,181,493,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="482,136,434,175,431,171,479,132"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="517,181,705,221"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="529,132,578,171,575,175,526,136"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="729,189,788,214"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="572,131,718,179,723,181,721,186,716,184,570,136"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="813,189,875,214"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="609,131,703,152,801,179,807,181,806,186,799,184,702,157,608,136"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="136,220,168,257,164,261,132,223"/>
+</map>

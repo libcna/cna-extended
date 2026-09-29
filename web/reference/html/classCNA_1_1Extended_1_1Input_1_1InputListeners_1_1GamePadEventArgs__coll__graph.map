@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Input::InputListeners::GamePadEventArgs" name="CNA::Extended::Input::InputListeners::GamePadEventArgs">
+<area shape="rect" id="Node000001" title="Carries all data resulting from an event fired by GamePadListener." alt="" coords="5,79,264,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="62,5,207,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,44,137,79,132,79,132,44"/>
+</map>

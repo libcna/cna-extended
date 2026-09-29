@@ -1,0 +1,11 @@
+<map id="CNA/Extended/Triangulation/Vertex.hpp" name="CNA/Extended/Triangulation/Vertex.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="144,5,347,45"/>
+<area shape="rect" id="Node000002" href="$Triangulation_2LineSegment_8hpp.html" title=" " alt="" coords="5,93,208,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,55,138,96,136,91,202,50"/>
+<area shape="rect" id="Node000003" href="$Triangulator_8hpp.html" title=" " alt="" coords="144,181,347,221"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="248,59,248,181,243,181,243,59"/>
+<area shape="rect" id="Node000004" href="$Triangle_8hpp.html" title=" " alt="" coords="283,93,485,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="289,50,355,91,352,96,286,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,138,216,179,214,184,147,143"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="344,143,277,184,274,179,341,138"/>
+</map>

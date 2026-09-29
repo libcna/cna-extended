@@ -1,0 +1,5 @@
+<map id="CNA::Extended::World3DEXT::CollisionEvent3DEXT" name="CNA::Extended::World3DEXT::CollisionEvent3DEXT">
+<area shape="rect" id="Node000001" title="Represents collision data for an actor collision callback or query result." alt="" coords="5,79,212,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="36,5,181,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+</map>

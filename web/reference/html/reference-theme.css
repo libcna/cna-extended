@@ -1,0 +1,22 @@
+/* Extra styling layered over Doxygen's generated stylesheet. */
+:root { color-scheme: dark; }
+body, div.contents, div.header, div.title, div.textblock { color: #e7efff; background: #0b1220; }
+div.header { border-bottom: 1px solid #294260; background: linear-gradient(130deg, #102c42, #12182e); }
+div.title { color: #74e3f5; font-weight: 700; }
+div.contents { max-width: 1160px; padding: 1.5rem 2.4rem; }
+a, a:visited { color: #75dff1; }
+a:hover { color: #c8a8ff; }
+div.fragment, pre.fragment, div.line { border-color: #2b415f; color: #dce9ff; background: #0a1728; }
+div.line { min-height: 1.55em; }
+table.memberdecls, table.memberdecls td, table.memberdecls tr, table.doxtable, table.doxtable td, table.doxtable th { border-color: #294260; }
+table.memberdecls, table.memberdecls td { background: #101c30; }
+table.memberdecls tr:hover td { background: #172942; }
+.memtitle, .memproto, .memitem, .memdoc { border-color: #355474; background: #102039; color: #e7efff; }
+.memtitle, .memname { color: #c9aaff; }
+div.navpath ul, div.tabs, .tabs2, .tabs3, .tabs4 { background: #101b2f; border-color: #294260; }
+div.tabs a, div.tabs2 a, div.tabs3 a { color: #bfcfe7; }
+div.tabs a:hover, div.tabs2 a:hover, div.tabs3 a:hover { background: #1b3350; color: #75dff1; }
+div.qindex, div.navtab, #nav-tree, #side-nav { background: #0c1628; }
+#nav-tree .selected, #nav-tree .selected a { color: #07121e; background: #74e3f5; text-shadow: none; }
+#MSearchBox .MSearchField { color: #e7efff; background: #091220; border-color: #355474; }
+hr { border-color: #294260; }

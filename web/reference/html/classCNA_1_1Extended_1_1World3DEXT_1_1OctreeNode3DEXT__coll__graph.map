@@ -1,0 +1,5 @@
+<map id="CNA::Extended::World3DEXT::OctreeNode3DEXT" name="CNA::Extended::World3DEXT::OctreeNode3DEXT">
+<area shape="rect" id="Node000001" title="Stores collision actors in a hierarchical octree for broadphase overlap queries." alt="" coords="5,93,212,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="55,5,163,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,44,111,93,106,93,106,44"/>
+</map>

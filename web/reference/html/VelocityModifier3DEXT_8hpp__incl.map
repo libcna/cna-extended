@@ -1,0 +1,15 @@
+<map id="CNA/Extended/World3DEXT/VelocityModifier3DEXT.hpp" name="CNA/Extended/World3DEXT/VelocityModifier3DEXT.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="295,5,496,45"/>
+<area shape="rect" id="Node000002" href="$Interpolator3DEXT_8hpp.html" title=" " alt="" coords="5,93,204,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,48,182,92,180,87,331,43"/>
+<area shape="rect" id="Node000004" href="$Modifier3DEXT_8hpp.html" title=" " alt="" coords="228,93,427,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="382,47,353,84,349,81,378,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="364,181,427,207"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="414,44,429,66,441,93,445,113,441,134,431,155,418,173,414,169,426,152,435,133,439,113,435,94,424,69,409,47"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="501,101,578,126"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="428,43,510,91,507,96,426,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="213,181,271,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,131,211,172,208,177,136,136"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="308,136,267,174,263,170,305,132"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="346,132,378,169,374,172,342,135"/>
+</map>

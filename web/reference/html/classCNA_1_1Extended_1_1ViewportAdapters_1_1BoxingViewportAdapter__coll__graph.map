@@ -1,0 +1,11 @@
+<map id="CNA::Extended::ViewportAdapters::BoxingViewportAdapter" name="CNA::Extended::ViewportAdapters::BoxingViewportAdapter">
+<area shape="rect" id="Node000001" title="A ScalingViewportAdapter that letterboxes/pillarboxes to preserve aspect ratio, with a croppable safe..." alt="" coords="26,255,269,295"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1ViewportAdapters_1_1ScalingViewportAdapter.html" title="A ViewportAdapter with a fixed virtual resolution, scaled (independently in X/Y) to fill the actual v..." alt="" coords="26,167,269,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,221,150,254,145,254,145,221"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1ViewportAdapters_1_1ViewportAdapter.html" title="Decouples a game&#39;s virtual (design&#45;time) resolution from the actual window/backbuffer resolution." alt="" coords="26,79,269,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,133,150,166,145,166,145,133"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,127,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,38,130,77,126,80,86,42"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="151,5,306,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="209,42,169,80,165,77,205,38"/>
+</map>

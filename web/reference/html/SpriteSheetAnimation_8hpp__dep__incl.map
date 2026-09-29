@@ -1,0 +1,10 @@
+<map id="CNA/Extended/Graphics/SpriteSheetAnimation.hpp" name="CNA/Extended/Graphics/SpriteSheetAnimation.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="58,5,254,45"/>
+<area shape="rect" id="Node000002" href="$AnimatedSprite_8hpp.html" title=" " alt="" coords="5,181,181,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,55,76,72,58,94,53,116,57,139,68,161,80,180,75,183,63,164,52,141,48,116,54,92,72,68,96,50"/>
+<area shape="rect" id="Node000003" href="$SpriteSheet_8hpp.html" title=" " alt="" coords="68,93,244,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,59,159,93,153,93,153,59"/>
+<area shape="rect" id="Node000004" href="$SpriteSheetAnimationBuilder_8hpp.html" title=" " alt="" coords="269,93,510,133"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="221,48,339,91,337,96,219,53"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="136,146,109,183,105,180,132,143"/>
+</map>

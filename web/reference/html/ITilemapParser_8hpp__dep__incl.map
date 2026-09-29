@@ -1,0 +1,9 @@
+<map id="CNA/Extended/Tilemaps/Parsers/ITilemapParser.hpp" name="CNA/Extended/Tilemaps/Parsers/ITilemapParser.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="214,5,415,45"/>
+<area shape="rect" id="Node000002" href="$LDtkJsonParser_8hpp.html" title=" " alt="" coords="5,93,189,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,53,146,96,144,91,253,48"/>
+<area shape="rect" id="Node000003" href="$OgmoJsonParser_8hpp.html" title=" " alt="" coords="213,93,416,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="317,59,317,93,312,93,312,59"/>
+<area shape="rect" id="Node000004" href="$TiledTmxParser_8hpp.html" title=" " alt="" coords="441,93,631,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="377,48,489,91,487,96,375,53"/>
+</map>

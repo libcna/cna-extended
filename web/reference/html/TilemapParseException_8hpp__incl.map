@@ -1,0 +1,9 @@
+<map id="CNA/Extended/Tilemaps/Parsers/TilemapParseException.hpp" name="CNA/Extended/Tilemaps/Parsers/TilemapParseException.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="105,5,363,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,172,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,48,123,89,121,84,198,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="197,93,271,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,46,237,79,231,79,231,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="295,93,354,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,44,303,82,299,86,254,48"/>
+</map>

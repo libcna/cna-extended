@@ -1,0 +1,6 @@
+<map id="CNA::Extended::CollisionResult2D" name="CNA::Extended::CollisionResult2D">
+<area shape="rect" id="Node000001" title="The result of a two&#45;dimensional collision query." alt="" coords="5,108,188,148"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="202,118,211,122,215,128,207,137,189,141,187,135,204,132,209,128,207,126,200,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="61,5,132,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="99,45,99,108,94,108,94,45"/>
+</map>

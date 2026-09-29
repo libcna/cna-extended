@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Collisions::LayerPair" name="CNA::Extended::Collisions::LayerPair">
+<area shape="rect" id="Node000001" title="An order&#45;independent key identifying an unordered pair of collision layers by pointer identity." alt="" coords="5,123,196,163"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Collisions_1_1Layer.html" title="Groups collision actors that share one broadphase structure and one set of layer&#45;level rules." alt="" coords="5,5,196,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,59,103,122,98,122,98,59"/>
+</map>

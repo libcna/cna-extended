@@ -1,0 +1,138 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="20,5,205,45"/>
+<area shape="rect" id="Node000001" href="$classCNA_1_1Extended_1_1Collections_1_1ObservableCollection.html" title="A Collection&lt;T&gt; that raises ItemAdded/ItemRemoved/Clearing/Cleared events when its contents change." alt="" coords="291,37,498,77"/>
+<area shape="poly" id="edge136_Node000000_Node000001" title=" " alt="" coords="219,35,291,43,291,48,219,40"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="31,689,194,714"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1SimpleGameComponent.html" title="A lighter&#45;weight abstract base for update&#45;only game components that don&#39;t require a Game reference." alt="" coords="289,705,500,745"/>
+<area shape="poly" id="edge137_Node000011_Node000006" title=" " alt="" coords="208,707,290,714,289,719,207,712"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1SimpleDrawableGameComponent.html" title="A lighter&#45;weight abstract base for drawable game components that don&#39;t require a Game reference." alt="" coords="573,709,808,749"/>
+<area shape="poly" id="edge138_Node000006_Node000007" title=" " alt="" coords="514,724,573,725,573,730,514,730"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1ECS_1_1World.html" title="The central ECS container: owns EntityManager/ComponentManager, registers and runs Systems each Updat..." alt="" coords="905,645,1057,685"/>
+<area shape="poly" id="edge139_Node000007_Node000008" title=" " alt="" coords="795,704,904,679,906,685,796,709"/>
+<area shape="rect" id="Node000009" href="$classCNA_1_1Extended_1_1Screens_1_1ScreenManager.html" title="Manages a stack of Screen instances in a game." alt="" coords="892,709,1071,749"/>
+<area shape="poly" id="edge140_Node000007_Node000009" title=" " alt="" coords="822,727,892,727,892,732,822,732"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="35,1001,190,1026"/>
+<area shape="poly" id="edge177_Node000012_Node000006" title=" " alt="" coords="120,986,138,937,169,874,211,810,237,781,266,755,288,743,290,747,270,759,241,784,215,813,173,877,143,939,125,988"/>
+<area shape="rect" id="Node000013" href="$classCNA_1_1Extended_1_1Animations_1_1IAnimationController.html" title="Controls playback of an IAnimation: frame timing, looping/ping&#45;pong direction, and animation events." alt="" coords="294,769,495,809"/>
+<area shape="poly" id="edge141_Node000012_Node000013" title=" " alt="" coords="125,987,147,949,179,904,219,858,267,819,292,806,295,811,269,824,223,862,183,907,151,952,129,990"/>
+<area shape="rect" id="Node000015" href="$classCNA_1_1Extended_1_1ECS_1_1EntitySubscription.html" title="Tracks which entities currently satisfy an Aspect, rebuilding lazily when the entity set changes." alt="" coords="319,833,471,873"/>
+<area shape="poly" id="edge143_Node000012_Node000015" title=" " alt="" coords="133,989,190,936,227,907,267,883,318,864,319,869,269,888,230,912,193,940,137,993"/>
+<area shape="rect" id="Node000016" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1ISystem.html" title="Base interface for anything World can register and initialize (update and/or draw systems)." alt="" coords="319,897,471,937"/>
+<area shape="poly" id="edge144_Node000012_Node000016" title=" " alt="" coords="153,993,267,947,318,932,319,937,269,952,155,997"/>
+<area shape="rect" id="Node000037" href="$classCNA_1_1Extended_1_1Graphics_1_1RenderTarget2DOperation.html" title="RAII scope object returned by BeginDraw(): sets renderTarget active on construction,..." alt="" coords="295,961,494,1001"/>
+<area shape="poly" id="edge167_Node000012_Node000037" title=" " alt="" coords="204,1000,295,990,295,995,204,1006"/>
+<area shape="rect" id="Node000038" href="$classCNA_1_1Extended_1_1Particles_1_1ParticleBuffer.html" title="A circular buffer of Particle slots in contiguous, unconstructed heap memory, with head/tail&#45;based al..." alt="" coords="303,1025,486,1065"/>
+<area shape="poly" id="edge168_Node000012_Node000038" title=" " alt="" coords="204,1021,304,1032,303,1038,203,1026"/>
+<area shape="rect" id="Node000039" href="$classCNA_1_1Extended_1_1Particles_1_1ParticleEffect.html" title="A complete particle effect: a positioned/rotated/scaled container of one or more ParticleEmitters (e...." alt="" coords="303,1089,486,1129"/>
+<area shape="poly" id="edge169_Node000012_Node000039" title=" " alt="" coords="155,1029,269,1075,309,1087,307,1092,267,1080,153,1034"/>
+<area shape="rect" id="Node000040" href="$classCNA_1_1Extended_1_1Particles_1_1ParticleEmitter.html" title="Creates, updates, and manages the particles emitted by one emission source within a particle effect...." alt="" coords="303,1153,486,1193"/>
+<area shape="poly" id="edge170_Node000012_Node000040" title=" " alt="" coords="137,1034,193,1087,230,1115,269,1139,304,1153,302,1158,267,1144,227,1120,190,1091,133,1038"/>
+<area shape="rect" id="Node000041" href="$classCNA_1_1Extended_1_1Screens_1_1Screen.html" title="Abstract base for game screens that can be managed by a ScreenManager." alt="" coords="305,1217,484,1257"/>
+<area shape="poly" id="edge171_Node000012_Node000041" title=" " alt="" coords="129,1037,151,1074,183,1120,223,1165,269,1203,306,1220,304,1225,267,1208,219,1169,179,1123,147,1077,125,1040"/>
+<area shape="rect" id="Node000044" href="$classCNA_1_1Extended_1_1Screens_1_1Transitions_1_1Transition.html" title="Abstract base for a timed screen&#45;transition effect, driven by a half&#45;out/half&#45;in timing curve." alt="" coords="305,485,484,525"/>
+<area shape="poly" id="edge174_Node000012_Node000044" title=" " alt="" coords="125,987,169,895,217,775,226,744,229,716,231,667,238,620,248,595,266,568,294,541,328,523,330,528,298,546,270,571,253,597,243,621,236,667,235,717,231,745,223,777,174,897,130,989"/>
+<area shape="rect" id="Node000047" href="$classCNA_1_1Extended_1_1Tilemaps_1_1Rendering_1_1TilemapRenderer.html" title="High&#45;performance tilemap renderer using GraphicsDevice directly." alt="" coords="287,1281,503,1321"/>
+<area shape="poly" id="edge178_Node000012_Node000047" title=" " alt="" coords="125,1038,143,1088,173,1150,215,1214,241,1242,270,1267,289,1279,287,1283,266,1271,237,1246,211,1217,169,1152,138,1090,120,1040"/>
+<area shape="rect" id="Node000048" href="$classCNA_1_1Extended_1_1Tilemaps_1_1Rendering_1_1TilemapWorldRenderer.html" title="High&#45;performance world&#45;map renderer using GraphicsDevice directly." alt="" coords="268,1345,521,1385"/>
+<area shape="poly" id="edge179_Node000012_Node000048" title=" " alt="" coords="121,1039,136,1099,164,1179,184,1220,208,1261,236,1299,270,1331,288,1343,285,1347,266,1335,232,1302,204,1264,179,1223,159,1181,131,1101,116,1040"/>
+<area shape="rect" id="Node000049" href="$classCNA_1_1Extended_1_1VectorDraw_1_1PrimitiveBatch.html" title="A low&#45;level primitive batch that renders colored lines and filled triangles directly to the GPU using..." alt="" coords="293,1409,496,1449"/>
+<area shape="poly" id="edge180_Node000012_Node000049" title=" " alt="" coords="119,1039,130,1110,156,1207,176,1258,201,1309,232,1355,270,1395,295,1411,292,1415,266,1399,228,1358,196,1311,171,1261,151,1209,125,1112,114,1040"/>
+<area shape="rect" id="Node000050" href="$classCNA_1_1Extended_1_1ViewportAdapters_1_1ViewportAdapter.html" title="Decouples a game&#39;s virtual (design&#45;time) resolution from the actual window/backbuffer resolution." alt="" coords="273,581,516,621"/>
+<area shape="poly" id="edge181_Node000012_Node000050" title=" " alt="" coords="123,987,166,894,217,775,228,737,233,704,243,674,266,642,301,619,304,624,270,646,247,676,239,705,234,738,223,777,171,897,128,990"/>
+<area shape="rect" id="Node000014" href="$classCNA_1_1Extended_1_1Animations_1_1AnimationController.html" title="Default IAnimationController implementation: frame&#45;timing, looping/ping&#45;pong, and event playback for ..." alt="" coords="590,773,791,813"/>
+<area shape="poly" id="edge142_Node000013_Node000014" title=" " alt="" coords="509,788,590,789,590,795,509,794"/>
+<area shape="rect" id="Node000017" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1EntitySystem.html" title="Base for a System that operates on the set of entities matching an AspectBuilder&#39;s requirements...." alt="" coords="600,901,781,941"/>
+<area shape="poly" id="edge145_Node000016_Node000017" title=" " alt="" coords="484,916,600,917,599,923,484,921"/>
+<area shape="rect" id="Node000025" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1IDrawSystem.html" title="An ISystem that draws once per frame. See UpdateSystem.hpp&#39;s header comment for why ISystem is inheri..." alt="" coords="600,1151,781,1191"/>
+<area shape="poly" id="edge159_Node000016_Node000025" title=" " alt="" coords="485,929,523,947,552,969,579,995,625,1052,660,1107,682,1149,678,1152,655,1109,620,1055,575,999,548,973,520,952,483,934"/>
+<area shape="rect" id="Node000033" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1IUpdateSystem.html" title="An ISystem that updates once per frame." alt="" coords="593,837,788,877"/>
+<area shape="poly" id="edge162_Node000016_Node000033" title=" " alt="" coords="484,897,593,874,594,880,485,902"/>
+<area shape="rect" id="Node000018" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1EntityDrawSystem.html" title="An EntitySystem that also draws once per frame." alt="" coords="874,1151,1089,1191"/>
+<area shape="poly" id="edge146_Node000017_Node000018" title=" " alt="" coords="728,949,958,1148,955,1152,724,953"/>
+<area shape="rect" id="Node000027" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1EntityUpdateSystem.html" title="An EntitySystem that also updates once per frame." alt="" coords="867,837,1095,877"/>
+<area shape="poly" id="edge153_Node000017_Node000027" title=" " alt="" coords="794,896,889,875,890,880,795,901"/>
+<area shape="rect" id="Node000019" href="$classCNA_1_1Extended_1_1World3DEXT_1_1BillboardRenderSystemEXT.html" title="Draws every entity with a BillboardComponentEXT as a camera&#45;facing textured quad." alt="" coords="1164,1157,1372,1197"/>
+<area shape="poly" id="edge147_Node000018_Node000019" title=" " alt="" coords="1102,1171,1164,1172,1164,1178,1102,1176"/>
+<area shape="rect" id="Node000020" href="$classCNA_1_1Extended_1_1World3DEXT_1_1CubeMeshRenderSystemEXT.html" title="Draws every entity with a CubeMeshComponentEXT as an axis&#45;aligned textured box, scaled by SizeEXT,..." alt="" coords="1159,1221,1377,1261"/>
+<area shape="poly" id="edge148_Node000018_Node000020" title=" " alt="" coords="1077,1191,1186,1219,1185,1224,1076,1197"/>
+<area shape="rect" id="Node000021" href="$classCNA_1_1Extended_1_1World3DEXT_1_1DebugDrawSystemEXT.html" title="Draws every active entity&#39;s DebugDrawComponentEXT::LinesEXT each frame as a single batched line list." alt="" coords="1165,1285,1371,1325"/>
+<area shape="poly" id="edge149_Node000018_Node000021" title=" " alt="" coords="1095,1195,1104,1201,1121,1218,1129,1237,1137,1255,1152,1271,1173,1283,1170,1288,1149,1275,1132,1258,1124,1239,1117,1221,1101,1205,1092,1199"/>
+<area shape="rect" id="Node000022" href="$classCNA_1_1Extended_1_1World3DEXT_1_1ParticleRenderSystem3DEXT.html" title="Draws every active particle across every entity&#39;s ParticleEffectComponentEXT as a camera&#45;facing billb..." alt="" coords="1160,1349,1376,1389"/>
+<area shape="poly" id="edge150_Node000018_Node000022" title=" " alt="" coords="1100,1197,1105,1201,1119,1218,1126,1235,1129,1270,1133,1303,1139,1320,1152,1335,1168,1347,1165,1351,1149,1339,1135,1322,1128,1305,1124,1270,1121,1236,1114,1220,1101,1205,1096,1201"/>
+<area shape="rect" id="Node000023" href="$classCNA_1_1Extended_1_1World3DEXT_1_1RenderSystem3DEXT.html" title="Draws every entity with a ModelComponentEXT and/or SkinnedModelComponentEXT via Camera3DEXT&#39;s current..." alt="" coords="1165,1029,1371,1069"/>
+<area shape="poly" id="edge151_Node000018_Node000023" title=" " alt="" coords="1025,1141,1083,1109,1150,1079,1184,1067,1186,1072,1152,1084,1086,1114,1028,1146"/>
+<area shape="rect" id="Node000024" href="$classCNA_1_1Extended_1_1World3DEXT_1_1TextBillboardRenderSystemEXT.html" title="Draws every entity with a Text3DEXT as a camera&#45;facing billboarded text mesh." alt="" coords="1151,1093,1385,1133"/>
+<area shape="poly" id="edge152_Node000018_Node000024" title=" " alt="" coords="1095,1145,1167,1131,1168,1136,1096,1151"/>
+<area shape="rect" id="Node000028" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1EntityProcessingSystem.html" title="An EntityUpdateSystem that calls Process() once per active entity each Update, bracketed by Begin()/E..." alt="" coords="1167,694,1369,749"/>
+<area shape="poly" id="edge154_Node000027_Node000028" title=" " alt="" coords="1091,829,1101,823,1116,808,1125,793,1133,776,1149,759,1170,747,1173,751,1152,763,1137,779,1129,795,1121,811,1104,827,1094,834"/>
+<area shape="rect" id="Node000029" href="$classCNA_1_1Extended_1_1World3DEXT_1_1AnimatedBillboardSystemEXT.html" title="Advances every entity&#39;s AnimatedBillboardComponentEXT and updates its sibling BillboardComponentEXT&#39;s..." alt="" coords="1155,773,1381,813"/>
+<area shape="poly" id="edge155_Node000027_Node000029" title=" " alt="" coords="1084,832,1177,811,1178,816,1086,837"/>
+<area shape="rect" id="Node000030" href="$classCNA_1_1Extended_1_1World3DEXT_1_1AnimationSystem3DEXT.html" title="Advances every entity&#39;s SkinnedModelComponentEXT playback position and recomputes its BoneTransformsE..." alt="" coords="1165,837,1371,877"/>
+<area shape="poly" id="edge156_Node000027_Node000030" title=" " alt="" coords="1109,855,1165,855,1165,860,1109,860"/>
+<area shape="rect" id="Node000031" href="$classCNA_1_1Extended_1_1World3DEXT_1_1ParticleUpdateSystem3DEXT.html" title="Advances every entity&#39;s ParticleEffectComponentEXT each frame." alt="" coords="1159,901,1377,941"/>
+<area shape="poly" id="edge157_Node000027_Node000031" title=" " alt="" coords="1086,878,1178,899,1177,904,1084,883"/>
+<area shape="rect" id="Node000032" href="$classCNA_1_1Extended_1_1World3DEXT_1_1TransformHierarchySystemEXT.html" title="Resolves each Transform3ComponentEXT&#39;s ParentEntityIdEXT into a real Transform3 parent/child relation..." alt="" coords="1152,965,1384,1005"/>
+<area shape="poly" id="edge158_Node000027_Node000032" title=" " alt="" coords="1025,883,1084,918,1152,951,1185,963,1183,968,1150,956,1081,922,1023,887"/>
+<area shape="poly" id="edge161_Node000025_Node000018" title=" " alt="" coords="795,1168,874,1168,874,1173,795,1173"/>
+<area shape="rect" id="Node000026" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1DrawSystem.html" title="Convenience base for an IDrawSystem with no&#45;op Dispose/Initialize defaults." alt="" coords="893,1215,1070,1255"/>
+<area shape="poly" id="edge160_Node000025_Node000026" title=" " alt="" coords="795,1191,893,1213,892,1218,794,1196"/>
+<area shape="poly" id="edge163_Node000033_Node000027" title=" " alt="" coords="802,855,867,855,867,860,802,860"/>
+<area shape="rect" id="Node000034" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1UpdateSystem.html" title="Convenience base for an IUpdateSystem with no&#45;op Dispose/Initialize defaults." alt="" coords="886,773,1077,813"/>
+<area shape="poly" id="edge164_Node000033_Node000034" title=" " alt="" coords="795,832,889,811,891,816,796,837"/>
+<area shape="rect" id="Node000035" href="$classCNA_1_1Extended_1_1ECS_1_1ComponentManager.html" title="Owns and looks up per&#45;component&#45;type ComponentMapperOf&lt;T&gt; storage, and derives each entity&#39;s Componen..." alt="" coords="1187,629,1349,669"/>
+<area shape="poly" id="edge165_Node000034_Node000035" title=" " alt="" coords="1088,768,1101,759,1117,741,1124,721,1132,701,1149,681,1185,662,1187,666,1152,685,1136,703,1129,723,1122,744,1104,763,1091,772"/>
+<area shape="rect" id="Node000036" href="$classCNA_1_1Extended_1_1ECS_1_1EntityManager.html" title="Owns entity ID assignment/reuse, tracks each entity&#39;s ComponentBits, and raises Added/Removed/Changed..." alt="" coords="1192,565,1344,605"/>
+<area shape="poly" id="edge166_Node000034_Node000036" title=" " alt="" coords="1087,770,1101,759,1115,742,1121,725,1124,689,1127,652,1134,634,1149,615,1169,601,1191,592,1193,597,1171,606,1152,619,1139,636,1132,654,1129,690,1127,726,1119,745,1105,763,1091,774"/>
+<area shape="rect" id="Node000042" href="$classCNA_1_1Extended_1_1Screens_1_1GameScreen.html" title="A Screen with convenient access to the owning Game&#39;s core services (Content, GraphicsDevice,..." alt="" coords="601,1215,780,1255"/>
+<area shape="poly" id="edge172_Node000041_Node000042" title=" " alt="" coords="498,1234,601,1233,601,1238,498,1239"/>
+<area shape="rect" id="Node000043" href="$classCNA_1_1Extended_1_1World3DEXT_1_1World3DScreenEXT.html" title="Convenience Screen base class owning an ECS::World + Camera3DEXT, tying together every World3DEXT sys..." alt="" coords="587,1279,794,1319"/>
+<area shape="poly" id="edge173_Node000041_Node000043" title=" " alt="" coords="498,1256,594,1276,593,1281,497,1261"/>
+<area shape="rect" id="Node000045" href="$classCNA_1_1Extended_1_1Screens_1_1Transitions_1_1ExpandTransition.html" title="A Transition that expands/collapses a solid&#45;color rectangle from the center of the viewport." alt="" coords="581,453,800,493"/>
+<area shape="poly" id="edge175_Node000044_Node000045" title=" " alt="" coords="497,492,581,482,581,488,498,497"/>
+<area shape="rect" id="Node000046" href="$classCNA_1_1Extended_1_1Screens_1_1Transitions_1_1FadeTransition.html" title="A Transition that fades the whole viewport to/from a solid color." alt="" coords="590,389,791,429"/>
+<area shape="poly" id="edge176_Node000044_Node000046" title=" " alt="" coords="496,480,520,471,544,455,568,439,599,427,601,432,571,444,547,460,523,476,498,485"/>
+<area shape="rect" id="Node000051" href="$classCNA_1_1Extended_1_1ViewportAdapters_1_1DefaultViewportAdapter.html" title="A pass&#45;through ViewportAdapter with no scaling; VirtualWidth/Height always match the actual viewport." alt="" coords="569,645,812,685"/>
+<area shape="poly" id="edge182_Node000050_Node000051" title=" " alt="" coords="502,622,598,643,597,648,501,627"/>
+<area shape="rect" id="Node000052" href="$classCNA_1_1Extended_1_1ViewportAdapters_1_1ScalingViewportAdapter.html" title="A ViewportAdapter with a fixed virtual resolution, scaled (independently in X/Y) to fill the actual v..." alt="" coords="569,517,812,557"/>
+<area shape="poly" id="edge183_Node000050_Node000052" title=" " alt="" coords="501,576,597,555,598,560,502,581"/>
+<area shape="rect" id="Node000054" href="$classCNA_1_1Extended_1_1ViewportAdapters_1_1WindowViewportAdapter.html" title="A ViewportAdapter whose virtual resolution always tracks the window&#39;s client area exactly." alt="" coords="569,581,812,621"/>
+<area shape="poly" id="edge185_Node000050_Node000054" title=" " alt="" coords="530,599,569,599,569,604,530,604"/>
+<area shape="rect" id="Node000053" href="$classCNA_1_1Extended_1_1ViewportAdapters_1_1BoxingViewportAdapter.html" title="A ScalingViewportAdapter that letterboxes/pillarboxes to preserve aspect ratio, with a croppable safe..." alt="" coords="860,517,1103,557"/>
+<area shape="poly" id="edge184_Node000052_Node000053" title=" " alt="" coords="825,535,860,535,860,540,825,540"/>
+<area shape="rect" id="Node000060" href="$classCNA_1_1Extended_1_1Input_1_1InputListeners_1_1InputListener.html" title="Abstract base for input listeners (keyboard, mouse, gamepad, touch), each polling and diffing device ..." alt="" coords="5,197,220,237"/>
+<area shape="rect" id="Node000059" href="$classCNA_1_1Extended_1_1Input_1_1InputListeners_1_1GamePadListener.html" title="Polls one controller&#39;s state each Update() and raises button/trigger/thumbstick events." alt="" coords="273,101,517,141"/>
+<area shape="poly" id="edge186_Node000060_Node000059" title=" " alt="" coords="169,189,267,151,307,139,309,144,269,156,171,194"/>
+<area shape="rect" id="Node000061" href="$classCNA_1_1Extended_1_1Input_1_1InputListeners_1_1KeyboardListener.html" title="Polls keyboard state each Update() and raises KeyPressed/KeyReleased/KeyTyped events for state change..." alt="" coords="273,165,516,205"/>
+<area shape="poly" id="edge187_Node000060_Node000061" title=" " alt="" coords="233,201,273,196,273,202,234,206"/>
+<area shape="rect" id="Node000062" href="$classCNA_1_1Extended_1_1Input_1_1InputListeners_1_1MouseListener.html" title="Polls mouse state each Update() and raises click/double&#45;click/drag/move/wheel events." alt="" coords="282,229,507,269"/>
+<area shape="poly" id="edge188_Node000060_Node000062" title=" " alt="" coords="234,228,282,234,282,239,233,234"/>
+<area shape="rect" id="Node000063" href="$classCNA_1_1Extended_1_1Input_1_1InputListeners_1_1TouchListener.html" title="Polls the touch panel each Update() and raises started/moved/ended/cancelled events per touch locatio..." alt="" coords="285,293,504,333"/>
+<area shape="poly" id="edge189_Node000060_Node000063" title=" " alt="" coords="171,240,269,279,309,291,307,296,267,284,169,245"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Collections_1_1IObservableCollection.html" title="Interface for collections that can be observed." alt="" coords="7,69,218,109"/>
+<area shape="poly" id="edge190_Node000002_Node000001" title=" " alt="" coords="231,73,291,66,291,72,232,79"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="52,333,173,358"/>
+<area shape="poly" id="edge191_Node000003_Node000001" title=" " alt="" coords="143,323,182,290,218,248,229,226,234,205,236,165,241,126,250,107,266,87,290,71,293,76,270,91,254,110,246,128,241,165,239,205,234,227,222,251,186,294,146,327"/>
+<area shape="poly" id="edge198_Node000003_Node000006" title=" " alt="" coords="159,362,193,385,222,416,241,455,247,492,245,527,240,561,236,594,237,626,247,658,270,691,291,707,288,712,266,695,242,661,232,627,231,593,235,560,240,526,241,492,235,456,218,419,190,389,156,367"/>
+<area shape="poly" id="edge197_Node000003_Node000044" title=" " alt="" coords="150,363,185,387,222,415,236,431,245,446,254,459,269,471,306,488,304,493,267,476,250,462,241,449,232,434,218,419,182,391,147,368"/>
+<area shape="poly" id="edge202_Node000003_Node000050" title=" " alt="" coords="155,362,190,385,222,416,240,448,246,478,252,506,270,536,300,560,335,579,332,584,297,565,266,539,247,508,240,479,235,450,218,419,186,389,152,367"/>
+<area shape="poly" id="edge193_Node000003_Node000059" title=" " alt="" coords="141,322,180,289,218,248,232,222,238,198,247,174,266,151,285,139,288,144,270,155,251,177,243,199,237,223,222,251,184,293,145,326"/>
+<area shape="poly" id="edge194_Node000003_Node000061" title=" " alt="" coords="136,321,204,261,267,215,296,203,298,208,269,220,208,265,140,325"/>
+<area shape="poly" id="edge195_Node000003_Node000062" title=" " alt="" coords="153,325,267,279,307,267,309,272,269,284,155,329"/>
+<area shape="poly" id="edge196_Node000003_Node000063" title=" " alt="" coords="187,334,284,323,285,328,187,340"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1FramesPerSecondCounter.html" title="Tracks the number of frames drawn per second by counting Draw() calls each second of Update() time." alt="" coords="297,357,493,397"/>
+<area shape="poly" id="edge192_Node000003_Node000004" title=" " alt="" coords="187,351,297,364,296,369,187,356"/>
+<area shape="rect" id="Node000056" href="$classCNA_1_1Extended_1_1Timers_1_1GameTimer.html" title="Abstract base for timers driven by GameTime::ElapsedGameTime, exposing Start/Stop/Pause lifecycle eve..." alt="" coords="309,421,481,461"/>
+<area shape="poly" id="edge199_Node000003_Node000056" title=" " alt="" coords="155,361,269,407,309,419,308,424,267,412,153,366"/>
+<area shape="rect" id="Node000057" href="$classCNA_1_1Extended_1_1Timers_1_1ContinuousClock.html" title="A GameTimer that raises Tick repeatedly, once every Interval, while running." alt="" coords="605,261,777,301"/>
+<area shape="poly" id="edge200_Node000056_Node000057" title=" " alt="" coords="492,423,520,407,530,396,537,385,543,361,549,336,556,323,568,311,603,292,606,297,571,315,560,326,554,338,548,362,542,387,535,399,523,411,495,428"/>
+<area shape="rect" id="Node000058" href="$classCNA_1_1Extended_1_1Timers_1_1CountdownTimer.html" title="A GameTimer that counts down from Interval to zero, then transitions to Completed." alt="" coords="605,325,777,365"/>
+<area shape="poly" id="edge201_Node000056_Node000058" title=" " alt="" coords="493,417,520,407,544,391,568,375,603,362,605,367,571,380,547,396,523,412,495,422"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="351,655,439,681"/>
+<area shape="poly" id="edge203_Node000010_Node000007" title=" " alt="" coords="453,677,522,691,597,707,596,712,521,696,452,682"/>
+<area shape="rect" id="Node000055" title=" " alt="" coords="43,738,183,763"/>
+<area shape="poly" id="edge204_Node000055_Node000006" title=" " alt="" coords="196,741,289,732,289,737,196,746"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="62,429,163,454"/>
+<area shape="poly" id="edge206_Node000005_Node000006" title=" " alt="" coords="125,466,144,514,174,576,216,638,241,667,270,691,290,703,288,708,266,696,237,671,212,642,169,578,139,517,120,468"/>
+<area shape="poly" id="edge205_Node000005_Node000004" title=" " alt="" coords="177,424,305,395,307,400,178,429"/>
+<area shape="poly" id="edge207_Node000005_Node000056" title=" " alt="" coords="178,439,308,439,308,444,178,444"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Animations::IAnimationController" name="CNA::Extended::Animations::IAnimationController">
+<area shape="rect" id="Node000001" title="Controls playback of an IAnimation: frame timing, looping/ping&#45;pong direction, and animation events." alt="" coords="5,79,207,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="29,5,183,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
+</map>

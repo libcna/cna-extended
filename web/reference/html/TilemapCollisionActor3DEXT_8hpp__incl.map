@@ -1,0 +1,17 @@
+<map id="CNA/Extended/World3DEXT/TilemapCollisionActor3DEXT.hpp" name="CNA/Extended/World3DEXT/TilemapCollisionActor3DEXT.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="335,5,573,45"/>
+<area shape="rect" id="Node000002" href="$ICollisionActor3DEXT_8hpp.html" title=" " alt="" coords="355,93,553,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="457,46,457,79,451,79,451,46"/>
+<area shape="rect" id="Node000003" href="$CollisionShape3DEXT_8hpp.html" title=" " alt="" coords="355,181,553,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,134,457,167,451,167,451,134"/>
+<area shape="rect" id="Node000004" href="$CollisionResult3DEXT_8hpp.html" title=" " alt="" coords="5,269,204,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="378,224,195,269,194,263,377,219"/>
+<area shape="rect" id="Node000006" href="$CollisionShapeKind3DEXT_8hpp.html" title=" " alt="" coords="229,269,450,309"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="430,224,377,263,374,259,427,219"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="475,269,663,309"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="481,219,534,259,531,263,478,224"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="687,269,875,309"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="526,219,697,263,695,268,525,224"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="11,357,199,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="107,310,107,343,102,343,102,310"/>
+</map>

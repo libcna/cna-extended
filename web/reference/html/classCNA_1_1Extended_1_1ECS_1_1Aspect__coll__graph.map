@@ -1,0 +1,5 @@
+<map id="CNA::Extended::ECS::Aspect" name="CNA::Extended::ECS::Aspect">
+<area shape="rect" id="Node000001" title="A component&#45;composition filter: which component types an entity must have, must not have,..." alt="" coords="5,137,157,177"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1ECS_1_1ComponentBits.html" title="A fixed 256&#45;bit field tracking which component types (by ID) are present on an entity." alt="" coords="5,5,157,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,59,84,137,79,137,79,59"/>
+</map>

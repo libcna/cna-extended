@@ -1,0 +1,25 @@
+<map id="CNA::Extended::Particles::Modifiers::Modifier" name="CNA::Extended::Particles::Modifiers::Modifier">
+<area shape="rect" id="Node000001" title="Base class for particle modifiers: alters particle properties over time, at a configurable update fre..." alt="" coords="5,371,188,411"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1AgeModifier.html" title="Applies a collection of Interpolators to each particle, driven by the particle&#39;s age (as a fraction o..." alt="" coords="273,5,456,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,357,111,293,135,211,153,168,175,127,202,89,234,55,252,43,272,34,274,39,255,48,238,59,206,92,180,130,158,171,140,213,117,294,105,358"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Containers_1_1CircleContainerModifier.html" title="Constrains particles inside (or outside) a circle centered at each particle&#39;s trigger position,..." alt="" coords="273,70,456,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,357,121,307,148,247,185,186,208,158,234,134,272,113,275,117,238,138,212,162,190,189,153,250,126,309,110,358"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Containers_1_1RectangleContainerModifier.html" title="Constrains particles inside a rectangle centered at each particle&#39;s trigger position,..." alt="" coords="259,149,470,203"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,357,161,284,195,246,234,212,257,200,260,204,238,217,199,249,165,288,117,360"/>
+<area shape="rect" id="Node000005" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Containers_1_1RectangleLoopContainerModifier.html" title="Wraps particles to the opposite edge when they cross a rectangle centered at each particle&#39;s trigger ..." alt="" coords="243,227,486,282"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="131,360,179,325,235,292,264,280,267,284,237,297,182,330,134,364"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1DragModifier.html" title="Applies fluid&#45;resistance drag to particles, damping their velocity proportional to velocity * mass * ..." alt="" coords="273,307,456,347"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="194,365,280,344,281,349,195,370"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1LinearGravityModifier.html" title="Applies a constant directional force (proportional to each particle&#39;s mass), simulating gravity or wi..." alt="" coords="245,371,484,411"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="202,388,245,388,245,393,202,393"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1OpacityFastFadeModifier.html" title="Sets each particle&#39;s opacity to (1 &#45; Age) every update, fading it out linearly over a 1&#45;second lifesp..." alt="" coords="236,435,493,475"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="195,411,281,432,280,437,194,417"/>
+<area shape="rect" id="Node000009" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1RotationModifier.html" title="Applies a constant rotational velocity (RotationRate radians/second) to particles." alt="" coords="261,499,468,539"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="134,417,181,452,237,484,268,496,267,501,235,489,178,457,130,422"/>
+<area shape="rect" id="Node000010" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1VelocityColorModifier.html" title="Colors particles between StationaryColor and VelocityColor based on their speed relative to VelocityT..." alt="" coords="246,563,483,603"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="119,421,167,486,200,520,237,548,261,560,258,565,235,553,197,524,163,490,115,424"/>
+<area shape="rect" id="Node000011" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1VelocityModifier.html" title="Applies a collection of Interpolators to particles, with intensity based on velocity magnitude relati..." alt="" coords="263,627,466,667"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="111,422,130,466,156,518,192,569,214,592,238,612,265,627,262,632,234,617,210,596,188,573,152,520,125,468,107,424"/>
+<area shape="rect" id="Node000012" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1VortexModifier.html" title="Applies a rotated gravitational force around a center point, creating spiral/orbital/vortex particle ..." alt="" coords="268,691,461,731"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="107,423,121,479,147,548,185,618,209,649,238,677,269,694,266,699,234,681,205,653,180,620,142,550,116,480,102,424"/>
+</map>

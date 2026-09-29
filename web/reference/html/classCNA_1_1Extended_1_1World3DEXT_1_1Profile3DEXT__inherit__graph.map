@@ -1,0 +1,19 @@
+<map id="CNA::Extended::World3DEXT::Profile3DEXT" name="CNA::Extended::World3DEXT::Profile3DEXT">
+<area shape="rect" id="Node000001" title="Base class for particle emission profiles: computes the initial offset and heading for each newly rel..." alt="" coords="5,229,212,269"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1BoxFillProfile3DEXT.html" title="Emits particles from anywhere within a box volume (centered at the origin), random headings." alt="" coords="260,5,467,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,216,147,179,177,135,215,92,258,55,280,43,283,48,262,60,219,96,182,139,151,182,129,218"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1World3DEXT_1_1BoxProfile3DEXT.html" title="Emits particles from one of the six faces of a box (equal probability per face, centered at the origi..." alt="" coords="260,69,467,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,217,190,167,223,141,259,119,285,107,287,112,261,124,226,146,194,171,140,221"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1World3DEXT_1_1BoxUniformProfile3DEXT.html" title="Emits particles from the surface of a box (centered at the origin), each face weighted by its area,..." alt="" coords="260,133,467,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,221,259,183,294,171,296,176,261,188,168,226"/>
+<area shape="rect" id="Node000005" href="$classCNA_1_1Extended_1_1World3DEXT_1_1CircleProfile3DEXT.html" title="Emits particles from anywhere within a spherical volume, with a configurable radiation pattern for he..." alt="" coords="260,197,467,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="225,232,259,228,260,233,226,237"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1World3DEXT_1_1ConeProfile3DEXT.html" title="Emits all particles from a single point in a directional solid&#45;angle cone (DirectionEXT +/&#45; HalfAngle..." alt="" coords="260,261,467,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="226,261,260,266,259,271,225,267"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1World3DEXT_1_1LineProfile3DEXT.html" title="Emits particles uniformly along a 3D line segment, with a configurable radiation pattern for headings..." alt="" coords="260,325,467,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="168,273,261,311,296,323,294,328,259,316,165,277"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1World3DEXT_1_1PointProfile3DEXT.html" title="Emits all particles from a single point (no offset) with a uniformly random heading over the full sph..." alt="" coords="260,389,467,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="140,277,194,327,226,353,261,375,287,387,285,392,259,380,223,357,190,331,136,281"/>
+<area shape="rect" id="Node000009" href="$classCNA_1_1Extended_1_1World3DEXT_1_1RingProfile3DEXT.html" title="Emits particles from the surface of a sphere, with a configurable radiation pattern for headings." alt="" coords="260,453,467,493"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="129,280,151,317,182,360,219,403,262,439,283,451,280,456,258,444,215,406,177,363,147,320,125,283"/>
+</map>

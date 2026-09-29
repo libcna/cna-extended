@@ -1,0 +1,12 @@
+<map id="CNA/Extended/Collision2D.hpp" name="CNA/Extended/Collision2D.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="221,5,443,31"/>
+<area shape="rect" id="Node000002" href="$CollisionResult2D_8hpp.html" title=" " alt="" coords="5,79,229,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="302,33,183,76,181,71,300,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="98,167,286,207"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="324,32,219,158,214,155,320,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="305,79,493,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="344,29,376,66,372,70,340,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="517,86,579,111"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="369,28,506,76,511,78,509,83,504,81,367,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="136,117,168,154,164,158,132,121"/>
+</map>

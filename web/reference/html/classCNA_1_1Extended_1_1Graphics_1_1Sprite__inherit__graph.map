@@ -1,0 +1,7 @@
+<map id="CNA::Extended::Graphics::Sprite" name="CNA::Extended::Graphics::Sprite">
+<area shape="rect" id="Node000001" title="Represents a drawable 2D texture region with additional properties for rendering, such as position,..." alt="" coords="10,79,194,119"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Graphics_1_1AnimatedSprite.html" title="A Sprite that plays a named SpriteSheet animation, advancing its TextureRegion frame&#45;by&#45;frame over ti..." alt="" coords="10,167,194,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="105,133,105,166,99,166,99,133"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1IColorable.html" title="Defines an object with a color." alt="" coords="5,5,199,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,44,105,79,99,79,99,44"/>
+</map>

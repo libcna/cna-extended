@@ -1,0 +1,29 @@
+<map id="CNA/Extended/Serialization/Json/JsonContentLoader.hpp" name="CNA/Extended/Serialization/Json/JsonContentLoader.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="713,5,919,45"/>
+<area shape="rect" id="Node000002" href="$ContentManagerExtensions_8hpp.html" title=" " alt="" coords="545,101,778,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="786,48,706,96,703,91,783,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1012,203,1089,229"/>
+<area shape="poly" id="edge13_Node000001_Node000006" title=" " alt="" coords="817,46,820,96,828,123,843,146,861,163,878,173,914,181,953,184,1001,193,1009,196,1007,201,999,199,952,189,913,186,876,178,858,167,839,150,824,125,815,97,812,46"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,203,64,229"/>
+<area shape="poly" id="edge14_Node000001_Node000007" title=" " alt="" coords="713,35,441,56,309,74,255,84,214,96,168,117,125,144,59,196,55,192,122,140,166,113,212,91,254,79,308,69,441,51,712,29"/>
+<area shape="rect" id="Node000008" href="$MonoGameJsonSerializerOptionsProvider_8hpp.html" title=" " alt="" coords="225,93,495,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="724,48,502,93,501,88,723,43"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="853,101,1064,141"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="846,43,920,91,917,95,843,48"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1089,108,1341,133"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="897,43,1153,102,1152,107,896,48"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1365,108,1427,133"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="920,24,1014,29,1124,40,1241,59,1354,91,1370,98,1368,103,1352,96,1239,65,1123,45,1013,34,919,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="337,196,553,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="619,143,502,193,500,188,617,138"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="578,196,795,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="669,140,681,182,675,184,664,141"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="820,203,988,229"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="711,138,862,196,860,201,709,143"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="754,138,892,167,1001,193,1010,196,1008,201,999,199,891,172,753,143"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="556,143,508,151,386,162,290,166,196,173,141,183,77,199,70,201,68,196,75,193,140,178,195,168,290,160,386,157,508,145,555,138"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="386,147,421,184,417,188,382,150"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="243,151,160,172,77,199,71,201,69,196,75,193,159,167,241,145"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="87,196,313,236"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="316,150,246,191,243,187,314,146"/>
+</map>

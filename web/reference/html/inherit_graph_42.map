@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classCNA_1_1Extended_1_1Collisions_1_1ICollisionBroadphase2D.html" title="Defines a broadphase structure for collision actors." alt="" coords="5,37,196,77"/>
+<area shape="rect" id="Node000001" href="$classCNA_1_1Extended_1_1Collisions_1_1QuadTreeSpace.html" title=" " alt="" coords="244,5,435,45"/>
+<area shape="poly" id="edge11_Node000000_Node000001" title=" " alt="" coords="209,40,244,35,244,41,210,45"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Collisions_1_1SpatialHash.html" title="Stores collision actors in a fixed&#45;size spatial hash for broadphase overlap queries." alt="" coords="244,69,435,109"/>
+<area shape="poly" id="edge12_Node000000_Node000002" title=" " alt="" coords="210,69,244,74,244,79,209,75"/>
+</map>

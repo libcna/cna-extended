@@ -1,0 +1,13 @@
+<map id="CNA/Extended/HslColor.hpp" name="CNA/Extended/HslColor.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="365,5,567,31"/>
+<area shape="rect" id="Node000002" href="$ColorInterpolator_8hpp.html" title=" " alt="" coords="5,79,180,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="398,36,193,81,181,84,180,79,192,76,397,31"/>
+<area shape="rect" id="Node000003" href="$VelocityColorModifier_8hpp.html" title=" " alt="" coords="205,86,461,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="438,40,364,88,361,84,435,36"/>
+<area shape="rect" id="Node000004" href="$HslColorJsonConverter_8hpp.html" title=" " alt="" coords="485,86,716,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="497,36,572,84,570,88,494,40"/>
+<area shape="rect" id="Node000005" href="$Utf8JsonReaderExtensions_8hpp.html" title=" " alt="" coords="740,86,997,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="534,31,781,83,780,89,533,36"/>
+<area shape="rect" id="Node000006" href="$IntervalJsonConverter_8hpp.html" title=" " alt="" coords="756,181,981,221"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="871,140,871,181,866,181,866,140"/>
+</map>

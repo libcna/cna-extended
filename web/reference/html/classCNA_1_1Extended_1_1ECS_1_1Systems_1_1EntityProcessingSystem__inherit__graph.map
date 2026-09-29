@@ -1,0 +1,14 @@
+<map id="CNA::Extended::ECS::Systems::EntityProcessingSystem" name="CNA::Extended::ECS::Systems::EntityProcessingSystem">
+<area shape="rect" id="Node000001" title="An EntityUpdateSystem that calls Process() once per active entity each Update, bracketed by Begin()/E..." alt="" coords="927,30,1129,85"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1EntityUpdateSystem.html" title="An EntitySystem that also updates once per frame." alt="" coords="651,37,879,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="892,55,926,55,926,60,892,60"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1EntitySystem.html" title="Base for a System that operates on the set of entities matching an AspectBuilder&#39;s requirements...." alt="" coords="415,5,596,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="610,35,651,41,650,46,609,41"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1ISystem.html" title="Base interface for anything World can register and initialize (update and/or draw systems)." alt="" coords="208,37,360,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="373,42,414,36,415,41,374,47"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1IUpdateSystem.html" title="An ISystem that updates once per frame." alt="" coords="408,69,603,109"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="374,68,408,73,407,78,374,73"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,45,160,70"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="174,55,208,55,208,60,174,60"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="616,73,650,69,651,74,617,78"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="CNA/Extended/Particles/Primitives/LineSegment.hpp" name="CNA/Extended/Particles/Primitives/LineSegment.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,215,45"/>
+<area shape="rect" id="Node000002" href="$ParticleEffect_8hpp.html" title=" " alt="" coords="23,181,197,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,58,75,94,72,113,75,133,85,158,98,180,94,183,80,160,70,134,67,113,70,93,86,56"/>
+<area shape="rect" id="Node000004" href="$ParticleEmitter_8hpp.html" title=" " alt="" coords="85,93,260,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="134,55,161,92,157,95,130,58"/>
+<area shape="rect" id="Node000003" href="$ParticleEffectSerializer_8hpp.html" title=" " alt="" coords="11,269,209,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,235,113,269,107,269,107,235"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="153,146,126,183,122,180,149,143"/>
+</map>

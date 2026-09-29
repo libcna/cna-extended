@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Serialization::Json::ITextureRegionService" name="CNA::Extended::Serialization::Json::ITextureRegionService">
+<area shape="rect" id="Node000001" title="Locates a Texture2DRegion by name across a set of registered Texture2DAtlas instances." alt="" coords="5,5,216,45"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Serialization_1_1Json_1_1TextureRegionService.html" title="Default ITextureRegionService: a flat, ordered list of Texture2DAtlas instances searched in order." alt="" coords="7,93,215,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,59,113,93,108,93,108,59"/>
+</map>

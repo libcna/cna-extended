@@ -1,0 +1,18 @@
+<map id="CNA/Extended/Content/TexturePacker/TexturePackerFileReader.hpp" name="CNA/Extended/Content/TexturePacker/TexturePackerFileReader.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="475,5,685,60"/>
+<area shape="rect" id="Node000002" href="$TexturePackerFileContent_8hpp.html" title=" " alt="" coords="323,108,533,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="542,62,481,102,478,98,539,58"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="560,218,619,243"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="584,60,591,204,585,204,579,60"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="617,123,785,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="614,58,678,112,675,116,610,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,211,179,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,165,174,210,172,204,333,160"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="203,218,349,243"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="387,165,308,213,305,209,384,160"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="373,218,448,243"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="426,163,418,205,413,204,420,162"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="475,160,559,209,557,214,472,165"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="473,218,535,243"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="452,161,488,205,484,209,448,165"/>
+</map>

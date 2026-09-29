@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Input::InputListeners::MouseEventArgs" name="CNA::Extended::Input::InputListeners::MouseEventArgs">
+<area shape="rect" id="Node000001" title="Carries data for a MouseListener mouse event: position, button, and scroll&#45;wheel state at the time of..." alt="" coords="5,79,244,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="52,5,197,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,44,127,79,122,79,122,44"/>
+</map>

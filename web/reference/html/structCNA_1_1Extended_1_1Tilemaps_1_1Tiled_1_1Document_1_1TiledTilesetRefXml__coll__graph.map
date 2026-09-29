@@ -1,0 +1,7 @@
+<map id="CNA::Extended::Tilemaps::Tiled::Document::TiledTilesetRefXml" name="CNA::Extended::Tilemaps::Tiled::Document::TiledTilesetRefXml">
+<area shape="rect" id="Node000001" title="A tileset reference in a Tiled TMX file (can be inline or external)." alt="" coords="18,183,239,237"/>
+<area shape="rect" id="Node000002" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Tiled_1_1Document_1_1TiledTilesetXml.html" title="Represents a tileset element from a Tiled TMX or TSX file." alt="" coords="5,93,252,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,147,131,183,126,183,126,147"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="85,5,173,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,44,131,93,126,93,126,44"/>
+</map>

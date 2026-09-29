@@ -1,0 +1,9 @@
+<map id="CNA::Extended::World3DEXT::ColorInterpolator3DEXT" name="CNA::Extended::World3DEXT::ColorInterpolator3DEXT">
+<area shape="rect" id="Node000001" title="Interpolates a particle&#39;s RGB color between StartValue and EndValue over its lifetime (alpha always e..." alt="" coords="588,35,795,75"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1InterpolatorOfT3DEXT.html" title=" " alt="" coords="328,20,539,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="553,52,588,52,588,57,553,57"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Interpolator3DEXT.html" title="Base class for particle interpolators: computes a target property value from a normalized [0,..." alt="" coords="5,5,212,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,33,328,43,327,48,226,39"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="81,70,137,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="150,79,304,71,327,68,328,73,304,76,151,85"/>
+</map>

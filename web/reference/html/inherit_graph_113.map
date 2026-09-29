@@ -1,0 +1,23 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1Interpolator.html" title="Base class for particle interpolators: computes a target property value from a normalized [0,..." alt="" coords="5,243,188,297"/>
+<area shape="rect" id="Node000001" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1InterpolatorOfT.html" title=" " alt="" coords="236,55,451,109"/>
+<area shape="poly" id="edge21_Node000000_Node000001" title=" " alt="" coords="143,232,305,107,308,111,146,236"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1InterpolatorOfT.html" title=" " alt="" coords="249,183,437,237"/>
+<area shape="poly" id="edge23_Node000000_Node000003" title=" " alt="" coords="201,242,248,230,250,235,202,247"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1InterpolatorOfT.html" title=" " alt="" coords="239,281,447,336"/>
+<area shape="poly" id="edge27_Node000000_Node000007" title=" " alt="" coords="202,284,239,290,239,295,201,289"/>
+<area shape="rect" id="Node000010" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1InterpolatorOfT.html" title="Generic interpolator base holding the start/end values to interpolate between." alt="" coords="252,360,435,415"/>
+<area shape="poly" id="edge30_Node000000_Node000010" title=" " alt="" coords="156,302,237,345,266,357,264,362,235,350,153,307"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1ColorInterpolator.html" title="Interpolates a particle&#39;s HSL color between StartValue and EndValue over its lifetime." alt="" coords="499,5,681,60"/>
+<area shape="poly" id="edge22_Node000001_Node000002" title=" " alt="" coords="464,55,498,48,499,54,465,60"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1HueInterpolator.html" title="Interpolates only a particle&#39;s hue (Color[0]) between StartValue and EndValue, preserving saturation/..." alt="" coords="499,84,681,139"/>
+<area shape="poly" id="edge24_Node000003_Node000004" title=" " alt="" coords="424,175,520,136,522,141,426,180"/>
+<area shape="rect" id="Node000005" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1OpacityInterpolator.html" title="Interpolates a particle&#39;s opacity between StartValue and EndValue over its lifetime." alt="" coords="499,163,681,217"/>
+<area shape="poly" id="edge25_Node000003_Node000005" title=" " alt="" coords="451,199,498,195,499,200,452,204"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1RotationInterpolator.html" title="Interpolates a particle&#39;s rotation between StartValue and EndValue over its lifetime." alt="" coords="499,241,681,296"/>
+<area shape="poly" id="edge26_Node000003_Node000006" title=" " alt="" coords="451,233,499,244,498,250,450,238"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1ScaleInterpolator.html" title="Interpolates a particle&#39;s scale between StartValue and EndValue over its lifetime." alt="" coords="499,320,681,375"/>
+<area shape="poly" id="edge28_Node000007_Node000008" title=" " alt="" coords="461,324,499,330,498,336,460,330"/>
+<area shape="rect" id="Node000009" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1VelocityInterpolator.html" title="Interpolates a particle&#39;s velocity between StartValue and EndValue over its lifetime." alt="" coords="499,399,681,453"/>
+<area shape="poly" id="edge29_Node000007_Node000009" title=" " alt="" coords="442,339,452,345,477,364,500,384,523,396,521,401,497,388,473,368,449,350,439,344"/>
+</map>

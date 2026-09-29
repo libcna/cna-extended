@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Install, configure and link cna-extended from a C++23 CMake project." /><meta name="theme-color" content="#09101e" />
+    <title>Getting started — cna-extended</title><link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="site-header"></div><div class="site-shell"><aside class="site-sidebar" id="site-sidebar"></aside>
+      <main class="page" id="content">
+        <section class="page-section">
+          <div class="page-hero">
+            <div><p class="eyebrow"><span class="eyebrow-dot"></span> 02 · GETTING STARTED</p><h1>Get a real <span class="accent">cna</span> backend behind your game.</h1><p class="hero-copy">cna-extended is a static CMake library. You normally build it next to cna and sharp-runtime, then link the public <code>CNA::Extended</code> alias from your own executable.</p><div class="hero-actions"><a class="button primary" href="#linked-build">Build with cna <b>↓</b></a><a class="button ghost" href="architecture.html">Understand the architecture</a></div></div>
+            <div class="terminal"><div class="terminal-head"><i></i><i></i><i></i><code>terminal</code></div><pre><code><span class="comment"># From the cna-extended checkout</span>
+cmake -S . -B build \
+  -DCMAKE_BUILD_TYPE=Debug \
+  -DCNA_EXTENDED_LINK_CNA=ON
+cmake --build build -j$(nproc)
+ctest --test-dir build</code></pre><div class="terminal-foot">linked configuration: graphics, examples and runtime tests</div></div>
+          </div>
+        </section>
+
+        <section class="page-section" id="layout">
+          <div class="section-heading"><div><p class="kicker">DEPENDENCY LAYOUT</p><h2>Keep the sibling checkout model, or override the paths.</h2></div><p>The project intentionally follows the dependency pattern used by the surrounding ecosystem. It does not fetch a moving dependency tree during configuration.</p></div>
+          <div class="diagram"><p class="diagram-title">Default on-disk layout</p><div class="pipeline"><div><strong>cna-extended/</strong><small>this library</small></div><b>↔</b><div><strong>cna/</strong><small>XNA/FNA C++23 runtime and graphics backends</small></div><b>↔</b><div><strong>sharp-runtime/</strong><small>required .NET BCL surface</small></div></div></div>
+          <div class="two-columns" style="margin-top: 1.5rem"><div class="card cyan-top"><h3>Default discovery</h3><p><code>../cna</code> and <code>../sharp-runtime</code> are inspected as sibling directories. An already-defined parent <code>CNA</code> target wins, which makes embedding in a larger CMake build straightforward.</p></div><div class="card cyan-top"><h3>Custom checkout locations</h3><p>Set <code>CNA_EXTENDED_CNA_DIR</code> and <code>CNA_EXTENDED_SHARP_RUNTIME_DIR</code> when your source tree uses a different layout. The paths must expose the normal include and CMake project structure.</p></div></div>
+        </section>
+
+        <section class="page-section" id="linked-build">
+          <div class="section-heading"><div><p class="kicker">THE NORMAL BUILD</p><h2>Use the linked mode for an executable game.</h2></div><p>Anything that touches <code>GraphicsDevice</code>, <code>SpriteBatch</code>, textures, rendering-backed tilemaps or the graphics examples needs a real cna build.</p></div>
+          <ol class="steps"><li><span>1</span><div><h3>Choose a cna backend</h3><p><code>EASY_GL</code> is the default. <code>SDL_RENDERER</code>, <code>BGFX</code> and <code>VULKAN</code> are selectable with <code>CNA_EXTENDED_CNA_BACKEND</code>.</p></div></li><li><span>2</span><div><h3>Enable the backend link</h3><p>Pass <code>-DCNA_EXTENDED_LINK_CNA=ON</code>. CMake adds the sibling cna project only if a parent target does not already exist.</p></div></li><li><span>3</span><div><h3>Build and test</h3><p>Build the static library and optional examples/tests, then run <code>ctest --test-dir build</code>.</p></div></li></ol>
+          <div class="two-columns" style="margin-top: 2.1rem"><article class="code-card"><div class="code-card-head"><span>configure a backend</span><button class="copy-button" type="button">Copy</button></div><pre><code>cmake -S . -B build-easygl \
+  -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+  -DCNA_EXTENDED_LINK_CNA=ON \
+  -DCNA_EXTENDED_CNA_BACKEND=EASY_GL
+cmake --build build-easygl -j$(nproc)</code></pre></article><article class="code-card"><div class="code-card-head"><span>your CMakeLists.txt</span><button class="copy-button" type="button">Copy</button></div><pre><code>add_subdirectory(path/to/cna-extended)
+
+add_executable(my_game main.cpp)
+target_link_libraries(my_game PRIVATE CNA::Extended)
+target_compile_features(my_game PRIVATE cxx_std_23)</code></pre></article></div>
+          <div class="callout info"><b>i</b><p><strong>Warning policy:</strong> cna-extended itself builds with <code>-Wall -Wextra -Werror</code>, or <code>/W4 /WX</code> on MSVC. Treat a clean library build as the baseline before debugging runtime behaviour.</p></div>
+        </section>
+
+        <section class="page-section" id="headers-only">
+          <div class="section-heading"><div><p class="kicker">FAST API CHECKS</p><h2>Headers-only mode is useful, but intentionally limited.</h2></div><p>The default standalone configuration does not build cna. It lets you compile-check the library surface when a full graphics backend is not needed.</p></div>
+          <div class="two-columns"><div><h3>Use it for</h3><ul class="check-list"><li>Verifying include paths and C++23 compatibility.</li><li>Working on pure helper code or templates.</li><li>Fast integration checks in an environment without graphics dependencies.</li></ul></div><div><h3>Do not mistake it for</h3><ul class="check-list"><li>A runnable graphics configuration.</li><li>A way to execute rendering-backed tests.</li><li>A substitute for validating Texture2D, SpriteBatch or GraphicsDevice code.</li></ul></div></div>
+          <article class="code-card" style="margin-top: 1.4rem"><div class="code-card-head"><span>headers-only compile check</span><button class="copy-button" type="button">Copy</button></div><pre><code>cmake -S . -B build-headers \
+  -DCMAKE_BUILD_TYPE=Debug \
+  -DCNA_EXTENDED_LINK_CNA=OFF
+cmake --build build-headers -j$(nproc)</code></pre></article>
+        </section>
+
+        <section class="page-section">
+          <div class="section-heading"><div><p class="kicker">FIRST USE</p><h2>Start with a small update-only feature.</h2></div><p>Tweening is a good first module because it requires no graphics device and shows the library’s pointer-to-member style.</p></div>
+          <article class="code-card"><div class="code-card-head"><span>main.cpp</span><button class="copy-button" type="button">Copy</button></div><pre><code>#include &lt;CNA/Extended/Tweening/EasingFunctions.hpp&gt;
+#include &lt;CNA/Extended/Tweening/Tweener.hpp&gt;
+#include &lt;Microsoft/Xna/Framework/Vector2.hpp&gt;
+
+using CNA::Extended::Tweening::EasingFunctions;
+using CNA::Extended::Tweening::Tweener;
+using Microsoft::Xna::Framework::Vector2;
+
+struct Player { Vector2 Position{0.0f, 0.0f}; };
+
+Player player;
+Tweener tweener;
+tweener.TweenTo(&amp;player, &amp;Player::Position, Vector2(100.0f, 0.0f), 0.5f)
+       -&gt;Easing(EasingFunctions::QuadraticOut);
+
+// Once per frame, normally from your game's Update().
+tweener.Update(1.0f / 60.0f);</code></pre></article>
+          <div class="callout tip"><b>↗</b><p><strong>Next step:</strong> move from this isolated update loop to a tilemap-backed vertical slice. The <a href="tilemaps.html"><code>Tilemaps</code> chapter</a> shows the direct-format loading path used by the project’s end-to-end example.</p></div>
+        </section>
+      </main>
+    </div><div id="site-footer"></div><script src="app.js"></script>
+  </body>
+</html>

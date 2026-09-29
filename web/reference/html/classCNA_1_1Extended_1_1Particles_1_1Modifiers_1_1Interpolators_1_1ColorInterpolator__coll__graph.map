@@ -1,0 +1,9 @@
+<map id="CNA::Extended::Particles::Modifiers::Interpolators::ColorInterpolator" name="CNA::Extended::Particles::Modifiers::Interpolators::ColorInterpolator">
+<area shape="rect" id="Node000001" title="Interpolates a particle&#39;s HSL color between StartValue and EndValue over its lifetime." alt="" coords="568,37,751,92"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1InterpolatorOfT.html" title=" " alt="" coords="304,37,519,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="532,62,568,62,568,67,532,67"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1Interpolator.html" title="Base class for particle interpolators: computes a target property value from a normalized [0,..." alt="" coords="5,5,188,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,41,304,51,304,56,201,46"/>
+<area shape="rect" id="Node000004" href="$structCNA_1_1Extended_1_1HslColor.html" title="Represents a color in the HSL (Hue, Saturation, Lightness) color space." alt="" coords="5,84,188,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="202,90,280,83,303,80,304,86,280,89,202,95"/>
+</map>

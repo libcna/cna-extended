@@ -1,0 +1,5 @@
+<map id="CNA::Extended::Graphics::SpriteSheetAnimation" name="CNA::Extended::Graphics::SpriteSheetAnimation">
+<area shape="rect" id="Node000001" title="A named, ordered sequence of sprite sheet animation frames with looping/direction behavior." alt="" coords="14,93,198,133"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Animations_1_1IAnimation.html" title="Defines a named sequence of animation frames with looping/direction behavior." alt="" coords="5,5,207,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,59,109,93,103,93,103,59"/>
+</map>

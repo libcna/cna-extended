@@ -1,0 +1,7 @@
+<map id="CNA::Extended::Collisions::ICollisionBroadphase2D" name="CNA::Extended::Collisions::ICollisionBroadphase2D">
+<area shape="rect" id="Node000001" title="Defines a broadphase structure for collision actors." alt="" coords="112,5,303,45"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Collisions_1_1QuadTreeSpace.html" title=" " alt="" coords="5,93,196,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,56,126,95,123,91,171,52"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Collisions_1_1SpatialHash.html" title="Stores collision actors in a fixed&#45;size spatial hash for broadphase overlap queries." alt="" coords="220,93,411,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,52,293,91,290,95,240,56"/>
+</map>

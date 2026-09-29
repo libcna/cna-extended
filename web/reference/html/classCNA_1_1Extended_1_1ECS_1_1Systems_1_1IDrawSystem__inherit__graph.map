@@ -1,0 +1,23 @@
+<map id="CNA::Extended::ECS::Systems::IDrawSystem" name="CNA::Extended::ECS::Systems::IDrawSystem">
+<area shape="rect" id="Node000001" title="An ISystem that draws once per frame. See UpdateSystem.hpp&#39;s header comment for why ISystem is inheri..." alt="" coords="408,133,589,173"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1DrawSystem.html" title="Convenience base for an IDrawSystem with no&#45;op Dispose/Initialize defaults." alt="" coords="656,101,833,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="603,137,656,130,656,135,603,142"/>
+<area shape="rect" id="Node000005" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1EntityDrawSystem.html" title="An EntitySystem that also draws once per frame." alt="" coords="637,165,852,205"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="603,164,637,169,637,174,603,170"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1ISystem.html" title="Base interface for anything World can register and initialize (update and/or draw systems)." alt="" coords="208,133,360,173"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="374,151,408,151,408,156,374,156"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,141,160,166"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,151,208,151,208,156,174,156"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1World3DEXT_1_1BillboardRenderSystemEXT.html" title="Draws every entity with a BillboardComponentEXT as a camera&#45;facing textured quad." alt="" coords="913,5,1121,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="844,156,850,151,861,140,867,129,873,105,880,80,887,67,898,55,917,43,919,48,902,59,891,70,885,82,878,106,872,131,865,143,854,155,847,160"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1World3DEXT_1_1CubeMeshRenderSystemEXT.html" title="Draws every entity with a CubeMeshComponentEXT as an axis&#45;aligned textured box, scaled by SizeEXT,..." alt="" coords="908,69,1127,109"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="834,158,851,151,874,135,899,119,930,107,932,112,901,124,877,139,853,156,836,163"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1World3DEXT_1_1DebugDrawSystemEXT.html" title="Draws every active entity&#39;s DebugDrawComponentEXT::LinesEXT each frame as a single batched line list." alt="" coords="914,133,1121,173"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="865,168,913,163,914,168,866,174"/>
+<area shape="rect" id="Node000009" href="$classCNA_1_1Extended_1_1World3DEXT_1_1ParticleRenderSystem3DEXT.html" title="Draws every active particle across every entity&#39;s ParticleEffectComponentEXT as a camera&#45;facing billb..." alt="" coords="909,197,1125,237"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="866,197,910,202,909,207,865,202"/>
+<area shape="rect" id="Node000010" href="$classCNA_1_1Extended_1_1World3DEXT_1_1RenderSystem3DEXT.html" title="Draws every entity with a ModelComponentEXT and/or SkinnedModelComponentEXT via Camera3DEXT&#39;s current..." alt="" coords="914,261,1121,301"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="804,208,901,247,939,259,937,264,899,252,802,213"/>
+<area shape="rect" id="Node000011" href="$classCNA_1_1Extended_1_1World3DEXT_1_1TextBillboardRenderSystemEXT.html" title="Draws every entity with a Text3DEXT as a camera&#45;facing billboarded text mesh." alt="" coords="900,325,1135,365"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="776,213,831,264,865,289,901,311,929,323,927,328,899,316,862,294,828,268,773,217"/>
+</map>

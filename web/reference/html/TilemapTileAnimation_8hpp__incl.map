@@ -1,0 +1,7 @@
+<map id="CNA/Extended/Tilemaps/TilemapTileAnimation.hpp" name="CNA/Extended/Tilemaps/TilemapTileAnimation.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="112,5,311,45"/>
+<area shape="rect" id="Node000002" href="$TilemapTileAnimationFrame_8hpp.html" title=" " alt="" coords="5,93,244,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,48,155,85,152,82,190,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="268,101,331,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,44,279,89,275,92,229,48"/>
+</map>

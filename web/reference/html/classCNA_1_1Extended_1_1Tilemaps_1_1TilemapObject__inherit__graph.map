@@ -1,0 +1,17 @@
+<map id="CNA::Extended::Tilemaps::TilemapObject" name="CNA::Extended::Tilemaps::TilemapObject">
+<area shape="rect" id="Node000001" title="Abstract base for all tilemap objects (points, shapes, tiles, text) placed on an object layer." alt="" coords="5,197,192,237"/>
+<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Tilemaps_1_1TilemapEllipseObject.html" title="An elliptical object in a tilemap." alt="" coords="242,5,429,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,184,168,119,201,85,239,55,261,43,263,48,241,60,205,89,172,123,122,187"/>
+<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPointObject.html" title="A point object in a tilemap with no spatial extent." alt="" coords="242,69,429,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,187,182,152,239,119,266,107,268,112,241,124,185,157,137,191"/>
+<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolygonObject.html" title="A closed polygonal object in a tilemap." alt="" coords="242,133,429,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="186,191,260,171,262,176,187,196"/>
+<area shape="rect" id="Node000005" href="$classCNA_1_1Extended_1_1Tilemaps_1_1TilemapPolylineObject.html" title="An open polyline (unclosed polygon) object in a tilemap: a series of connected line segments,..." alt="" coords="242,197,429,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="206,215,242,215,242,220,206,220"/>
+<area shape="rect" id="Node000006" href="$classCNA_1_1Extended_1_1Tilemaps_1_1TilemapRectangleObject.html" title="A rectangular object in a tilemap." alt="" coords="240,261,431,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="187,238,262,259,260,264,186,244"/>
+<area shape="rect" id="Node000007" href="$classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTextObject.html" title="A text object in a tilemap. Stores text display information only; rendering is the caller&#39;s responsib..." alt="" coords="242,325,429,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="137,244,185,278,241,311,268,323,266,328,239,316,182,283,134,248"/>
+<area shape="rect" id="Node000008" href="$classCNA_1_1Extended_1_1Tilemaps_1_1TilemapTileObject.html" title="An object that displays a tile from a tileset." alt="" coords="242,389,429,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="122,247,172,312,205,346,241,375,263,387,261,392,239,380,201,350,168,315,118,250"/>
+</map>
