@@ -15,7 +15,12 @@ in `plan.md`, `plan3d.md`, and `3d.md`.
 
 ## Verified dependencies and result
 
-- `cna`: `8dc7a7b9945693b7f83a89e8f5e868caac5f9125`
+- Local `cna`: `8dc7a7b9945693b7f83a89e8f5e868caac5f9125`
+- CI `cna`: `c40d00823fbb39bad4e8a5d998715b492904793f` (published).
+  The local revision is not yet available on GitHub; its only production
+  change since the CI revision is `Game::Tick` exit handling. The full linked
+  build and 2371-case suite also passed against `c40d00823` before this
+  maintainer handoff.
 - `sharp-runtime`: `88f6b11fbb8b9d1db1b9451e86f8835e1c9cafaa`
 - Linked build: C++23, CNA `SOFTWARE` renderer, `HEADLESS` platform, `NULL`
   audio, `CNA_ENABLE_SDL=OFF`, `CNA_ENABLE_VIDEO=OFF`; zero compiler warnings.
@@ -26,8 +31,8 @@ in `plan.md`, `plan3d.md`, and `3d.md`.
 - Website: Doxygen generated `web/reference/html/index.html` from the public
   headers, and all source-page local links resolved.
 
-These are the dependency commits pinned in CI. Update this section and the CI
-refs together after testing newer revisions. The two skips and other current
+CI pins the published revisions above. Update this section and the CI refs
+together after testing newer revisions. The two skips and other current
 constraints are documented in [docs/known-issues.md](docs/known-issues.md).
 
 ## Reproduce locally

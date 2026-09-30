@@ -31,8 +31,8 @@ renderer, platform, and audio backend through
 `CNA_EXTENDED_CNA_AUDIO_PLATFORM`. `CNA_EXTENDED_CNA_DIR` and
 `CNA_EXTENDED_SHARP_RUNTIME_DIR` override the sibling checkout paths.
 
-The last verified dependency revisions and test result are recorded in
-[NEXT.md](NEXT.md). The CI workflow uses those revisions so changes in either
+The local and published dependency revisions and test results are recorded in
+[NEXT.md](NEXT.md). CI pins the published revisions so changes in either
 dependency do not silently change the result.
 
 ## Where to start
