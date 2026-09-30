@@ -1,7 +1,0 @@
-<map id="CNA::Extended::World3DEXT::ConeProfile3DEXT" name="CNA::Extended::World3DEXT::ConeProfile3DEXT">
-<area shape="rect" id="Node000001" title="Emits all particles from a single point in a directional solid&#45;angle cone (DirectionEXT +/&#45; HalfAngle..." alt="" coords="87,108,293,148"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Profile3DEXT.html" title="Base class for particle emission profiles: computes the initial offset and heading for each newly rel..." alt="" coords="5,5,212,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,54,177,106,173,110,130,58"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="236,13,307,38"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,50,207,110,203,106,251,47"/>
-</map>

@@ -10,8 +10,10 @@
 #include "CNA/Extended/World3DEXT/AnimatedBillboardComponentEXT.hpp"
 #include "CNA/Extended/World3DEXT/BillboardComponentEXT.hpp"
 #include "CNA/Extended/World3DEXT/BillboardMeshEXT.hpp"
+#include "Microsoft/Xna/Framework/Graphics/GraphicsDevice.hpp"
 #include "Microsoft/Xna/Framework/Graphics/Texture2D.hpp"
 #include "Microsoft/Xna/Framework/Graphics/VertexBuffer.hpp"
+#include "Microsoft/Xna/Framework/Graphics/VertexBufferBinding.hpp"
 
 #include <typeindex>
 
@@ -89,6 +91,18 @@ namespace CNA::Extended::World3DEXT
 
         const RectangleF uvRect = ConvertPixelRectToUvRectEXT(region->getBoundsProperty(), texture->getWidthProperty(), texture->getHeightProperty());
         const auto vertices = BuildBillboardQuadVerticesEXT(uvRect);
+        auto* graphicsDevice = billboardComponent->VertexBufferEXT->getGraphicsDeviceProperty();
+        if (graphicsDevice != nullptr)
+        {
+            for (const auto& binding : graphicsDevice->GetVertexBuffers())
+            {
+                if (binding.getVertexBufferProperty() == billboardComponent->VertexBufferEXT)
+                {
+                    graphicsDevice->SetVertexBuffer(nullptr);
+                    break;
+                }
+            }
+        }
         billboardComponent->VertexBufferEXT->SetData(vertices.data(), 4);
         billboardComponent->TextureEXT = texture;
     }

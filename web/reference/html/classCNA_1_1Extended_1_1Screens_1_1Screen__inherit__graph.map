@@ -1,9 +1,0 @@
-<map id="CNA::Extended::Screens::Screen" name="CNA::Extended::Screens::Screen">
-<area shape="rect" id="Node000001" title="Abstract base for game screens that can be managed by a ScreenManager." alt="" coords="113,79,292,119"/>
-<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Screens_1_1GameScreen.html" title="A Screen with convenient access to the owning Game&#39;s core services (Content, GraphicsDevice,..." alt="" coords="5,167,184,207"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,129,120,169,117,164,166,125"/>
-<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1World3DEXT_1_1World3DScreenEXT.html" title="Convenience Screen base class owning an ECS::World + Camera3DEXT, tying together every World3DEXT sys..." alt="" coords="209,167,415,207"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="239,125,289,164,286,169,236,129"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="125,5,280,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,44,205,79,200,79,200,44"/>
-</map>

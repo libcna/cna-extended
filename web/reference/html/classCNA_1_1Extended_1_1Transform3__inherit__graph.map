@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Transform3" name="CNA::Extended::Transform3">
-<area shape="rect" id="Node000001" title="Represents the position, rotation, and scale of a three&#45;dimensional game object." alt="" coords="17,93,217,119"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1BaseTransform.html" title=" " alt="" coords="5,5,229,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,59,120,93,115,93,115,59"/>
-</map>

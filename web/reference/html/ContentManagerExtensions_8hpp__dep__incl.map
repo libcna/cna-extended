@@ -1,9 +1,0 @@
-<map id="CNA/Extended/Content/ContentManagerExtensions.hpp" name="CNA/Extended/Content/ContentManagerExtensions.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="223,5,456,45"/>
-<area shape="rect" id="Node000002" href="$JsonContentLoader_8hpp.html" title=" " alt="" coords="5,93,212,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,53,160,96,158,91,275,48"/>
-<area shape="rect" id="Node000003" href="$TextContentLoader_8hpp.html" title=" " alt="" coords="236,93,443,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="342,59,342,93,337,93,337,59"/>
-<area shape="rect" id="Node000004" href="$TextureAtlasJsonConverter_8hpp.html" title=" " alt="" coords="467,93,723,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="409,47,540,91,538,96,408,52"/>
-</map>

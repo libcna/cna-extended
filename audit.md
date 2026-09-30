@@ -1,5 +1,9 @@
 # cna-extended Port and World3DEXT Audit
 
+> Historical audit from July 2026. Its test counts and open findings describe
+> the audited revision, not the current tree. See [docs/known-issues.md](docs/known-issues.md)
+> and [NEXT.md](NEXT.md) for active limitations and verification.
+
 **Audit date:** 2026-07-14  
 **Audited revision:** cna-extended bf71945 (develop)  
 **Upstream reference inspected:** MonoGame.Extended 78c00977
@@ -155,4 +159,3 @@ The local workarounds are good. These remain compatibility liabilities and shoul
 The port is well implemented within its intentional runtime scope. It has enough real code, dependency integration and test coverage to support calling it a serious C++ reimplementation of MonoGame.Extended.
 
 World3DEXT is valuable and architecturally promising, but it is new functionality rather than upstream parity. Its collision-contract defect, cycle safety gap and currently unrepeatable graphical verification are the main barriers to a stronger production-readiness claim. Addressing the first three recommendations would materially raise confidence.
-

@@ -27,6 +27,7 @@ compile_commands.json
 
 # Doxygen output
 docs/generated/
+web/reference/
 
 # IDE / editor
 .idea/

@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Tilemaps::Ogmo::Document::OgmoLayerTemplate" name="CNA::Extended::Tilemaps::Ogmo::Document::OgmoLayerTemplate">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,108,292,148"/>
-<area shape="rect" id="Node000002" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Ogmo_1_1Document_1_1OgmoVector2.html" title=" " alt="" coords="29,5,269,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,59,151,108,146,108,146,59"/>
-</map>

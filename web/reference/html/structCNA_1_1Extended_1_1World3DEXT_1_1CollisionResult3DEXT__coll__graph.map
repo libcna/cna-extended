@@ -1,6 +1,0 @@
-<map id="CNA::Extended::World3DEXT::CollisionResult3DEXT" name="CNA::Extended::World3DEXT::CollisionResult3DEXT">
-<area shape="rect" id="Node000001" title="The result of a three&#45;dimensional collision query." alt="" coords="5,108,212,148"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="227,118,239,128,231,137,213,140,212,135,228,132,233,128,224,123"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="73,5,144,31"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="111,45,111,108,106,108,106,45"/>
-</map>

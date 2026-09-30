@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Graphics::IMatrixChainEffect" name="CNA::Extended::Graphics::IMatrixChainEffect">
-<area shape="rect" id="Node000001" title="An Effect that uses the standard World/View/Projection matrix chain to represent a 3D object on a 2D ..." alt="" coords="11,93,195,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,201,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,59,106,93,101,93,101,59"/>
-</map>

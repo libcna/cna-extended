@@ -1,9 +1,0 @@
-<map id="CNA::Extended::Content::BitmapFonts::CommonBlock" name="CNA::Extended::Content::BitmapFonts::CommonBlock">
-<area shape="rect" id="Node000001" title="The BMFont &quot;common&quot; block." alt="" coords="25,152,239,192"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,59,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,44,41,85,48,107,59,126,72,139,87,150,84,154,68,143,55,130,43,109,36,87,30,45"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="93,5,171,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,44,135,152,129,152,129,44"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="201,5,266,31"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,45,227,87,218,109,206,130,178,154,174,150,202,126,213,107,221,85,229,44"/>
-</map>

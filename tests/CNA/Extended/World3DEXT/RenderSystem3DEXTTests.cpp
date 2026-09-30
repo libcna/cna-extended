@@ -6,8 +6,7 @@
 //
 // Real headless render tests, following the exact idiom already established in
 // TilemapIntegrationTests.cpp (see that file's own header comment for the full rationale):
-// GraphicsDevice::SetRenderTarget(&rt) -> draw -> GraphicsDevice::GetBackBufferData (while
-// the render target is STILL bound) -> SetRenderTarget(nullptr).
+// GraphicsDevice::SetRenderTarget(&rt) -> draw -> SetRenderTarget(nullptr) -> rt.GetData.
 //
 // The test model is a single hand-built, unlit, vertex-colored triangle (a plain Model with
 // one ModelBone/ModelMesh/ModelMeshPart, a real VertexBuffer/IndexBuffer, and a BasicEffect
@@ -122,11 +121,8 @@ namespace CNA::Extended::World3DEXT
         protected:
             void SetUp() override
             {
-                // 800x480 matches the GraphicsDevice's own default window/backbuffer size --
-                // see TilemapIntegrationTests.cpp's identical choice and its header comment:
-                // GetBackBufferData's rect==nullptr path reads the *window's* logical size
-                // (EasyGLGraphicsBackend::GetViewportSize), not the currently-bound render
-                // target's size, so the two must match here too.
+                // Keep the camera viewport and readback target at the same 800x480 size.
+                graphicsDevice.SetGraphicsProfileEXT(Microsoft::Xna::Framework::Graphics::GraphicsProfile::HiDef);
                 graphicsDevice.setViewportProperty(Viewport(0, 0, 800, 480));
                 graphicsDevice.setRasterizerStateProperty(RasterizerState::CullNone);
 
@@ -151,9 +147,8 @@ namespace CNA::Extended::World3DEXT
 
                 std::vector<Color> pixels(
                     static_cast<std::size_t>(width) * static_cast<std::size_t>(height), Color::Transparent);
-                graphicsDevice.GetBackBufferData(pixels.data(), static_cast<int>(pixels.size()));
-
                 graphicsDevice.SetRenderTarget(nullptr);
+                rt.GetData(pixels.data(), static_cast<int>(pixels.size()));
 
                 return {std::move(pixels), width};
             }

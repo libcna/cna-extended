@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Tilemaps::TilemapPropertyData" name="CNA::Extended::Tilemaps::TilemapPropertyData">
-<area shape="rect" id="Node000001" title="A single typed custom property entry (parser&#45;intermediate; see TilemapPropertyValue for the runtime t..." alt="" coords="5,93,192,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="71,5,127,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,44,101,93,96,93,96,44"/>
-</map>

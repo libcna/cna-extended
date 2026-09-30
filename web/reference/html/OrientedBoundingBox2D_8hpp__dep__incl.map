@@ -1,7 +1,0 @@
-<map id="CNA/Extended/OrientedBoundingBox2D.hpp" name="CNA/Extended/OrientedBoundingBox2D.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="105,5,341,45"/>
-<area shape="rect" id="Node000002" href="$TilemapRectangleObject_8hpp.html" title=" " alt="" coords="5,93,220,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,56,139,95,136,91,186,52"/>
-<area shape="rect" id="Node000003" href="$TilemapTileObject_8hpp.html" title=" " alt="" coords="245,93,423,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="260,52,311,91,308,95,257,56"/>
-</map>

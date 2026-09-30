@@ -18,15 +18,15 @@ option(CNA_EXTENDED_BUILD_EXAMPLES "Build cna-extended examples" ON)
 option(CNA_EXTENDED_BUILD_TESTS "Build cna-extended tests" ON)
 
 # Most of cna-extended needs compiled CNA symbols. A parent project may provide
-# CNA's modular targets first; otherwise a standalone build adds cnanext and
+# CNA's modular targets first; otherwise a standalone build adds cna and
 # selects only the dependency modules listed below. The headers-only mode is
 # retained for API compile checks, but the linked modular build is the useful
 # default.
 option(CNA_EXTENDED_LINK_CNA
-    "When building standalone, add cnanext and link the CNA modules cna-extended uses"
+    "When building standalone, add cna and link the CNA modules cna-extended uses"
     ON)
 
-# cnanext requires one renderer, platform and audio implementation even when a
+# cna requires one renderer, platform and audio implementation even when a
 # consumer links a subset of the framework modules. The dependency defaults are
 # deliberately host-independent and do not pull a windowing, GPU, or sound
 # backend into a cna-extended build. The CPU software renderer is used instead
@@ -34,14 +34,14 @@ option(CNA_EXTENDED_LINK_CNA
 # pixels. Applications that need a visible window can select e.g.
 # OPENGLES3/SDL3/SDL3.
 set(CNA_EXTENDED_CNA_RENDERER "SOFTWARE"
-    CACHE STRING "cnanext renderer used by a standalone cna-extended build")
+    CACHE STRING "cna renderer used by a standalone cna-extended build")
 set_property(CACHE CNA_EXTENDED_CNA_RENDERER PROPERTY STRINGS
     SOFTWARE HEADLESS SDL_RENDERER OPENGLES2 OPENGLES3 OPENGL33 BGFX VULKAN)
 set(CNA_EXTENDED_CNA_PLATFORM "HEADLESS"
-    CACHE STRING "cnanext platform used by a standalone cna-extended build")
+    CACHE STRING "cna platform used by a standalone cna-extended build")
 set_property(CACHE CNA_EXTENDED_CNA_PLATFORM PROPERTY STRINGS HEADLESS SDL3 SDL2 TERMINAL)
 set(CNA_EXTENDED_CNA_AUDIO_PLATFORM "NULL"
-    CACHE STRING "cnanext audio platform used by a standalone cna-extended build")
+    CACHE STRING "cna audio platform used by a standalone cna-extended build")
 set_property(CACHE CNA_EXTENDED_CNA_AUDIO_PLATFORM PROPERTY STRINGS NULL SDL3 SDL2)
 
 # Direct CNA module ownership, derived from every Microsoft/Xna and CNA header
@@ -72,9 +72,9 @@ set(CNA_EXTENDED_SHARP_RUNTIME_TARGETS
     SharpRuntime::Xml
 )
 
-# cnanext's selected module closure additionally declares the components below
+# cna's selected module closure additionally declares the components below
 # (notably Runtime for Audio and the narrow renderer contract). Setting the
-# complete union before adding sharp-runtimenext prevents its standalone `All`
+# complete union before adding sharp-runtime prevents its standalone `All`
 # default from enabling unrelated networking, HTTP, XML LINQ, timers, etc.
 set(CNA_EXTENDED_SHARP_RUNTIME_COMPONENTS
     Core.Base
@@ -94,31 +94,31 @@ set(CNA_EXTENDED_SHARP_RUNTIME_COMPONENTS
 )
 
 # ---------------------------------------------------------------------------
-# Locate CNA (modular companion runtime, expected at ../cnanext)
+# Locate CNA (modular companion runtime, expected at ../cna)
 # ---------------------------------------------------------------------------
-set(CNA_EXTENDED_CNA_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../cnanext"
-    CACHE PATH "Path to the modular cnanext repository")
+set(CNA_EXTENDED_CNA_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../cna"
+    CACHE PATH "Path to the modular cna repository")
 
 if(EXISTS "${CNA_EXTENDED_CNA_DIR}/modules/CMakeLists.txt")
     message(STATUS "cna-extended: using modular CNA from ${CNA_EXTENDED_CNA_DIR}")
 else()
     message(WARNING
         "cna-extended: modular CNA not found at '${CNA_EXTENDED_CNA_DIR}'. "
-        "Set -DCNA_EXTENDED_CNA_DIR=/path/to/cnanext.")
+        "Set -DCNA_EXTENDED_CNA_DIR=/path/to/cna.")
 endif()
 
 # ---------------------------------------------------------------------------
-# Locate sharp-runtime (modular companion BCL, expected at ../sharp-runtimenext)
+# Locate sharp-runtime (modular companion BCL, expected at ../sharp-runtime)
 # ---------------------------------------------------------------------------
-set(CNA_EXTENDED_SHARP_RUNTIME_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../sharp-runtimenext"
-    CACHE PATH "Path to the modular sharp-runtimenext repository")
+set(CNA_EXTENDED_SHARP_RUNTIME_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../sharp-runtime"
+    CACHE PATH "Path to the modular sharp-runtime repository")
 
 if(EXISTS "${CNA_EXTENDED_SHARP_RUNTIME_DIR}/cmake/SharpRuntimeModules.cmake")
     message(STATUS "cna-extended: using modular Sharp Runtime from ${CNA_EXTENDED_SHARP_RUNTIME_DIR}")
 else()
     message(WARNING
         "cna-extended: modular Sharp Runtime not found at '${CNA_EXTENDED_SHARP_RUNTIME_DIR}'. "
-        "Set -DCNA_EXTENDED_SHARP_RUNTIME_DIR=/path/to/sharp-runtimenext.")
+        "Set -DCNA_EXTENDED_SHARP_RUNTIME_DIR=/path/to/sharp-runtime.")
 endif()
 
 # ---------------------------------------------------------------------------
@@ -164,13 +164,13 @@ elseif(CNA_EXTENDED_LINK_CNA)
     if(NOT EXISTS "${CNA_EXTENDED_CNA_DIR}/CMakeLists.txt")
         message(FATAL_ERROR
             "cna-extended: CNA_EXTENDED_LINK_CNA=ON but no CNA CMake project at "
-            "'${CNA_EXTENDED_CNA_DIR}'. Set -DCNA_EXTENDED_CNA_DIR=/path/to/cnanext.")
+            "'${CNA_EXTENDED_CNA_DIR}'. Set -DCNA_EXTENDED_CNA_DIR=/path/to/cna.")
     endif()
     if(NOT EXISTS "${CNA_EXTENDED_SHARP_RUNTIME_DIR}/CMakeLists.txt")
         message(FATAL_ERROR
             "cna-extended: CNA_EXTENDED_LINK_CNA=ON but no Sharp Runtime CMake project at "
             "'${CNA_EXTENDED_SHARP_RUNTIME_DIR}'. "
-            "Set -DCNA_EXTENDED_SHARP_RUNTIME_DIR=/path/to/sharp-runtimenext.")
+            "Set -DCNA_EXTENDED_SHARP_RUNTIME_DIR=/path/to/sharp-runtime.")
     endif()
 
     # Keep optional CNA surfaces out and select the smallest host-independent

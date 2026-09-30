@@ -1,6 +1,0 @@
-<map id="CNA::Extended::Size" name="CNA::Extended::Size">
-<area shape="rect" id="Node000001" title="A two&#45;dimensional size defined by two integers, a width and a height." alt="" coords="5,108,160,133"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="175,112,187,121,179,129,161,132,160,127,176,124,181,121,172,116"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="56,5,109,31"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="85,45,85,108,80,108,80,45"/>
-</map>

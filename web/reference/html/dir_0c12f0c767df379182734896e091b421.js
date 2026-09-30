@@ -1,5 +1,0 @@
-var dir_0c12f0c767df379182734896e091b421 =
-[
-    [ "Json", "dir_a158120efd9e22a69585143911819eb8.html", "dir_a158120efd9e22a69585143911819eb8" ],
-    [ "Xml", "dir_6c9656e8d4d02536c7126eb318adaf01.html", "dir_6c9656e8d4d02536c7126eb318adaf01" ]
-];

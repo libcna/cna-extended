@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Triangulation::Vertex" name="CNA::Extended::Triangulation::Vertex">
-<area shape="rect" id="Node000001" title="A vertex used during polygon triangulation: a position paired with its original index." alt="" coords="5,93,216,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="75,5,146,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,44,113,93,108,93,108,44"/>
-</map>

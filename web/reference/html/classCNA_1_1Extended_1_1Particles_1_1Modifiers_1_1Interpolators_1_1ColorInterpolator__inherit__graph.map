@@ -1,7 +1,0 @@
-<map id="CNA::Extended::Particles::Modifiers::Interpolators::ColorInterpolator" name="CNA::Extended::Particles::Modifiers::Interpolators::ColorInterpolator">
-<area shape="rect" id="Node000001" title="Interpolates a particle&#39;s HSL color between StartValue and EndValue over its lifetime." alt="" coords="21,211,204,265"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1InterpolatorOfT.html" title=" " alt="" coords="5,108,220,163"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,176,115,211,110,211,110,176"/>
-<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Interpolators_1_1Interpolator.html" title="Base class for particle interpolators: computes a target property value from a normalized [0,..." alt="" coords="21,5,204,60"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,74,115,108,110,108,110,74"/>
-</map>

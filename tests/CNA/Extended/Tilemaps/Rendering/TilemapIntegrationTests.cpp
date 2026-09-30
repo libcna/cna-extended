@@ -39,13 +39,8 @@
 // already established that a plain default-constructed GraphicsDevice with an explicit Viewport
 // genuinely renders end-to-end headlessly in this environment (real EasyGL-over-Mesa software
 // rendering), but only ever asserted "does not throw" -- never read pixels back. This file adds
-// the missing off-screen render-target + readback step, following the exact idiom already
-// established in cna's own examples/tests (see cna/examples/easygl_render_target_test.cpp,
-// cna/examples/easygl_rt_roundtrip_test.cpp, and cna/tests/.../Texture3DTextureCubeRenderTargetTests.cpp's
-// own header comment pointing at those same examples): GraphicsDevice::SetRenderTarget(&rt) ->
-// draw -> GraphicsDevice::GetBackBufferData(Color*, int) (while the render target is STILL bound
-// -- see RenderToPixels()'s own comment for why upstream's naive `rt.GetData(pixels)` does not
-// work in this port) -> SetRenderTarget(nullptr). RenderTarget2D(GraphicsDevice&, int, int) (the
+// the missing off-screen render-target + readback step: GraphicsDevice::SetRenderTarget(&rt) ->
+// draw -> SetRenderTarget(nullptr) -> rt.GetData(pixels). RenderTarget2D(GraphicsDevice&, int, int) (the
 // 3-arg overload used here, matching upstream's `new RenderTarget2D(_graphicsDevice, width,
 // height)`) has DepthFormat::None -- no depth attachment -- exactly like upstream's own RT
 // (XNA/MonoGame's 3-arg RenderTarget2D overload defaults to DepthFormat.None too); a
@@ -194,26 +189,16 @@ namespace CNA::Extended::Tilemaps::Rendering
         class TilemapIntegrationTest : public ::testing::Test
         {
         protected:
-            void SetUp() override { graphicsDevice.setViewportProperty(Viewport(0, 0, 800, 480)); }
+            void SetUp() override
+            {
+                graphicsDevice.SetGraphicsProfileEXT(Microsoft::Xna::Framework::Graphics::GraphicsProfile::HiDef);
+                graphicsDevice.setViewportProperty(Viewport(0, 0, 800, 480));
+            }
 
             // Renders via @p render (called with a RenderTarget2D matching the device's current
             // viewport already bound and cleared to black), then reads the whole target back.
-            // Matches upstream's `RenderToPixels(Action render)` in spirit; the actual readback
-            // call differs from upstream's `rt.GetData(pixels)` for a real, CNA-specific reason:
-            // this port's `Texture2D::GetData` (see Texture2D.cpp) only ever returns a CPU-side
-            // pixel mirror that is populated by `SetData` uploads -- rendering into a
-            // RenderTarget2D via the GPU never touches that mirror, so `rt.GetData(...)` throws
-            // "no CPU-side pixel data available" here (confirmed empirically: every test in this
-            // file failed with exactly that exception before this fix). The correct, established
-            // idiom for reading back a render target's actual rasterized GPU content in this
-            // project is `GraphicsDevice::GetBackBufferData`, which performs a real backend
-            // readback (EasyGL: glReadPixels) of whichever framebuffer is currently bound -- the
-            // render target, while it is still bound, or the real backbuffer once unbound. This
-            // matches cna's own established pattern for exactly this scenario (see
-            // cna/examples/easygl_render_target_test.cpp and
-            // cna/examples/easygl_rt_roundtrip_test.cpp, the latter's own comment: "Read RT1 pixel
-            // while FBO is still bound"). So the readback happens BEFORE SetRenderTarget(nullptr),
-            // not after, unlike upstream's ordering.
+            // Matches upstream's `RenderToPixels(Action render)`: unbind the target to resolve
+            // it, then read its own color attachment through RenderTarget2D::GetData.
             template <typename Fn>
             std::pair<std::vector<Color>, int> RenderToPixels(Fn&& render)
             {
@@ -228,9 +213,8 @@ namespace CNA::Extended::Tilemaps::Rendering
 
                 std::vector<Color> pixels(
                     static_cast<std::size_t>(width) * static_cast<std::size_t>(height), Color::Transparent);
-                graphicsDevice.GetBackBufferData(pixels.data(), static_cast<int>(pixels.size()));
-
                 graphicsDevice.SetRenderTarget(nullptr);
+                rt.GetData(pixels.data(), static_cast<int>(pixels.size()));
 
                 return {std::move(pixels), width};
             }

@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Segment2" name="CNA::Extended::Segment2">
-<area shape="rect" id="Node000001" title="A two dimensional line segment defined by a starting and an ending Vector2." alt="" coords="5,108,199,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="67,5,137,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,45,105,108,99,108,99,45"/>
-</map>

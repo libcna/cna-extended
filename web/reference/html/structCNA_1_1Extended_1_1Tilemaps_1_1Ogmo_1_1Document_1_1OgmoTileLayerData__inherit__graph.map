@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Tilemaps::Ogmo::Document::OgmoTileLayerData" name="CNA::Extended::Tilemaps::Ogmo::Document::OgmoTileLayerData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,288,133"/>
-<area shape="rect" id="Node000002" href="$structCNA_1_1Extended_1_1Tilemaps_1_1Ogmo_1_1Document_1_1OgmoLayerData.html" title="Abstract base for all Ogmo layer&#45;data entries. Concrete subtype is chosen by ParseOgmoLayerData based..." alt="" coords="17,5,276,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,59,149,93,144,93,144,59"/>
-</map>

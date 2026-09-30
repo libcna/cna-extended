@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Collisions::UndefinedLayerException" name="CNA::Extended::Collisions::UndefinedLayerException">
-<area shape="rect" id="Node000001" title="Thrown when a collision layer name is not registered in a collision world." alt="" coords="5,79,201,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="32,5,175,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,44,106,79,101,79,101,44"/>
-</map>

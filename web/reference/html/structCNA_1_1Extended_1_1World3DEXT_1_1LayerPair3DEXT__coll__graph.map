@@ -1,5 +1,0 @@
-<map id="CNA::Extended::World3DEXT::LayerPair3DEXT" name="CNA::Extended::World3DEXT::LayerPair3DEXT">
-<area shape="rect" id="Node000001" title="An order&#45;independent key identifying an unordered pair of collision layers by pointer identity." alt="" coords="5,123,212,163"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Layer3DEXT.html" title="Groups 3D collision actors that share one broadphase structure and one set of layer&#45;level rules." alt="" coords="5,5,212,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,59,111,122,106,122,106,59"/>
-</map>

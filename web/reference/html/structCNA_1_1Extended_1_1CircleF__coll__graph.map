@@ -1,5 +1,0 @@
-<map id="CNA::Extended::CircleF" name="CNA::Extended::CircleF">
-<area shape="rect" id="Node000001" title="A two dimensional circle defined by a centre Vector2 and a radius float." alt="" coords="5,93,177,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="56,5,127,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,45,94,93,89,93,89,45"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Tilemaps::Rendering::TilemapWorldRenderer" name="CNA::Extended::Tilemaps::Rendering::TilemapWorldRenderer">
-<area shape="rect" id="Node000001" title="High&#45;performance world&#45;map renderer using GraphicsDevice directly." alt="" coords="5,79,259,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="55,5,209,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,44,135,79,129,79,129,44"/>
-</map>

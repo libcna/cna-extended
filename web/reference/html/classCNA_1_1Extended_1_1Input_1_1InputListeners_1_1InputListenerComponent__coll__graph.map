@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Input::InputListeners::InputListenerComponent" name="CNA::Extended::Input::InputListeners::InputListenerComponent">
-<area shape="rect" id="Node000001" title="A GameComponent that owns a set of InputListeners and drives their Update() each frame while the game..." alt="" coords="5,93,220,148"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="15,5,211,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,59,115,93,110,93,110,59"/>
-</map>

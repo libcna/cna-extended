@@ -1,7 +1,0 @@
-<map id="CNA::Extended::ViewportAdapters::ViewportAdapter" name="CNA::Extended::ViewportAdapters::ViewportAdapter">
-<area shape="rect" id="Node000001" title="Decouples a game&#39;s virtual (design&#45;time) resolution from the actual window/backbuffer resolution." alt="" coords="26,79,269,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,127,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,38,130,77,126,80,86,42"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="151,5,306,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,42,169,80,165,77,205,38"/>
-</map>

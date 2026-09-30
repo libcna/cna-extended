@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Particles::ParticleEffect" name="CNA::Extended::Particles::ParticleEffect">
-<area shape="rect" id="Node000001" title="A complete particle effect: a positioned/rotated/scaled container of one or more ParticleEmitters (e...." alt="" coords="5,79,188,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="19,5,174,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,44,99,79,94,79,94,44"/>
-</map>

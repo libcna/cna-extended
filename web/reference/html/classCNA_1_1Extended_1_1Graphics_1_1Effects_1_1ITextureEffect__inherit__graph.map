@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Graphics::Effects::ITextureEffect" name="CNA::Extended::Graphics::Effects::ITextureEffect">
-<area shape="rect" id="Node000001" title="Defines an Effect that uses a Texture2D." alt="" coords="5,5,189,45"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Graphics_1_1Effects_1_1DefaultEffect.html" title="An Effect that allows 2D sprite&#45;style objects (position + optional vertex color + optional texture) t..." alt="" coords="5,93,189,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,59,100,93,95,93,95,59"/>
-</map>

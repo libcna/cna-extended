@@ -1,7 +1,0 @@
-<map id="CNA::Extended::Screens::GameScreen" name="CNA::Extended::Screens::GameScreen">
-<area shape="rect" id="Node000001" title="A Screen with convenient access to the owning Game&#39;s core services (Content, GraphicsDevice,..." alt="" coords="5,167,184,207"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Screens_1_1Screen.html" title="Abstract base for game screens that can be managed by a ScreenManager." alt="" coords="5,79,184,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,133,97,166,92,166,92,133"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="17,5,172,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
-</map>

@@ -59,7 +59,7 @@ namespace CNA::Extended::VectorDraw
 
         basicEffect_.Projection = projection;
         basicEffect_.View = view;
-        basicEffect_.getCurrentTechniqueProperty()->getPassesProperty()[0].Apply();
+        basicEffect_.getCurrentTechniqueProperty()->getPassesProperty()[0]->Apply();
         hasBegun_ = true;
     }
 

@@ -1,7 +1,0 @@
-<map id="CNA::Extended::World3DEXT::VelocityColorModifier3DEXT" name="CNA::Extended::World3DEXT::VelocityColorModifier3DEXT">
-<area shape="rect" id="Node000001" title="Colors particles between StationaryColorEXT and VelocityColorEXT based on their speed relative to Vel..." alt="" coords="80,123,292,163"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Modifier3DEXT.html" title="Base class for particle modifiers: alters particle properties over time, at a configurable update fre..." alt="" coords="5,5,212,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,56,175,121,171,124,127,58"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="237,13,293,38"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,51,201,124,197,121,247,48"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="CNA/Extended/Input/KeyboardExtended.hpp" name="CNA/Extended/Input/KeyboardExtended.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="86,5,262,45"/>
-<area shape="rect" id="Node000002" href="$KeyboardStateExtended_8hpp.html" title=" " alt="" coords="69,93,279,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,46,177,79,171,79,171,46"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,193,221"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="159,135,127,173,123,169,155,132"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="217,189,280,214"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="193,132,232,176,228,180,189,135"/>
-</map>

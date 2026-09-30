@@ -1,7 +1,0 @@
-<map id="CNA/Extended/Serialization/Json/TextureRegionService.hpp" name="CNA/Extended/Serialization/Json/TextureRegionService.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="156,5,383,45"/>
-<area shape="rect" id="Node000002" href="$NinePatchJsonConverter_8hpp.html" title=" " alt="" coords="5,93,245,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,55,158,96,156,91,225,50"/>
-<area shape="rect" id="Node000003" href="$TextureRegion2DJsonConverter_8hpp.html" title=" " alt="" coords="270,93,557,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="314,50,383,91,380,96,311,55"/>
-</map>

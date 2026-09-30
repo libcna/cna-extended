@@ -1,7 +1,0 @@
-<map id="CNA::Extended::World3DEXT::LineProfile3DEXT" name="CNA::Extended::World3DEXT::LineProfile3DEXT">
-<area shape="rect" id="Node000001" title="Emits particles uniformly along a 3D line segment, with a configurable radiation pattern for headings..." alt="" coords="87,123,293,163"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Profile3DEXT.html" title="Base class for particle emission profiles: computes the initial offset and heading for each newly rel..." alt="" coords="5,5,212,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,55,179,121,174,124,128,59"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="236,13,307,38"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,51,206,124,201,121,253,48"/>
-</map>

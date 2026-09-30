@@ -1,7 +1,0 @@
-<map id="CNA/Extended/Animations/AnimationController.hpp" name="CNA/Extended/Animations/AnimationController.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="112,5,305,45"/>
-<area shape="rect" id="Node000002" href="$AnimationComponent_8hpp.html" title=" " alt="" coords="5,93,201,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,56,128,95,125,91,173,52"/>
-<area shape="rect" id="Node000003" href="$AnimatedSprite_8hpp.html" title=" " alt="" coords="226,93,402,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,52,292,91,289,95,241,56"/>
-</map>

@@ -1,5 +1,11 @@
 # `cna-extended` — World3DEXT Porting/Design Plan
 
+> Historical record: the 3D phases, including later audit follow-ups, are
+> complete. See [NEXT.md](NEXT.md) for the current verified state. Earlier
+> phase-status language below reflects when each entry was written. Numbered
+> references to the old `NEXT.md` are in the
+> [archived long handoff](docs/history/NEXT-2026-09-30.md).
+
 Status: **All 9 original phases complete (2026-07-14); Phase 10 (audit follow-ups, added
 2026-07-14) done except A-05, explicitly deferred to a future session (see its own entry
 below for why).** Approved 2026-07-14 by Robert Vokáč, including the Phase 5-8

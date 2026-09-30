@@ -1,7 +1,0 @@
-<map id="CNA::Extended::World3DEXT::SkinnedModelComponentEXT" name="CNA::Extended::World3DEXT::SkinnedModelComponentEXT">
-<area shape="rect" id="Node000001" title="ECS component pairing a non&#45;owning SkinnedModelEXT* and SkinnedEffect* with the current animation cli..." alt="" coords="5,93,228,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="8,5,95,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,43,75,68,96,91,92,95,70,71,57,45"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="119,5,247,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,44,156,71,137,95,133,91,152,68,168,42"/>
-</map>

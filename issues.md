@@ -1,5 +1,9 @@
 # issues.md — known gaps in `World3DEXT` found while evaluating it as an `easy-3d` replacement
 
+> Historical comparison from July 2026. Review current code and
+> [docs/known-issues.md](docs/known-issues.md) before treating any item below
+> as an open task.
+
 This file records issues found on 2026-07-16 while analyzing (for `galaxy-eggbert`) whether
 `easy-3d` could be replaced by `cna-extended`'s `World3DEXT` module. **No code in this
 repository was changed as a result of this analysis** — these are open items for the

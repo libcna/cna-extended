@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Particles::Profiles::BoxUniformProfile" name="CNA::Extended::Particles::Profiles::BoxUniformProfile">
-<area shape="rect" id="Node000001" title="Emits particles from the perimeter of a rectangle, with probability proportional to each side&#39;s lengt..." alt="" coords="5,93,211,133"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1Profile.html" title="Base class for particle emission profiles: computes the initial offset and heading for each newly rel..." alt="" coords="17,5,199,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,59,111,93,105,93,105,59"/>
-</map>

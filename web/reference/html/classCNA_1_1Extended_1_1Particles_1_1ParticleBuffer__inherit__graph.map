@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Particles::ParticleBuffer" name="CNA::Extended::Particles::ParticleBuffer">
-<area shape="rect" id="Node000001" title="A circular buffer of Particle slots in contiguous, unconstructed heap memory, with head/tail&#45;based al..." alt="" coords="5,79,188,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="19,5,174,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,44,99,79,94,79,94,44"/>
-</map>

@@ -5,7 +5,7 @@
 //
 //  - Tilemaps::Tiled::TiledTmxParser + TilemapFactory (via ParseFromFile) load a real,
 //    hand-authored Tiled TMX map (assets/map.tmx), referencing a real external tileset image
-//    next to it (assets/tileset.bmp) resolved through the default local-filesystem
+//    next to it (assets/tileset.png) resolved through the default local-filesystem
 //    ExternalResourceResolver, exactly like a real Tiled-authored map. The map's object layer
 //    is also read back (TilemapObjectLayer/TilemapObject) to find where the player should
 //    spawn and where it's headed, instead of hardcoding those positions in this file.
@@ -13,7 +13,7 @@
 //    real SpriteBatch.
 //  - Graphics::Texture2DAtlas / SpriteSheet / SpriteSheetAnimationBuilder / AnimatedSprite (the
 //    latter driven by the Animations module's AnimationController under the hood) animate a
-//    player sprite: a hand-authored 3-frame walk cycle (assets/player.bmp), ping-ponging frames
+//    player sprite: a hand-authored 3-frame walk cycle (assets/player.png), ping-ponging frames
 //    over simulated time via AnimatedSprite::Update.
 //  - Input::KeyboardStateExtended drives the player's per-frame movement from a scripted
 //    sequence of synthetic KeyboardState snapshots, edge-detected via WasKeyPressed/
@@ -25,8 +25,8 @@
 // Like this project's own GraphicsDevice-backed integration tests (see
 // tests/CNA/Extended/Tilemaps/Rendering/TilemapIntegrationTests.cpp, whose RenderToPixels
 // helper this file's own RenderToPixels mirrors), this runs headlessly: a real GraphicsDevice
-// plus an off-screen RenderTarget2D, read back via GraphicsDevice::GetBackBufferData (not
-// RenderTarget2D::GetData -- see RenderToPixels's comment below for why), no real window. Each
+// plus an off-screen RenderTarget2D, read back via RenderTarget2D::GetData after unbinding,
+// with no real window. Each
 // simulated frame prints the player's tile position and a pixel sampled from the actual
 // rendered framebuffer at the player's screen location, proving real drawing happened rather
 // than merely "didn't throw"; the final frame is also saved as a PNG so a human can look at it.
@@ -52,7 +52,6 @@
 #include <Microsoft/Xna/Framework/Graphics/Texture2D.hpp>
 #include <Microsoft/Xna/Framework/Graphics/Viewport.hpp>
 #include <Microsoft/Xna/Framework/Input/KeyboardState.hpp>
-#include <Microsoft/Xna/Framework/Rectangle.hpp>
 #include <Microsoft/Xna/Framework/Input/Keys.hpp>
 #include <Microsoft/Xna/Framework/Vector2.hpp>
 #include <System/IO/Stream.hpp>
@@ -83,7 +82,6 @@ using CNA::Extended::Tilemaps::Rendering::TilemapSpriteBatchRenderer;
 using CNA::Extended::Tilemaps::Tiled::TiledTmxParser;
 using Microsoft::Xna::Framework::Color;
 using Microsoft::Xna::Framework::GameTime;
-using Microsoft::Xna::Framework::Rectangle;
 using Microsoft::Xna::Framework::Vector2;
 using Microsoft::Xna::Framework::Graphics::GraphicsDevice;
 using Microsoft::Xna::Framework::Graphics::RenderTarget2D;
@@ -100,19 +98,9 @@ namespace
     constexpr int kMapPixelHeight = 6 * 32;
 
     // Renders one frame into an off-screen RenderTarget2D matching the device's current
-    // viewport and reads the whole thing back. Mirrors TilemapIntegrationTests.cpp's
-    // RenderToPixels helper (see that file's own header comment for the full explanation):
-    // rendering into a RenderTarget2D via the GPU never populates Texture2D's CPU-side pixel
-    // mirror, so the readback must go through GraphicsDevice::GetBackBufferData while the render
-    // target is still bound, not RenderTarget2D::GetData.
-    //
-    // Unlike that test file (whose 800x480 viewport happens to match GraphicsDevice's own
-    // default backbuffer size), this demo's map is a smaller 320x192 canvas. The no-Rectangle
-    // GetBackBufferData(Color*, int) overload validates/reads against the *window's* backbuffer
-    // size regardless of any bound render target (confirmed directly against
-    // EasyGLGraphicsBackend::GetViewportSize/getLogicalSize, which never consults the currently
-    // bound render target) -- so this uses the explicit-Rectangle overload instead, which reads
-    // exactly the given region from whatever framebuffer is currently bound (here, the RT).
+    // viewport and reads the whole thing back. Unbinding resolves the target;
+    // GetData then reads the target's own pixels. The backbuffer API addresses
+    // the presentation backbuffer and cannot be called while a target is bound.
     template <typename Fn>
     std::vector<Color> RenderToPixels(GraphicsDevice& graphicsDevice, Fn&& render)
     {
@@ -123,10 +111,8 @@ namespace
         render();
 
         std::vector<Color> pixels(static_cast<std::size_t>(kMapPixelWidth) * static_cast<std::size_t>(kMapPixelHeight), Color::Transparent);
-        const Rectangle region(0, 0, kMapPixelWidth, kMapPixelHeight);
-        graphicsDevice.GetBackBufferData(&region, pixels.data(), 0, static_cast<int>(pixels.size()));
-
         graphicsDevice.SetRenderTarget(nullptr);
+        rt.GetData(pixels.data(), static_cast<int>(pixels.size()));
         return pixels;
     }
 
@@ -172,9 +158,10 @@ namespace
 
         // ---- Headless GraphicsDevice, matching this project's own established test idiom ----
         GraphicsDevice graphicsDevice;
+        graphicsDevice.SetGraphicsProfileEXT(Microsoft::Xna::Framework::Graphics::GraphicsProfile::HiDef);
         graphicsDevice.setViewportProperty(Viewport(0, 0, kMapPixelWidth, kMapPixelHeight));
 
-        // ---- Load the real Tiled TMX map (assets/map.tmx + assets/tileset.bmp next to it) ----
+        // ---- Load the real Tiled TMX map (assets/map.tmx + assets/tileset.png next to it) ----
         const std::filesystem::path assetsDir = std::filesystem::path(__FILE__).parent_path() / "assets";
         const std::filesystem::path mapPath = assetsDir / "map.tmx";
 
@@ -191,7 +178,7 @@ namespace
         tilemapRenderer.LoadTilemap(&tilemap);
 
         // ---- Player sprite sheet + walk-cycle animation (Graphics + Animations modules) ----
-        const std::unique_ptr<System::IO::Stream> playerStream = OpenFile((assetsDir / "player.bmp").string());
+        const std::unique_ptr<System::IO::Stream> playerStream = OpenFile((assetsDir / "player.png").string());
         Texture2D playerTexture = Texture2D::FromStream(graphicsDevice, *playerStream);
 
         Texture2DAtlas playerAtlas("player-atlas", &playerTexture);

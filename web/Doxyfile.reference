@@ -1,5 +1,5 @@
 # Generated API-reference configuration for the cna-extended documentation site.
-# Input remains read-only in the sibling source checkout; output is this website's reference/ tree.
+# Run from web/. Input is the repository's public include tree; output is web/reference/.
 
 PROJECT_NAME           = "cna-extended API Reference"
 PROJECT_BRIEF          = "C++23 2D and 3D game-development toolkit for CNA"
@@ -7,12 +7,12 @@ OUTPUT_DIRECTORY       = reference
 CREATE_SUBDIRS         = NO
 OUTPUT_LANGUAGE         = English
 
-INPUT                  = ../cna-extended/include
+INPUT                  = ../include
 RECURSIVE              = YES
 FILE_PATTERNS          = *.hpp
 EXCLUDE_PATTERNS       = */vendor/*
-STRIP_FROM_PATH        = ../cna-extended/include
-STRIP_FROM_INC_PATH    = ../cna-extended/include
+STRIP_FROM_PATH        = ../include
+STRIP_FROM_INC_PATH    = ../include
 FULL_PATH_NAMES        = YES
 
 EXTRACT_ALL            = YES

@@ -1,9 +1,0 @@
-<map id="CNA::Extended::Tweening::ColorTween&lt; TTarget &gt;" name="CNA::Extended::Tweening::ColorTween&lt; TTarget &gt;">
-<area shape="rect" id="Node000001" title="A tween that animates a Color value using Color::Lerp for interpolation." alt="" coords="79,227,267,267"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Tweening_1_1TypedTween.html" title=" " alt="" coords="79,123,267,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,191,175,226,170,226,170,191"/>
-<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Tweening_1_1Tween.html" title="Abstract base managing timing, lifecycle, easing, callbacks, and repeat behavior for a tween animatio..." alt="" coords="5,5,193,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,56,159,121,155,124,115,59"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="218,13,274,38"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="234,51,191,124,186,121,230,48"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="CNA::Extended::Collections::ObservableCollection&lt; T &gt;" name="CNA::Extended::Collections::ObservableCollection&lt; T &gt;">
-<area shape="rect" id="Node000001" title="A Collection&lt;T&gt; that raises ItemAdded/ItemRemoved/Clearing/Cleared events when its contents change." alt="" coords="276,63,483,103"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,228,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,46,288,60,287,65,222,51"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="56,70,177,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,80,276,80,276,85,191,85"/>
-<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1Collections_1_1IObservableCollection.html" title="Interface for collections that can be observed." alt="" coords="11,120,222,160"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,114,287,100,288,105,223,120"/>
-</map>

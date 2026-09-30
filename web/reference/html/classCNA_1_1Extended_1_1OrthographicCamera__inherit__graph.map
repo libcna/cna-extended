@@ -1,9 +1,0 @@
-<map id="CNA::Extended::OrthographicCamera" name="CNA::Extended::OrthographicCamera">
-<area shape="rect" id="Node000001" title="An orthographic (2D) camera providing view and projection transformations for rendering within a 2D w..." alt="" coords="196,93,407,133"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Camera.html" title=" " alt="" coords="5,5,184,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,48,257,91,255,96,152,53"/>
-<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1IMovable.html" title="Defines a movable object with a 2D position." alt="" coords="208,13,395,38"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="304,52,304,93,299,93,299,52"/>
-<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1IRotatable.html" title="Defines a rotatable object with a rotation angle, in radians." alt="" coords="419,13,613,38"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="476,46,350,96,348,91,474,41"/>
-</map>

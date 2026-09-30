@@ -1,161 +1,67 @@
 # cna-extended
 
-`cna-extended` is a C++23 port of [MonoGame.Extended](https://github.com/craftworkgames/MonoGame.Extended)
-for [`cnanext`](../cnanext) (a modular C++23 port of XNA 4.0 / FNA), built on top of
-[`sharp-runtimenext`](../sharp-runtimenext) (a modular C++23 reimplementation of the relevant .NET BCL
-surface). It is a sibling library in the same family as [`easy-3d`](../easy-3d).
+`cna-extended` is a C++23 static library that ports the runtime parts of
+[MonoGame.Extended](https://github.com/craftworkgames/MonoGame.Extended) to
+[`cna`](../cna) and [`sharp-runtime`](../sharp-runtime). It includes 2D math,
+collision, input, tweening, screens, sprites, bitmap fonts, tilemaps, particles,
+and ECS. `World3DEXT` adds a separate 3D scene layer. MGCB tooling and XNB-only
+readers are outside the library's scope.
 
-MonoGame.Extended is "a set of utilities... that makes it easier to make games" on top of
-MonoGame — collision detection, tilemaps, particles, sprite sheets, an entity-component
-system, tweening, input helpers, and more. `cna-extended` ports the runtime-usable parts
-of that library to C++, faithfully — the goal is a 1:1 translation as far as the
-differences between C# and C++ allow, not a reimagining.
+The original port plans are complete. This repository is now maintained as a C++
+library; new work is driven by concrete issues and consumers, not by the old
+phase checklists. See [current status](NEXT.md), [known limitations](docs/known-issues.md),
+and the [historical plans](docs/history/README.md).
 
-## Status
+## Build and test
 
-Porting is complete: all 9 module phases described in `plan.md` (Phases 1-9) are fully
-ported and tested. On top of the port, `World3DEXT` (see `3d.md`/`plan3d.md`) adds a
-non-upstream 3D scene extension — camera, transform hierarchy, model/skinned-model
-rendering, 3D collisions, billboards/text/debug-draw, particles, voxel tilemaps, and an
-end-to-end `world3d_demo` example — with all 9 of its own phases complete and an
-independent audit's follow-up fixes (`plan3d.md`'s Phase 10) done, 2D/3D parity work
-(`plan3d.md`'s Phase 11 — collision layers, a recursive octree broadphase, and a full
-particles plugin architecture) done, and Phase 12 (sphere-wireframe debug draw, a
-tilemap-collision broadphase shortcut, a JSON tilemap file reader, multi-page bitmap-font
-text, and per-chunk tilemap render batching) done. Current test count:
-2371/2371 passing (see `NEXT.md` for the most up-to-date figure, since this number moves as
-work continues).
-
-## Modules
-
-- **Math, Shapes & Collections** (Phase 1) — `Vector`/`Angle` helpers, `RectangleF`,
-  `CircleF`, `BoundingRectangle`, `Segment2`, 2D bounding volumes (`BoundingBox2D`,
-  `BoundingCircle2D`, `BoundingCapsule2D`, `BoundingPolygon2D`, `OrientedBoundingBox2D`),
-  ear-clipping triangulation, transform hierarchies (`Transform2`/`Transform3`), and
-  extra collections (`Bag<T>`, `Deque<T>`) not already covered by `sharp-runtime`.
-- **2D Collisions** (Phase 2) — shape-vs-shape intersection/containment tests
-  (`Collision2D`), a broadphase-backed `CollisionWorld2D` with pluggable actors, a
-  quadtree and spatial-hash broadphase, and layer-based collision filtering.
-- **Input, Timers, Tweening, ViewportAdapters & VectorDraw** (Phase 3) — keyboard/mouse/
-  gamepad/touch input listeners, frame-independent timers, a pointer-to-member-based
-  `Tweener`/easing-function system, viewport scaling/boxing adapters, and debug
-  primitive/vector drawing (`PrimitiveBatch`/`PrimitiveDrawing`).
-- **Screens** (Phase 4) — a `Screen`/`ScreenManager` stack with `FadeTransition`/
-  `ExpandTransition`.
-- **Graphics, BitmapFonts & Animations** (Phase 5) — sprite/animation types (`Sprite`,
-  `AnimatedSprite`, `SpriteSheet`), texture atlases (`Texture2DAtlas`,
-  `Texture2DRegion`), nine-patch drawing, `SpriteBatch`/`GraphicsDevice` extension
-  helpers, direct-format `TexturePacker` JSON atlas loading, AngelCode BMFont bitmap
-  fonts (`BitmapFont`), and the sprite `AnimationController` system.
-  Custom shader effects (`DefaultEffect`/`MatrixChainEffect`) are implemented on `cna`'s
-  hand-written `ShaderEffect`/`BasicEffect`, not a literal MonoGame `Effect` bytecode
-  port (`cna` has no `.mgfxo` bytecode loader).
-- **Tilemaps** (Phase 7) — a format-agnostic tilemap data model (`Tilemap`,
-  `TilemapLayers`, `TilemapObjects`, `TilemapTileset`) fed by direct-format parsers for
-  Tiled (TMX/JSON), LDtk (JSON), and Ogmo (JSON) — no MGCB/`.xnb` step required — plus
-  two independent rendering paths: `SpriteBatch`-based (`TilemapSpriteBatchRenderer`/
-  `TilemapWorldSpriteBatchRenderer`) and direct `VertexBuffer`/`BasicEffect`-based
-  (`TilemapRenderer`/`TilemapWorldRenderer`).
-- **Particles** (Phase 8) — `ParticleEffect`/`ParticleEmitter` with a modifier/profile
-  pipeline and XML effect serialization, matching MonoGame.Extended's Mercury Particle
-  Engine-derived particle system.
-- **ECS** (Phase 9) — an Artemis-style entity-component system: `World`/`WorldBuilder`,
-  `Entity`/`EntityManager`, `Aspect`-based system filtering, and component mappers.
-
-Not ported (see `plan.md` §2 for the full rationale): the design-time
-`MonoGame.Extended.Content.Pipeline` (MGCB tooling has no C++ runtime counterpart), and
-the runtime `.xnb`-based `ContentTypeReader` classes that only exist to consume that
-pipeline's output. Direct-format loading (Tiled TMX/JSON, LDtk JSON, Ogmo JSON,
-TexturePacker JSON, BMFont `.fnt`) covers the same ground without needing MGCB.
-
-## Usage
-
-`cna-extended` is a normal CMake static library consumed alongside `cna`; most modules
-(anything touching `GraphicsDevice`/`SpriteBatch`) need a real, linked `cna` to run, not
-just its headers. A small example that isn't graphics-dependent — tweening a game
-object's position with an easing curve — looks like this:
-
-```cpp
-#include <CNA/Extended/Tweening/EasingFunctions.hpp>
-#include <CNA/Extended/Tweening/Tweener.hpp>
-#include <Microsoft/Xna/Framework/Vector2.hpp>
-
-using CNA::Extended::Tweening::EasingFunctions;
-using CNA::Extended::Tweening::Tweener;
-using Microsoft::Xna::Framework::Vector2;
-
-struct Player
-{
-    Vector2 Position{0.0f, 0.0f};
-};
-
-int main()
-{
-    Player player;
-    Tweener tweener;
-
-    // Animate player.Position to (100, 0) over half a second, eased out.
-    tweener.TweenTo(&player, &Player::Position, Vector2(100.0f, 0.0f), 0.5f)
-        ->Easing(EasingFunctions::QuadraticOut);
-
-    // Call once per frame, e.g. from your game's Update():
-    tweener.Update(1.0f / 60.0f);
-
-    return 0;
-}
-```
-
-See `examples/` for a fuller, graphics-backed sample (loading and rendering content via
-`cna`'s `GraphicsDevice`/`SpriteBatch`).
-
-## Building
-
-Depends on the modular `../cnanext` and `../sharp-runtimenext` sibling checkouts. The
-normal standalone configuration adds them automatically; a parent build that already
-provides CNA's modular targets is reused. `cna-extended` links only the CNA modules it
-uses directly (`Core`, `Math`, `GraphicsCore`, `Input`, `Content`, and `Runtime`) and
-their declared dependency closure, instead of the all-modules `CNA` umbrella. It does
-the same for Sharp Runtime, avoiding unrelated networking, HTTP, WebSocket, XML LINQ,
-timer, and other modules.
-
-Linked config (needed for anything that actually touches `GraphicsDevice`/`SpriteBatch`,
-including running the test suite's rendering-backed tests):
+Check out `cna-extended`, `cna`, and `sharp-runtime` as siblings. The verified
+standalone configuration uses CNA's software renderer, headless platform, and
+null audio backend:
 
 ```sh
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DCNA_ENABLE_SDL=OFF -DCNA_ENABLE_VIDEO=OFF
 cmake --build build --parallel 2
 ctest --test-dir build -j2 --output-on-failure
 ```
 
-Headers-only config (compile-checking only, no `cna`/`sharp-runtime` build, no test
-execution against real `GraphicsDevice`-backed code):
+The linked build produces the `CNA::Extended` library alias, examples, and the
+`CnaExtendedTests` GoogleTest binary. Applications may select a different CNA
+renderer, platform, and audio backend through
+`CNA_EXTENDED_CNA_RENDERER`, `CNA_EXTENDED_CNA_PLATFORM`, and
+`CNA_EXTENDED_CNA_AUDIO_PLATFORM`. `CNA_EXTENDED_CNA_DIR` and
+`CNA_EXTENDED_SHARP_RUNTIME_DIR` override the sibling checkout paths.
+
+The last verified dependency revisions and test result are recorded in
+[NEXT.md](NEXT.md). The CI workflow uses those revisions so changes in either
+dependency do not silently change the result.
+
+## Where to start
+
+- [Contributing](CONTRIBUTING.md): setup, tests, conventions, and review checklist.
+- [Architecture](docs/architecture.md): module map, dependencies, ownership, and render testing.
+- [Known limitations](docs/known-issues.md): active constraints and the two skipped tests.
+- [Examples](examples/): minimal link, 2D tilemap, and 3D scene integrations.
+- [API catalogue](web/api.html): curated entry points to the public headers.
+
+Public headers live under `include/CNA/Extended/`; implementation and tests mirror
+that layout in `src/` and `tests/`. Prefer a module header over the umbrella
+`<CNA/Extended.hpp>` in application code.
+
+## API reference
+
+The website's full reference is generated from public headers; generated HTML is
+not versioned. To preview the complete site locally:
 
 ```sh
-cmake -S . -B build-modular -DCMAKE_BUILD_TYPE=Debug -DCNA_EXTENDED_LINK_CNA=OFF
-cmake --build build-modular --parallel 2
+cd web
+doxygen Doxyfile.reference
+python3 -m http.server 8000
 ```
 
-Other relevant CMake options (see `CMakeLists.txt` for the full list):
-`CNA_EXTENDED_BUILD_EXAMPLES` and `CNA_EXTENDED_BUILD_TESTS` (both `ON` by default)
-toggle `examples/`/`tests/`. A standalone linked build defaults to the host-independent
-combination `CNA_EXTENDED_CNA_RENDERER=SOFTWARE`,
-`CNA_EXTENDED_CNA_PLATFORM=HEADLESS`, and `CNA_EXTENDED_CNA_AUDIO_PLATFORM=NULL`; each
-axis can be overridden for an application's real window, GPU, and audio backend.
-
-Both configurations are kept warning-free under `-Wall -Wextra -Werror`
-(`/W4 /WX` on MSVC).
-
-## Documentation
-
-API reference docs are generated with Doxygen from the headers under `include/`:
-
-```sh
-doxygen Doxyfile
-```
-
-Output is written to `docs/generated/html` (git-ignored, not checked in).
+Open `http://localhost:8000/`. CI builds the same output and publishes it to
+GitHub Pages on pushes to `develop`. The standalone Doxygen configuration in
+the repository root writes to ignored `docs/generated/`.
 
 ## License
 
-MIT — see [`LICENSE`](LICENSE). See `NOTICE.md` for MonoGame.Extended's own MIT
-attribution.
+MIT. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for upstream attribution.

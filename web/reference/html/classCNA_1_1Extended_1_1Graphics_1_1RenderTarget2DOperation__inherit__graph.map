@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Graphics::RenderTarget2DOperation" name="CNA::Extended::Graphics::RenderTarget2DOperation">
-<area shape="rect" id="Node000001" title="RAII scope object returned by BeginDraw(): sets renderTarget active on construction,..." alt="" coords="5,79,204,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="27,5,182,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,44,107,79,102,79,102,44"/>
-</map>

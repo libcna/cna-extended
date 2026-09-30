@@ -1,7 +1,0 @@
-<map id="CNA/Extended/Tilemaps/LDtk/Document/LDtkDocument.hpp" name="CNA/Extended/Tilemaps/LDtk/Document/LDtkDocument.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="99,5,355,45"/>
-<area shape="rect" id="Node000002" href="$LDtkTilemapDataConverter_8hpp.html" title=" " alt="" coords="5,93,224,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,56,148,95,145,91,192,52"/>
-<area shape="rect" id="Node000003" href="$LDtkJsonParser_8hpp.html" title=" " alt="" coords="248,101,432,141"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,52,319,99,315,103,259,56"/>
-</map>

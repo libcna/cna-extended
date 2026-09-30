@@ -1,9 +1,0 @@
-<map id="CNA::Extended::ECS::Systems::UpdateSystem" name="CNA::Extended::ECS::Systems::UpdateSystem">
-<area shape="rect" id="Node000001" title="Convenience base for an IUpdateSystem with no&#45;op Dispose/Initialize defaults." alt="" coords="7,255,198,295"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1IUpdateSystem.html" title="An ISystem that updates once per frame." alt="" coords="5,167,200,207"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,221,105,254,100,254,100,221"/>
-<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1ECS_1_1Systems_1_1ISystem.html" title="Base interface for anything World can register and initialize (update and/or draw systems)." alt="" coords="27,79,179,119"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,133,105,166,100,166,100,133"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="25,5,180,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="105,44,105,79,100,79,100,44"/>
-</map>

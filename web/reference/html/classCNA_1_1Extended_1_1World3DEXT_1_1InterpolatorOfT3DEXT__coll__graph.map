@@ -1,5 +1,0 @@
-<map id="CNA::Extended::World3DEXT::InterpolatorOfT3DEXT&lt; T &gt;" name="CNA::Extended::World3DEXT::InterpolatorOfT3DEXT&lt; T &gt;">
-<area shape="rect" id="Node000001" title="Generic interpolator base holding the start/end values to interpolate between." alt="" coords="5,93,216,133"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1World3DEXT_1_1Interpolator3DEXT.html" title="Base class for particle interpolators: computes a target property value from a normalized [0,..." alt="" coords="7,5,214,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,59,113,93,108,93,108,59"/>
-</map>

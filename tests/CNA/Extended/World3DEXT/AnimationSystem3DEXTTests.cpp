@@ -116,6 +116,7 @@ namespace CNA::Extended::World3DEXT
         protected:
             void SetUp() override
             {
+                graphicsDevice.SetGraphicsProfileEXT(Microsoft::Xna::Framework::Graphics::GraphicsProfile::HiDef);
                 graphicsDevice.setViewportProperty(Viewport(0, 0, 800, 480));
                 graphicsDevice.setRasterizerStateProperty(RasterizerState::CullNone);
 
@@ -140,9 +141,8 @@ namespace CNA::Extended::World3DEXT
 
                 std::vector<Color> pixels(
                     static_cast<std::size_t>(width) * static_cast<std::size_t>(height), Color::Transparent);
-                graphicsDevice.GetBackBufferData(pixels.data(), static_cast<int>(pixels.size()));
-
                 graphicsDevice.SetRenderTarget(nullptr);
+                rt.GetData(pixels.data(), static_cast<int>(pixels.size()));
 
                 return {std::move(pixels), width};
             }

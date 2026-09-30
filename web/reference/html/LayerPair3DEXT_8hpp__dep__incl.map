@@ -1,7 +1,0 @@
-<map id="CNA/Extended/World3DEXT/LayerPair3DEXT.hpp" name="CNA/Extended/World3DEXT/LayerPair3DEXT.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="29,5,228,45"/>
-<area shape="rect" id="Node000002" href="$CollisionWorld3DEXT_8hpp.html" title=" " alt="" coords="29,93,228,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,59,131,93,126,93,126,59"/>
-<area shape="rect" id="Node000003" href="$TilemapCollisionRegistrarEXT_8hpp.html" title=" " alt="" coords="5,181,252,221"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,147,131,181,126,181,126,147"/>
-</map>

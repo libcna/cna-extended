@@ -21,9 +21,8 @@
 //    small burst of billboarded particles from the pillar's position.
 //
 // Like tiled_demo, this runs headlessly: a real GraphicsDevice plus an off-screen
-// RenderTarget2D, read back via GraphicsDevice::GetBackBufferData (not
-// RenderTarget2D::GetData -- see TilemapIntegrationTests.cpp's RenderToPixels comment for
-// why), no real window. Each simulated frame samples a few real rendered pixels to prove
+// RenderTarget2D, read back via RenderTarget2D::GetData after unbinding, no real
+// window. Each simulated frame samples a few real rendered pixels to prove
 // actual drawing happened, not just "didn't throw"; the final frame is also saved as a PNG.
 #include <CNA/Extended/ECS/Entity.hpp>
 #include <CNA/Extended/ECS/World.hpp>
@@ -380,9 +379,8 @@ namespace
         render();
 
         std::vector<Color> pixels(static_cast<std::size_t>(kWidth) * static_cast<std::size_t>(kHeight), Color::Transparent);
-        graphicsDevice.GetBackBufferData(pixels.data(), static_cast<int>(pixels.size()));
-
         graphicsDevice.SetRenderTarget(nullptr);
+        rt.GetData(pixels.data(), static_cast<int>(pixels.size()));
         return pixels;
     }
 
@@ -413,6 +411,7 @@ namespace
                      "ParticleRenderSystem3DEXT, Tilemap3DEXT/TilemapTileset3DEXT/TilemapRenderer3DEXT.\n\n";
 
         GraphicsDevice graphicsDevice;
+        graphicsDevice.SetGraphicsProfileEXT(Microsoft::Xna::Framework::Graphics::GraphicsProfile::HiDef);
         graphicsDevice.setViewportProperty(Microsoft::Xna::Framework::Graphics::Viewport(0, 0, kWidth, kHeight));
         graphicsDevice.setRasterizerStateProperty(RasterizerState::CullNone);
 

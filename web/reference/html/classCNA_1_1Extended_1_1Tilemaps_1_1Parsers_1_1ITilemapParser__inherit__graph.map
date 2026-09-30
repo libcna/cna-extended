@@ -1,9 +1,0 @@
-<map id="CNA::Extended::Tilemaps::Parsers::ITilemapParser" name="CNA::Extended::Tilemaps::Parsers::ITilemapParser">
-<area shape="rect" id="Node000001" title="Interface for tilemap format parsers (Tiled, LDtk, Ogmo)." alt="" coords="5,69,192,109"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Tilemaps_1_1LDtk_1_1LDtkJsonParser.html" title="Parser for LDtk JSON tilemap project files." alt="" coords="240,5,427,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,63,259,43,260,48,186,68"/>
-<area shape="rect" id="Node000003" href="$classCNA_1_1Extended_1_1Tilemaps_1_1Ogmo_1_1OgmoJsonParser.html" title="Parser for Ogmo Editor 3 JSON tilemap files." alt="" coords="240,69,427,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,87,240,87,240,92,205,92"/>
-<area shape="rect" id="Node000004" href="$classCNA_1_1Extended_1_1Tilemaps_1_1Tiled_1_1TiledTmxParser.html" title="Parser for Tiled TMX (Tile Map XML) files." alt="" coords="240,133,427,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="186,110,260,131,259,136,185,116"/>
-</map>

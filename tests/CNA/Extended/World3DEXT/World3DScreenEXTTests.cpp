@@ -77,6 +77,7 @@ namespace CNA::Extended::World3DEXT
     TEST(World3DScreenEXTTests, InitializeUpdateDraw_DrawsThroughConfiguredWorldSystems)
     {
         GraphicsDevice graphicsDevice;
+        graphicsDevice.SetGraphicsProfileEXT(Microsoft::Xna::Framework::Graphics::GraphicsProfile::HiDef);
         graphicsDevice.setViewportProperty(Viewport(0, 0, 800, 480));
         graphicsDevice.setRasterizerStateProperty(RasterizerState::CullNone);
 
@@ -106,8 +107,8 @@ namespace CNA::Extended::World3DEXT
         screen.Draw(gameTime);
 
         std::vector<Color> pixels(static_cast<std::size_t>(width) * static_cast<std::size_t>(height), Color::Transparent);
-        graphicsDevice.GetBackBufferData(pixels.data(), static_cast<int>(pixels.size()));
         graphicsDevice.SetRenderTarget(nullptr);
+        rt.GetData(pixels.data(), static_cast<int>(pixels.size()));
 
         const Color center = pixels[static_cast<std::size_t>(height / 2) * static_cast<std::size_t>(width) + static_cast<std::size_t>(width / 2)];
         EXPECT_GT(center.getGProperty(), 0);

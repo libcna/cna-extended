@@ -1,0 +1,56 @@
+name: Documentation website
+
+on:
+  push:
+    branches: [develop]
+    paths:
+      - '.github/workflows/pages.yml'
+      - 'include/**'
+      - 'web/**'
+  pull_request:
+    paths:
+      - '.github/workflows/pages.yml'
+      - 'include/**'
+      - 'web/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  site:
+    name: Generate website and API reference
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Install Doxygen
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends doxygen graphviz
+      - name: Generate API reference
+        working-directory: web
+        run: doxygen Doxyfile.reference
+      - name: Validate site links
+        run: test -s web/reference/html/index.html
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: web
+
+  deploy:
+    name: Publish to GitHub Pages
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/develop'
+    needs: site
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4

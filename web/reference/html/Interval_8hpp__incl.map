@@ -1,9 +1,0 @@
-<map id="CNA/Extended/Interval.hpp" name="CNA/Extended/Interval.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="143,5,341,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,175,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,33,128,75,126,70,216,28"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="199,79,285,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,31,245,65,239,65,239,31"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="310,79,369,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="259,29,314,68,311,72,256,33"/>
-</map>

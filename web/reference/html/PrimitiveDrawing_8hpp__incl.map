@@ -1,9 +1,0 @@
-<map id="CNA/Extended/VectorDraw/PrimitiveDrawing.hpp" name="CNA/Extended/VectorDraw/PrimitiveDrawing.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="214,5,409,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,193,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,48,159,91,157,86,264,43"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="217,93,405,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="314,46,314,79,309,79,309,46"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="429,101,492,126"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="345,43,430,92,428,96,343,48"/>
-</map>

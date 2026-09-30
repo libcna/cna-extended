@@ -1,7 +1,0 @@
-<map id="CNA::Extended::Collisions::QuadTree" name="CNA::Extended::Collisions::QuadTree">
-<area shape="rect" id="Node000001" title="Stores collision actors in a hierarchical quadtree for broadphase overlap queries." alt="" coords="25,196,216,236"/>
-<area shape="rect" id="Node000002" href="$structCNA_1_1Extended_1_1BoundingBox2D.html" title="Represents an axis&#45;aligned bounding box in 2D space, defined by minimum and maximum corner points." alt="" coords="5,108,236,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,147,123,196,118,196,118,147"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="85,5,156,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,45,123,108,118,108,118,45"/>
-</map>

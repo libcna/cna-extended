@@ -785,7 +785,7 @@ namespace CNA::Extended
 
     TEST_F(OrthographicCameraTest, Issue793_ScreenToWorld_WithNonZeroViewportOrigin_TransformsCorrectly)
     {
-        graphicsDevice.setViewportProperty(Viewport(100, 50, 800, 480));
+        graphicsDevice.setViewportProperty(Viewport(100, 50, 700, 430));
 
         OrthographicCamera camera(graphicsDevice);
 
@@ -800,7 +800,7 @@ namespace CNA::Extended
 
     TEST_F(OrthographicCameraTest, Issue793_WorldToScreen_RoundTrip_WithNonZeroViewportOrigin_ReturnsOriginalPosition)
     {
-        graphicsDevice.setViewportProperty(Viewport(100, 50, 800, 480));
+        graphicsDevice.setViewportProperty(Viewport(100, 50, 700, 430));
 
         OrthographicCamera camera(graphicsDevice);
         camera.setPositionProperty(Vector2(100, 200));

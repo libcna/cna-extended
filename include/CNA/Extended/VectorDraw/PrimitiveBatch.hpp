@@ -14,7 +14,7 @@
 // exact-shape overload), GraphicsDevice::getBlendStateProperty()/setBlendStateProperty(),
 // GraphicsDevice::getSamplerStatesProperty()[index], BlendState::NonPremultiplied,
 // SamplerState::AnisotropicClamp, and Effect::getCurrentTechniqueProperty()->
-// getPassesProperty()[0].Apply(). Verified by reading each header directly, not assumed.
+// getPassesProperty()[0]->Apply(). Verified by reading each header directly, not assumed.
 //
 // `new BasicEffect(graphicsDevice)` (C# heap allocation, released via `_basicEffect.Dispose()`)
 // -> a plain by-value BasicEffect member here, since nothing else ever shares this specific

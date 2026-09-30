@@ -1221,6 +1221,6 @@ namespace CNA::Extended::Tilemaps::Rendering
             VertexPositionColorTexture(Vector3(right, bottom, 0.0f), color, Vector2(uRight, vBottom)),
         };
 
-        vertexBuffer.SetData(verts, 0, 4, SetDataOptions::None);
+        vertexBuffer.SetData(verts, 0, 4, SetDataOptions::Discard);
     }
 }

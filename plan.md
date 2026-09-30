@@ -1,5 +1,11 @@
 # cna-extended — Porting Plan
 
+> Historical record: all phases are complete. For current builds, tests, and
+> active limitations, start with [NEXT.md](NEXT.md) and
+> [CONTRIBUTING.md](CONTRIBUTING.md). Dated task notes below are not a current
+> work queue. References below to numbered entries of the old `NEXT.md` refer
+> to the [archived long handoff](docs/history/NEXT-2026-09-30.md).
+
 Status: **APPROVED (2026-07-12 by Robert Vokáč) — ALL 10 PHASES COMPLETE (2026-07-14). The
 port is done.** Phase 7's former architectural blocker (`TilemapRenderer`/
 `TilemapWorldRenderer`, `VertexPositionColorTexture` vs `DefaultEffect` vertex-layout

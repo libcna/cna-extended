@@ -1,9 +1,0 @@
-<map id="CNA/Extended/World3DEXT/Tilemap3DFactoryEXT.hpp" name="CNA/Extended/World3DEXT/Tilemap3DFactoryEXT.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="148,5,347,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,193,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,48,145,89,143,84,214,43"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="218,101,277,126"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,46,250,87,245,87,245,46"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="301,101,364,126"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="268,44,313,89,309,92,264,47"/>
-</map>

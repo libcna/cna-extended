@@ -1,5 +1,0 @@
-<map id="CNA::Extended::Particles::Modifiers::VelocityModifier" name="CNA::Extended::Particles::Modifiers::VelocityModifier">
-<area shape="rect" id="Node000001" title="Applies a collection of Interpolators to particles, with intensity based on velocity magnitude relati..." alt="" coords="5,93,208,133"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Modifiers_1_1Modifier.html" title="Base class for particle modifiers: alters particle properties over time, at a configurable update fre..." alt="" coords="15,5,198,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,59,109,93,104,93,104,59"/>
-</map>

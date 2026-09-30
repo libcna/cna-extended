@@ -7,15 +7,15 @@
   row 2, plus an object layer marking where the player sprite spawns and where it's
   headed. Loaded end-to-end by CNA::Extended::Tilemaps::Tiled::TiledTmxParser
   (real TMX XML parsing, not a synthetic in-code Tilemap) and rendered by
-  TilemapSpriteBatchRenderer. "tileset.bmp" is a real 64x32 24bpp BMP sitting next to
-  this file (see assets/tileset.bmp) -- resolved via ExternalResourceResolver's default
+  TilemapSpriteBatchRenderer. "tileset.png" is a real 64x32 PNG sitting next to
+  this file (see assets/tileset.png) -- resolved via ExternalResourceResolver's default
   local-filesystem resolver, exactly like a real Tiled-authored map referencing an
   external tileset image.
 -->
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down"
      width="10" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="3">
  <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32" tilecount="2" columns="2">
-  <image source="tileset.bmp" width="64" height="32"/>
+  <image source="tileset.png" width="64" height="32"/>
  </tileset>
  <layer id="1" name="Ground" width="10" height="6">
   <data encoding="csv">

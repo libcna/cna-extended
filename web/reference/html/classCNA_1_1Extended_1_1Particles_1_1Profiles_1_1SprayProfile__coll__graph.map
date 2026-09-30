@@ -1,7 +1,0 @@
-<map id="CNA::Extended::Particles::Profiles::SprayProfile" name="CNA::Extended::Particles::Profiles::SprayProfile">
-<area shape="rect" id="Node000001" title="Emits particles from a single point in a directional cone (central Direction +/&#45; Spread/2 radians)." alt="" coords="80,108,263,148"/>
-<area shape="rect" id="Node000002" href="$classCNA_1_1Extended_1_1Particles_1_1Profiles_1_1Profile.html" title="Base class for particle emission profiles: computes the initial offset and heading for each newly rel..." alt="" coords="5,5,188,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,55,159,106,155,110,117,58"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="212,13,283,38"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,51,188,109,184,106,228,48"/>
-</map>
