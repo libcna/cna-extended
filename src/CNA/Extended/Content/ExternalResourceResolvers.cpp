@@ -16,7 +16,10 @@ namespace CNA::Extended::Content
         {
             throw std::invalid_argument("path must not be empty.");
         }
-        return std::make_unique<System::IO::FileStream>(path);
+        return std::make_unique<System::IO::FileStream>(
+            path,
+            System::IO::FileMode::Open,
+            System::IO::FileAccess::Read);
     }
 
     std::unique_ptr<System::IO::Stream> OpenTitleContainerStream(const std::string& path)

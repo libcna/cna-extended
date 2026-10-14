@@ -38,6 +38,8 @@ namespace CNA::Extended::Content
 
         const std::unique_ptr<System::IO::Stream> stream = OpenFile(path.string());
         ASSERT_NE(stream, nullptr);
+        EXPECT_TRUE(stream->getCanReadProperty());
+        EXPECT_FALSE(stream->getCanWriteProperty());
 
         std::vector<SharpRuntime::bytecs> buffer(11);
         stream->Read(buffer.data(), 0, static_cast<int>(buffer.size()));

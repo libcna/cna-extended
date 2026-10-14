@@ -158,9 +158,7 @@ namespace CNA::Extended::Content::BitmapFonts
     TEST(BitmapFontFileReaderTests, ReadBinaryFile)
     {
         const std::filesystem::path path = FixturePath("test-font-binary.fnt");
-        System::IO::FileStream stream(path.string());
-
-        const BitmapFontFileContent actual = Read(stream, path.string());
+        const BitmapFontFileContent actual = Read(path.string());
 
         ExpectMatches(CreateExpected(), actual);
     }
@@ -168,7 +166,9 @@ namespace CNA::Extended::Content::BitmapFonts
     TEST(BitmapFontFileReaderTests, ReadXmlFile)
     {
         const std::filesystem::path path = FixturePath("test-font-xml.fnt");
-        System::IO::FileStream stream(path.string());
+        System::IO::FileStream stream(
+            path.string(),
+            System::IO::FileMode::Open, System::IO::FileAccess::Read);
 
         const BitmapFontFileContent actual = Read(stream, path.string());
 
@@ -180,7 +180,9 @@ namespace CNA::Extended::Content::BitmapFonts
     TEST(BitmapFontFileReaderTests, ReadXmlFileWithUtf8Bom)
     {
         const std::filesystem::path path = FixturePath("test-font-xml-utf8-bom.fnt");
-        System::IO::FileStream stream(path.string());
+        System::IO::FileStream stream(
+            path.string(),
+            System::IO::FileMode::Open, System::IO::FileAccess::Read);
 
         const BitmapFontFileContent actual = Read(stream, path.string());
 
@@ -190,7 +192,9 @@ namespace CNA::Extended::Content::BitmapFonts
     TEST(BitmapFontFileReaderTests, ReadTextFile)
     {
         const std::filesystem::path path = FixturePath("test-font-text.fnt");
-        System::IO::FileStream stream(path.string());
+        System::IO::FileStream stream(
+            path.string(),
+            System::IO::FileMode::Open, System::IO::FileAccess::Read);
 
         const BitmapFontFileContent actual = Read(stream, path.string());
 

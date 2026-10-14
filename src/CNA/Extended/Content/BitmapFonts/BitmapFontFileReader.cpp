@@ -803,7 +803,9 @@ namespace CNA::Extended::Content::BitmapFonts
 
     BitmapFontFileContent Read(const std::string& path)
     {
-        System::IO::FileStream stream(path);
+        System::IO::FileStream stream(
+            path,
+            System::IO::FileMode::Open, System::IO::FileAccess::Read);
         return Read(stream, path);
     }
 }

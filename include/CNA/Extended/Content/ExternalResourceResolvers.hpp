@@ -4,11 +4,9 @@
 //
 // Ported from MonoGame.Extended's Content/ExternalResourceResolvers.cs. Upstream's static class
 // -> free functions in this namespace, matching this project's established convention for
-// stateless static-method-only C# classes. `File.OpenRead(path)` (returning a lazily-read Stream)
-// has no direct sharp-runtime equivalent -- System::IO::File only provides whole-content read
-// methods (ReadAllBytes/ReadAllText/etc.), not a stream-returning open -- translated instead via
-// System::IO::FileStream's single-path constructor (opens for reading), which returns the same
-// lazily-readable Stream semantics upstream's File.OpenRead provides.
+// stateless static-method-only C# classes. `File.OpenRead(path)` returns a lazily-read Stream;
+// this implementation constructs that stream directly via System::IO::FileStream with explicit
+// FileMode::Open and FileAccess::Read, preserving the same lazily-readable semantics.
 #pragma once
 
 #include "CNA/Extended/Content/ExternalResourceResolver.hpp"

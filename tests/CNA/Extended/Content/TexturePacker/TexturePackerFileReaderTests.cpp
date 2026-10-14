@@ -58,7 +58,9 @@ namespace CNA::Extended::Content::TexturePacker
     {
         const std::filesystem::path path = MakeTempFile(kDocument);
 
-        System::IO::FileStream stream(path.string());
+        System::IO::FileStream stream(
+            path.string(),
+            System::IO::FileMode::Open, System::IO::FileAccess::Read);
         const TexturePackerFileContent content = Read(stream);
 
         ASSERT_EQ(content.getRegionsProperty().size(), 1u);

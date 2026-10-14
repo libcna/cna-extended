@@ -52,7 +52,9 @@ namespace CNA::Extended::World3DEXT
     {
         const std::filesystem::path path = MakeTempFile(kDocument);
 
-        System::IO::FileStream stream(path.string());
+        System::IO::FileStream stream(
+            path.string(),
+            System::IO::FileMode::Open, System::IO::FileAccess::Read);
         const Tilemap3DEXT tilemap = Tilemap3DFactoryEXT::BuildFromJsonStreamEXT(stream);
 
         EXPECT_EQ(tilemap.GetTileCountEXT(), 2u);
