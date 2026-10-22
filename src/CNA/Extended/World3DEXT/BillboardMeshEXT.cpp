@@ -4,6 +4,7 @@
 
 #include "Microsoft/Xna/Framework/Vector2.hpp"
 #include "Microsoft/Xna/Framework/Vector3.hpp"
+#include "Microsoft/Xna/Framework/Graphics/BufferUsage.hpp"
 #include "Microsoft/Xna/Framework/Graphics/VertexBuffer.hpp"
 
 namespace CNA::Extended::World3DEXT
@@ -41,7 +42,8 @@ namespace CNA::Extended::World3DEXT
     std::unique_ptr<VertexBuffer> BuildBillboardQuadVertexBufferEXT(GraphicsDevice& graphicsDevice, const RectangleF& uvRect)
     {
         const std::array<VertexPositionTexture, 4> vertices = BuildBillboardQuadVerticesEXT(uvRect);
-        auto vertexBuffer = std::make_unique<VertexBuffer>(graphicsDevice, 4);
+        auto vertexBuffer = std::make_unique<VertexBuffer>(graphicsDevice, VertexPositionTexture::getVertexDeclarationStatic(), 4,
+                                                         Microsoft::Xna::Framework::Graphics::BufferUsage::None);
         vertexBuffer->SetData(vertices.data(), 4);
         return vertexBuffer;
     }

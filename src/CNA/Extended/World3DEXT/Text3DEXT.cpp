@@ -8,6 +8,7 @@
 #include "CNA/Extended/World3DEXT/BillboardMeshEXT.hpp"
 #include "Microsoft/Xna/Framework/Rectangle.hpp"
 #include "Microsoft/Xna/Framework/Vector3.hpp"
+#include "Microsoft/Xna/Framework/Graphics/BufferUsage.hpp"
 #include "Microsoft/Xna/Framework/Graphics/GraphicsDevice.hpp"
 #include "Microsoft/Xna/Framework/Graphics/IndexBuffer.hpp"
 #include "Microsoft/Xna/Framework/Graphics/Texture2D.hpp"
@@ -114,7 +115,9 @@ namespace CNA::Extended::World3DEXT
             part.Texture = texture;
             part.PrimitiveCount = static_cast<int>(bucket.Indices.size() / 3);
 
-            part.VertexBuffer = std::make_unique<VertexBuffer>(graphicsDevice, static_cast<int>(bucket.Vertices.size()));
+            part.VertexBuffer = std::make_unique<VertexBuffer>(
+                graphicsDevice, VertexPositionTexture::getVertexDeclarationStatic(), static_cast<int>(bucket.Vertices.size()),
+                Microsoft::Xna::Framework::Graphics::BufferUsage::None);
             part.VertexBuffer->SetData(bucket.Vertices.data(), static_cast<int>(bucket.Vertices.size()));
 
             part.IndexBuffer = std::make_unique<IndexBuffer>(graphicsDevice, static_cast<int>(bucket.Indices.size()));

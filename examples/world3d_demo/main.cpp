@@ -57,6 +57,7 @@
 #include <Microsoft/Xna/Framework/Vector3.hpp>
 #include <Microsoft/Xna/Framework/Vector4.hpp>
 #include <Microsoft/Xna/Framework/Graphics/BasicEffect.hpp>
+#include <Microsoft/Xna/Framework/Graphics/BufferUsage.hpp>
 #include <Microsoft/Xna/Framework/Graphics/DepthFormat.hpp>
 #include <Microsoft/Xna/Framework/Graphics/GraphicsDevice.hpp>
 #include <Microsoft/Xna/Framework/Graphics/IndexBuffer.hpp>
@@ -178,7 +179,9 @@ namespace
         };
         const std::uint16_t indices[3] = {0, 1, 2};
 
-        auto vb = std::make_unique<VertexBuffer>(graphicsDevice, 3);
+        // A skinned draw needs a buffer that names its layout (BlendIndices0).
+        auto vb = std::make_unique<VertexBuffer>(graphicsDevice, VertexPositionNormalTextureSkinned::getVertexDeclarationStatic(), 3,
+                                                 Microsoft::Xna::Framework::Graphics::BufferUsage::None);
         vb->SetData(verts, 3);
         auto ib = std::make_unique<IndexBuffer>(graphicsDevice, 3);
         ib->SetData(indices, 3);

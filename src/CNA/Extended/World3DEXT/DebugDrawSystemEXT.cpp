@@ -5,6 +5,7 @@
 #include "CNA/Extended/ECS/Entity.hpp"
 #include "CNA/Extended/World3DEXT/Camera3DEXT.hpp"
 #include "CNA/Extended/World3DEXT/DebugDrawComponentEXT.hpp"
+#include "Microsoft/Xna/Framework/Graphics/BufferUsage.hpp"
 #include "Microsoft/Xna/Framework/Graphics/GraphicsDevice.hpp"
 #include "Microsoft/Xna/Framework/Graphics/PrimitiveType.hpp"
 #include "Microsoft/Xna/Framework/Graphics/VertexBuffer.hpp"
@@ -73,7 +74,8 @@ namespace CNA::Extended::World3DEXT
         if (static_cast<int>(vertices.size()) > lineVertexCapacity_)
         {
             lineVertexCapacity_ = static_cast<int>(vertices.size());
-            lineVertexBuffer_ = std::make_unique<VertexBuffer>(*graphicsDevice_, lineVertexCapacity_);
+            lineVertexBuffer_ = std::make_unique<VertexBuffer>(
+                *graphicsDevice_, VertexPositionColor::getVertexDeclarationStatic(), lineVertexCapacity_, Microsoft::Xna::Framework::Graphics::BufferUsage::None);
         }
 
         lineVertexBuffer_->SetData(vertices.data(), 0, static_cast<int>(vertices.size()));

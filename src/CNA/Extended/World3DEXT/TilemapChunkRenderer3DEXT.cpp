@@ -8,6 +8,7 @@
 #include "Microsoft/Xna/Framework/BoundingBox.hpp"
 #include "Microsoft/Xna/Framework/BoundingFrustum.hpp"
 #include "Microsoft/Xna/Framework/Matrix.hpp"
+#include "Microsoft/Xna/Framework/Graphics/BufferUsage.hpp"
 #include "Microsoft/Xna/Framework/Graphics/GraphicsDevice.hpp"
 #include "Microsoft/Xna/Framework/Graphics/IndexBuffer.hpp"
 #include "Microsoft/Xna/Framework/Graphics/PrimitiveType.hpp"
@@ -223,7 +224,9 @@ namespace CNA::Extended::World3DEXT
             }
             chunkBatch->BoundsEXT = BoundingBox::CreateFromPoints(positions);
 
-            chunkBatch->VertexBufferEXT = std::make_unique<VertexBuffer>(*graphicsDeviceEXT_, static_cast<int>(batch.Vertices.size()));
+            chunkBatch->VertexBufferEXT = std::make_unique<VertexBuffer>(
+                *graphicsDeviceEXT_, VertexPositionNormalTexture::getVertexDeclarationStatic(), static_cast<int>(batch.Vertices.size()),
+                Microsoft::Xna::Framework::Graphics::BufferUsage::None);
             chunkBatch->VertexBufferEXT->SetData(batch.Vertices.data(), static_cast<int>(batch.Vertices.size()));
 
             chunkBatch->IndexBufferEXT = std::make_unique<IndexBuffer>(*graphicsDeviceEXT_, static_cast<int>(batch.Indices.size()));
