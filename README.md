@@ -31,6 +31,26 @@ renderer, platform, and audio backend through
 `CNA_EXTENDED_CNA_AUDIO_PLATFORM`. `CNA_EXTENDED_CNA_DIR` and
 `CNA_EXTENDED_SHARP_RUNTIME_DIR` override the sibling checkout paths.
 
+### Installed package
+
+A top-level build also installs the library, its headers and a CMake package
+(`CNA_EXTENDED_INSTALL`, on by default when cna-extended is the top-level
+project):
+
+```sh
+cmake --install build --prefix /path/to/prefix
+```
+
+A consumer then calls `find_package(CnaExtended 0.2 CONFIG REQUIRED)` and links
+`CNA::Extended`. CNA and Sharp Runtime install no package yet, so the consumer
+first adds CNA's source tree (`add_subdirectory`), selecting at least the Sharp
+Runtime components listed in `CnaExtended_SHARP_RUNTIME_COMPONENTS`; the package
+attaches its CNA and Sharp Runtime dependencies to those targets and names any
+that are missing. The version file accepts the same minor version only (0.x).
+`tools/check_package.sh <build> <cna> <sharp-runtime>` installs a linked build
+into `build-consumer/install` and builds and runs such a consumer
+(`tools/package_check/`).
+
 The local and published dependency revisions and test results are recorded in
 [NEXT.md](NEXT.md). CI pins the published revisions so changes in either
 dependency do not silently change the result.

@@ -1,0 +1,34 @@
+# SPDX-License-Identifier: MIT
+@PACKAGE_INIT@
+
+# CNA and Sharp Runtime install no CMake package yet. A consumer defines their
+# targets BEFORE find_package(CnaExtended): add_subdirectory() of the CNA source
+# tree (which adds Sharp Runtime) with at least these Sharp Runtime components
+# selected in SHARP_RUNTIME_COMPONENTS:
+set(CnaExtended_SHARP_RUNTIME_COMPONENTS @CNA_EXTENDED_SHARP_RUNTIME_COMPONENTS@)
+
+if(NOT TARGET CNA::Core)
+    # A CNA package, once CNA installs one.
+    find_package(CNA CONFIG QUIET)
+endif()
+
+set(_cna_extended_dependencies @CNA_EXTENDED_PACKAGE_DEPENDENCIES@)
+set(_cna_extended_missing "")
+foreach(_cna_extended_dependency IN LISTS _cna_extended_dependencies)
+    if(NOT TARGET ${_cna_extended_dependency})
+        list(APPEND _cna_extended_missing ${_cna_extended_dependency})
+    endif()
+endforeach()
+if(_cna_extended_missing)
+    set(CnaExtended_FOUND FALSE)
+    set(CnaExtended_NOT_FOUND_MESSAGE
+        "define these targets before find_package(CnaExtended), e.g. by add_subdirectory() of the CNA source tree with the Sharp Runtime components in CnaExtended_SHARP_RUNTIME_COMPONENTS: ${_cna_extended_missing}")
+    return()
+endif()
+
+# A parent may also have added cna-extended's source tree; then CNA::Extended exists already.
+if(NOT TARGET CNA::Extended)
+    include("${CMAKE_CURRENT_LIST_DIR}/CnaExtendedTargets.cmake")
+    set_property(TARGET CNA::Extended APPEND PROPERTY INTERFACE_LINK_LIBRARIES ${_cna_extended_dependencies})
+endif()
+check_required_components(CnaExtended)

@@ -28,6 +28,9 @@ in `plan.md`, `plan3d.md`, and `3d.md`.
   directory: its asset path is relative to it) and
   `cna_extended_world3d_demo`: all completed headlessly; the demos saved
   nonempty PNG frames.
+- Version 0.2.0: an installed CMake package (`find_package(CnaExtended 0.2)`,
+  README "Installed package"); `tools/check_package.sh` built and ran a
+  consumer of it against the revisions above.
 - Website: Doxygen generated `web/reference/html/index.html` from the public
   headers, and all source-page local links resolved (2026-09-30).
 

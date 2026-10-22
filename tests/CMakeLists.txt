@@ -5,6 +5,8 @@ if(NOT EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/../vendor/googletest/CMakeLists.txt")
         "vendor/googletest is missing.\n"
         "Run: git submodule update --init --recursive")
 endif()
+# The test framework is not part of the installed package.
+set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
 add_subdirectory(../vendor/googletest ${CMAKE_BINARY_DIR}/_googletest)
 
 file(GLOB_RECURSE CNA_EXTENDED_TEST_SOURCES CONFIGURE_DEPENDS
@@ -35,7 +37,8 @@ if(CNA_EXTENDED_CNA_LINKED)
     # Fixture files are found through this absolute path, never through __FILE__ (relative under
     # ccache's base directory) or the working directory (CTest runs from <build>/tests).
     target_compile_definitions(CnaExtendedTests PRIVATE
-        CNA_EXTENDED_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}")
+        CNA_EXTENDED_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}"
+        CNA_EXTENDED_PROJECT_VERSION="${PROJECT_VERSION}")
     if(MSVC)
         target_compile_options(CnaExtendedTests PRIVATE /W4 /WX)
     else()
@@ -58,7 +61,8 @@ else()
             ${CMAKE_CURRENT_SOURCE_DIR}
     )
     target_compile_definitions(CnaExtendedTests_compilecheck PRIVATE
-        CNA_EXTENDED_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}")
+        CNA_EXTENDED_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}"
+        CNA_EXTENDED_PROJECT_VERSION="${PROJECT_VERSION}")
     if(MSVC)
         target_compile_options(CnaExtendedTests_compilecheck PRIVATE /W4 /WX)
     else()

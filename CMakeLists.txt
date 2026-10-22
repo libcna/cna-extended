@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 project(cna_extended
-    VERSION 0.1.0
+    VERSION 0.2.0
     DESCRIPTION "C++ port of MonoGame.Extended for CNA"
     LANGUAGES CXX)
 
@@ -16,6 +16,15 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # ---------------------------------------------------------------------------
 option(CNA_EXTENDED_BUILD_EXAMPLES "Build cna-extended examples" ON)
 option(CNA_EXTENDED_BUILD_TESTS "Build cna-extended tests" ON)
+# The installed package (find_package(CnaExtended)): on by default when this is
+# the top-level project, off when a parent adds the source tree.
+if(CMAKE_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
+    set(_cna_extended_top_level ON)
+else()
+    set(_cna_extended_top_level OFF)
+endif()
+option(CNA_EXTENDED_INSTALL "Install the library, headers and the CnaExtended CMake package"
+    ${_cna_extended_top_level})
 
 # Most of cna-extended needs compiled CNA symbols. A parent project may provide
 # CNA's modular targets first; otherwise a standalone build adds cna and
@@ -132,9 +141,11 @@ add_library(CNA_EXTENDED STATIC
     ${CNA_EXTENDED_SOURCES}
 )
 
+include(GNUInstallDirs)
 target_include_directories(CNA_EXTENDED
     PUBLIC
-        "${CMAKE_CURRENT_SOURCE_DIR}/include"
+        "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
+        "$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>"
 )
 
 if(MSVC)
@@ -210,10 +221,12 @@ if(_cna_extended_have_cna_target)
         endif()
     endforeach()
 
-    target_link_libraries(CNA_EXTENDED PUBLIC
-        ${CNA_EXTENDED_CNA_MODULE_TARGETS}
-        ${CNA_EXTENDED_SHARP_RUNTIME_TARGETS}
-    )
+    # CNA and Sharp Runtime install no CMake package yet, so their targets
+    # cannot be exported with this one: the installed CnaExtendedConfig.cmake
+    # attaches them again from the consumer's own CNA and Sharp Runtime.
+    foreach(_dependency IN LISTS CNA_EXTENDED_CNA_MODULE_TARGETS CNA_EXTENDED_SHARP_RUNTIME_TARGETS)
+        target_link_libraries(CNA_EXTENDED PUBLIC "$<BUILD_INTERFACE:${_dependency}>")
+    endforeach()
     target_compile_definitions(CNA_EXTENDED PUBLIC CNA_EXTENDED_HAS_CNA_LINK)
 else()
     # Headers-only compile checking still follows the modular boundaries. This
@@ -259,6 +272,34 @@ endif()
 set(CNA_EXTENDED_CNA_LINKED ${_cna_extended_have_cna_target})
 
 add_library(CNA::Extended ALIAS CNA_EXTENDED)
+
+# ---------------------------------------------------------------------------
+# Installed package: find_package(CnaExtended 0.2) gives CNA::Extended
+# ---------------------------------------------------------------------------
+if(CNA_EXTENDED_INSTALL AND _cna_extended_have_cna_target)
+    include(CMakePackageConfigHelpers)
+    set(_cna_extended_package_dir "${CMAKE_INSTALL_LIBDIR}/cmake/CnaExtended")
+    set_target_properties(CNA_EXTENDED PROPERTIES EXPORT_NAME Extended)
+    install(TARGETS CNA_EXTENDED EXPORT CnaExtendedTargets
+        ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+        INCLUDES DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
+    install(DIRECTORY include/ DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
+    install(EXPORT CnaExtendedTargets NAMESPACE CNA:: DESTINATION "${_cna_extended_package_dir}")
+    # What the configuration file needs from the consumer.
+    set(CNA_EXTENDED_PACKAGE_DEPENDENCIES
+        ${CNA_EXTENDED_CNA_MODULE_TARGETS} ${CNA_EXTENDED_SHARP_RUNTIME_TARGETS})
+    configure_package_config_file(cmake/CnaExtendedConfig.cmake.in
+        "${CMAKE_CURRENT_BINARY_DIR}/CnaExtendedConfig.cmake"
+        INSTALL_DESTINATION "${_cna_extended_package_dir}")
+    # 0.x: a minor version may change the API, so only the same minor matches.
+    write_basic_package_version_file("${CMAKE_CURRENT_BINARY_DIR}/CnaExtendedConfigVersion.cmake"
+        VERSION "${PROJECT_VERSION}" COMPATIBILITY SameMinorVersion)
+    install(FILES
+        "${CMAKE_CURRENT_BINARY_DIR}/CnaExtendedConfig.cmake"
+        "${CMAKE_CURRENT_BINARY_DIR}/CnaExtendedConfigVersion.cmake"
+        DESTINATION "${_cna_extended_package_dir}")
+    install(FILES LICENSE NOTICE.md DESTINATION "${CMAKE_INSTALL_DOCDIR}")
+endif()
 
 # ---------------------------------------------------------------------------
 # Examples & tests

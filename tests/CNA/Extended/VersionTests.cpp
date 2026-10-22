@@ -17,4 +17,10 @@ namespace CNA::Extended
     {
         EXPECT_FALSE(std::string_view(VersionString()).empty());
     }
+
+    // The installed package's version file comes from CMake's project version.
+    TEST(Version, MatchesTheProjectVersion)
+    {
+        EXPECT_EQ(std::string_view(VersionString()), std::string_view(CNA_EXTENDED_PROJECT_VERSION));
+    }
 }
