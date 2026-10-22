@@ -17,7 +17,7 @@ namespace CNA::Extended
     using Microsoft::Xna::Framework::Point;
     using SharpRuntime::intcs;
 
-    class SizeF;
+    struct SizeF;
 
     /** @brief A two-dimensional size defined by two integers, a width and a height. */
     struct Size
