@@ -22,6 +22,7 @@
 #include "Microsoft/Xna/Framework/Matrix.hpp"
 #include "Microsoft/Xna/Framework/Vector3.hpp"
 #include "Microsoft/Xna/Framework/Vector4.hpp"
+#include "Microsoft/Xna/Framework/Graphics/BufferUsage.hpp"
 #include "Microsoft/Xna/Framework/Graphics/GraphicsDevice.hpp"
 #include "Microsoft/Xna/Framework/Graphics/IndexBuffer.hpp"
 #include "Microsoft/Xna/Framework/Graphics/ModelMeshPart.hpp"
@@ -53,6 +54,7 @@ namespace CNA::Extended::World3DEXT
     using Microsoft::Xna::Framework::Vector4;
     using Microsoft::Xna::Framework::Graphics::AnimationClipEXT;
     using Microsoft::Xna::Framework::Graphics::BoneTrackEXT;
+    using Microsoft::Xna::Framework::Graphics::BufferUsage;
     using Microsoft::Xna::Framework::Graphics::GraphicsDevice;
     using Microsoft::Xna::Framework::Graphics::IndexBuffer;
     using Microsoft::Xna::Framework::Graphics::KeyframeEXT;
@@ -101,7 +103,10 @@ namespace CNA::Extended::World3DEXT
             };
             const std::uint16_t indices[3] = {0, 1, 2};
 
-            auto vb = std::make_unique<VertexBuffer>(graphicsDevice, 3);
+            // XNA has no undeclared vertex buffers, and CNA rejects a skinned draw from one (it cannot
+            // find BlendIndices0): the buffer names its layout.
+            auto vb = std::make_unique<VertexBuffer>(graphicsDevice, VertexPositionNormalTextureSkinned::getVertexDeclarationStatic(), 3,
+                                                     BufferUsage::None);
             vb->SetData(verts, 3);
             auto ib = std::make_unique<IndexBuffer>(graphicsDevice, 3);
             ib->SetData(indices, 3);
