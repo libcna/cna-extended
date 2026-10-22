@@ -3,10 +3,6 @@
 This page lists current constraints that affect maintenance. The last verified
 dependency revisions and test counts are in [NEXT.md](../NEXT.md).
 
-- Two `OrthographicCameraTests` are deliberately skipped. CNA's
-  `BoundingFrustum::Contains` classifies a point exactly on a clipping plane
-  as `Intersects`; those tests expect the upstream `Contains` result. See the
-  skip comments in `tests/CNA/Extended/OrthographicCameraTests.cpp`.
 - `World3DEXT` is a separate extension and does not replace every `easy-3d`
   feature. In particular, it lacks a general CPU-side static batching API
   for arbitrary cube and billboard scenes. The historical comparison is in

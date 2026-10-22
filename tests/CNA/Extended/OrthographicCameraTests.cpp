@@ -21,23 +21,10 @@
 // ("every method needs a live GraphicsDevice&", see plan.md). The other two Issue793 tests (1 and 2)
 // need only `DefaultViewportAdapter`, so those ARE ported below.
 //
-// KNOWN cna BUG (not cna-extended's -- do not "fix" by weakening these tests): `Contains*Point`/
-// `Contains*Vector2` below hit a real, verified bug in `cna`'s own
-// `BoundingFrustum::Contains(const Vector3&, ContainmentType&)`
-// (`cna/src/Microsoft/Xna/Framework/BoundingFrustum.cpp`, ~line 138): it adds an
-// `if (classifyPoint == 0.0f) { intersects = true; break; }` branch with no upstream equivalent --
-// real MonoGame's `BoundingFrustum.Contains(Vector3)` (`MonoGame.Framework/BoundingFrustum.cs`
-// line ~294) is a strict binary Disjoint-if-any-plane->0-else-Contains, with no Intersects case for
-// a point test at all. `OrthographicCamera`'s `GetProjectionMatrix` uses `zNearPlane=-1, zFarPlane=0`
-// (matches upstream exactly, confirmed by `GetBoundingFrustum_ReturnsValidFrustum` below passing),
-// so the far clipping plane sits exactly at world Z=0 -- and `Contains(Vector2)`/`Contains(Point)`
-// both test points at Z=0 (matching upstream's own `new Vector3(vector2.X, vector2.Y, 0)`), landing
-// exactly ON that plane. `cna`'s extra exact-zero branch then reports `Intersects` for every such
-// point regardless of X/Y, instead of the upstream-correct `Contains`/`Disjoint`. Per this project's
-// "don't modify sibling repositories" rule, `cna` is not patched here; the two affected tests are
-// `GTEST_SKIP()`-guarded (not deleted, not weakened) so their fully-faithful assertions stay in the
-// codebase, ready to pass unmodified once `cna`'s `BoundingFrustum::Contains(Vector3)` is fixed to
-// match upstream.
+// `Contains*Point`/`Contains*Vector2` below test points at Z=0, which is exactly on the far
+// clipping plane of `GetProjectionMatrix` (zNearPlane=-1, zFarPlane=0, as upstream). They were
+// skipped until CNA's `BoundingFrustum::Contains(Vector3)` matched XNA for points on a plane
+// (CNA 5ab1c7729, published in 900d0db3b, the revision CI pins); they run unmodified now.
 #include "CNA/Extended/OrthographicCamera.hpp"
 
 #include "CNA/Extended/ViewportAdapters/DefaultViewportAdapter.hpp"
@@ -319,10 +306,6 @@ namespace CNA::Extended
 
     TEST_F(OrthographicCameraTest, ContainsPoint_WithDefaultCamera_ReturnsCorrectContainment)
     {
-        GTEST_SKIP() << "Blocked on a real cna bug: BoundingFrustum::Contains(Vector3) returns "
-                        "Intersects (not Contains) for points exactly on a clip plane -- see this "
-                        "file's header comment for the full root-cause analysis.";
-
         OrthographicCamera camera(graphicsDevice);
         const Viewport viewport = graphicsDevice.getViewportProperty();
 
@@ -334,10 +317,6 @@ namespace CNA::Extended
 
     TEST_F(OrthographicCameraTest, ContainsVector2_WithDefaultCamera_ReturnsCorrectContainment)
     {
-        GTEST_SKIP() << "Blocked on a real cna bug: BoundingFrustum::Contains(Vector3) returns "
-                        "Intersects (not Contains) for points exactly on a clip plane -- see this "
-                        "file's header comment for the full root-cause analysis.";
-
         OrthographicCamera camera(graphicsDevice);
         const Viewport viewport = graphicsDevice.getViewportProperty();
         const float width = static_cast<float>(viewport.getWidthProperty());
