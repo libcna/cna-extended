@@ -15,15 +15,17 @@ in `plan.md`, `plan3d.md`, and `3d.md`.
 
 ## Verified dependencies and result
 
-- `cna`: `900d0db3b52d76d3115ebda0a0e04a25fefad1a5` (published; the
-  revision cna-engine pins). It contains CNA `5ab1c7729`, which made
-  `BoundingFrustum::Contains(Vector3)` match XNA for points on a plane, so the
-  two orthographic-camera containment tests run again.
-- `sharp-runtime`: `f2aecfefeac171b331787e5cdc4849507363ef0e` (published).
+- `cna`: `08c1387eca7f9707d6180ff57d07f0360e059672` (published `next`, the
+  revision cna-engine pins since 2026-10-22). Since CNA `5ab1c7729`
+  `BoundingFrustum::Contains(Vector3)` matches XNA for points on a plane, so
+  the two orthographic-camera containment tests run.
+- `sharp-runtime`: `1dc8785b35284b5cf50f3aec361703bfaf090b72` (published
+  `next`; CNA's video module needs its Uri members since CNA `abbd8a4ea`).
 - Linked build: C++23, CNA `SOFTWARE` renderer, `HEADLESS` platform, `NULL`
   audio, `CNA_ENABLE_SDL=OFF`, `CNA_ENABLE_VIDEO=OFF`; zero compiler warnings.
-- CTest: 2371 registered, 2371 passed, none skipped (also through ccache with
-  a base directory: the bitmap-font fixtures no longer depend on `__FILE__`).
+- CTest: 2372 registered, 2372 passed, none skipped (also through ccache with
+  a base directory: the bitmap-font fixtures no longer depend on `__FILE__`);
+  also against CNA `900d0db3b` with Sharp Runtime `f2aecfef`.
 - `cna_extended_minimal`, `cna_extended_tiled_demo` (run from the build
   directory: its asset path is relative to it) and
   `cna_extended_world3d_demo`: all completed headlessly; the demos saved
