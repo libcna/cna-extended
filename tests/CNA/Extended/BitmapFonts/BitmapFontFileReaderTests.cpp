@@ -4,11 +4,11 @@
 //
 // Ported from MonoGame.Extended's tests/MonoGame.Extended.Tests/BitmapFonts/BitmapFontFileReaderTests.cs.
 // Fixture .fnt files copied verbatim from upstream's tests/MonoGame.Extended.Tests/BitmapFonts/files/bmfont/.
-// Upstream resolves fixture paths relative to the test runner's working directory; this project's
-// test binary's working directory isn't pinned to the source tree by CMakeLists.txt (no existing
-// precedent for source-relative test fixtures anywhere in this project or in cna/sharp-runtime's
-// own test suites), so fixture paths are resolved relative to this .cpp file's own location via
-// __FILE__ instead -- correct regardless of the CWD the test binary happens to be invoked from.
+// Upstream resolves fixture paths relative to the test runner's working directory. Here CMake passes
+// the absolute source directory of the tests (CNA_EXTENDED_TEST_SOURCE_DIR), so the fixtures are
+// found from any working directory. __FILE__ was used before, but it is relative whenever the
+// compiler is given a relative source path (ccache with a base directory, or a build tree beside
+// the sources), and CTest runs the binary from <build>/tests, where that path points nowhere.
 #include "CNA/Extended/Content/BitmapFonts/BitmapFontFileReader.hpp"
 
 #include "System/IO/FileStream.hpp"
@@ -22,7 +22,8 @@ namespace CNA::Extended::Content::BitmapFonts
     {
         std::filesystem::path FixturePath(const std::string& fileName)
         {
-            return std::filesystem::path(__FILE__).parent_path() / "files" / "bmfont" / fileName;
+            return std::filesystem::path(CNA_EXTENDED_TEST_SOURCE_DIR) / "CNA" / "Extended" / "BitmapFonts" / "files"
+                   / "bmfont" / fileName;
         }
 
         BitmapFontFileContent CreateExpected()

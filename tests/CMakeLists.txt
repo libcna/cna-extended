@@ -32,6 +32,10 @@ if(CNA_EXTENDED_CNA_LINKED)
         PRIVATE
             ${CMAKE_CURRENT_SOURCE_DIR}
     )
+    # Fixture files are found through this absolute path, never through __FILE__ (relative under
+    # ccache's base directory) or the working directory (CTest runs from <build>/tests).
+    target_compile_definitions(CnaExtendedTests PRIVATE
+        CNA_EXTENDED_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}")
     if(MSVC)
         target_compile_options(CnaExtendedTests PRIVATE /W4 /WX)
     else()
@@ -53,6 +57,8 @@ else()
         PRIVATE
             ${CMAKE_CURRENT_SOURCE_DIR}
     )
+    target_compile_definitions(CnaExtendedTests_compilecheck PRIVATE
+        CNA_EXTENDED_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}")
     if(MSVC)
         target_compile_options(CnaExtendedTests_compilecheck PRIVATE /W4 /WX)
     else()
