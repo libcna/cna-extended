@@ -127,7 +127,8 @@ namespace CNA::Extended::World3DEXT
         Model LoadSkinnedTestModel(ScratchDir& contentRoot, GraphicsDevice& graphicsDevice)
         {
             WriteFile(contentRoot.path() / "skinned.gltf", kSkinnedAnimatedGltf);
-            ContentManager cm(nullptr, contentRoot.path().string());
+            ContentManager cm;
+            cm.setRootDirectoryProperty(contentRoot.path().string());
             cm.setGraphicsDevice(graphicsDevice);
             return cm.Load<Model>("skinned");
         }
@@ -178,7 +179,8 @@ namespace CNA::Extended::World3DEXT
         Model LoadTwoClipTestModel(ScratchDir& contentRoot, GraphicsDevice& graphicsDevice)
         {
             WriteFile(contentRoot.path() / "twoclip.gltf", kTwoClipGltf);
-            ContentManager cm(nullptr, contentRoot.path().string());
+            ContentManager cm;
+            cm.setRootDirectoryProperty(contentRoot.path().string());
             cm.setGraphicsDevice(graphicsDevice);
             return cm.Load<Model>("twoclip");
         }

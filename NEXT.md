@@ -1,6 +1,6 @@
 # Current maintainer status
 
-Updated 2026-10-22. This is the short handoff for ongoing C++ maintenance.
+Updated 2026-11-05. This is the short handoff for ongoing C++ maintenance.
 The previous detailed session record is archived in
 [docs/history/NEXT-2026-09-30.md](docs/history/NEXT-2026-09-30.md).
 
@@ -36,8 +36,18 @@ in `plan.md`, `plan3d.md`, and `3d.md`.
 - Website: Doxygen generated `web/reference/html/index.html` from the public
   headers, and all source-page local links resolved (2026-09-30).
 
-CI pins the published revisions above. Update this section and the CI refs
-together after testing newer revisions. Current constraints are documented in
+Local downstream-migration verification also passes against CNA
+`1fd90048730cf7ec97676ae14d4322a9c3a1f0b9` and Sharp Runtime
+`3bf0e4077d682535178f055daee269c421db586c`: the same linked software/headless
+configuration builds with warnings as errors and passes all 2372 tests, with
+none skipped. Provider-free World3DEXT fixtures use the parameterless
+`ContentManager`; the hand-built render-test mesh explicitly names its parent
+bone. The ECS documentation's free `RunOneFrame` helper is unrelated to
+`Game::RunOneFrame` and needs no migration.
+
+CI still pins the published revisions above; this local migration check does
+not change that baseline. Update the baseline and CI refs together when
+promoting newer revisions. Current constraints are documented in
 [docs/known-issues.md](docs/known-issues.md).
 
 ## Reproduce locally

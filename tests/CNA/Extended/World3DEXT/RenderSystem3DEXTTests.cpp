@@ -101,6 +101,7 @@ namespace CNA::Extended::World3DEXT
                 part.setEffectProperty(&effect);
 
                 mesh = std::make_unique<ModelMesh>(&graphicsDevice, std::vector<ModelMeshPart*>{&part});
+                mesh->setParentBoneProperty(&bone);
                 mesh->getEffectsPropertyMutable().Add(&effect);
 
                 model = std::make_unique<Model>(&graphicsDevice, std::vector<ModelBone*>{&bone},
@@ -318,7 +319,8 @@ namespace CNA::Extended::World3DEXT
 
         ScratchDir contentRoot;
         WriteFile(contentRoot.path() / "skinned.gltf", kSkinnedAnimatedGltf);
-        Microsoft::Xna::Framework::Content::ContentManager cm(nullptr, contentRoot.path().string());
+        Microsoft::Xna::Framework::Content::ContentManager cm;
+        cm.setRootDirectoryProperty(contentRoot.path().string());
         cm.setGraphicsDevice(graphicsDevice);
         Model model = cm.Load<Model>("skinned");
         auto* skinningData =
