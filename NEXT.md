@@ -1,6 +1,6 @@
 # Current maintainer status
 
-Updated 2026-11-05. This is the short handoff for ongoing C++ maintenance.
+Updated 2026-11-10. This is the short handoff for ongoing C++ maintenance.
 The previous detailed session record is archived in
 [docs/history/NEXT-2026-09-30.md](docs/history/NEXT-2026-09-30.md).
 
@@ -15,40 +15,30 @@ in `plan.md`, `plan3d.md`, and `3d.md`.
 
 ## Verified dependencies and result
 
-- `cna`: `08c1387eca7f9707d6180ff57d07f0360e059672` (published `next`, the
-  revision cna-engine pins since 2026-10-22). Since CNA `5ab1c7729`
-  `BoundingFrustum::Contains(Vector3)` matches XNA for points on a plane, so
-  the two orthographic-camera containment tests run.
-- `sharp-runtime`: `1dc8785b35284b5cf50f3aec361703bfaf090b72` (published
-  `next`; CNA's video module needs its Uri members since CNA `abbd8a4ea`).
+- `cna`: `1c75052a5ddc7dcdf4ef430e5b68b0558ac2f377` (published `next`, C ABI
+  0.60.0).
+- `sharp-runtime`: `cda173e1ef2ad45f2d87b08daa99df98a5ebf46a` (published
+  `next`).
 - Linked build: C++23, CNA `SOFTWARE` renderer, `HEADLESS` platform, `NULL`
   audio, `CNA_ENABLE_SDL=OFF`, `CNA_ENABLE_VIDEO=OFF`; zero compiler warnings.
+  CNA runs its SDL-coupling audit only as the top-level project (since
+  `1c75052a5`); at `cf5e0c1ae` a budget overrun in it stopped every consumer
+  configure, so do not pin that revision.
 - CTest: 2372 registered, 2372 passed, none skipped (also through ccache with
-  a base directory: the bitmap-font fixtures no longer depend on `__FILE__`);
-  also against CNA `900d0db3b` with Sharp Runtime `f2aecfef`.
-- `cna_extended_minimal`, `cna_extended_tiled_demo` (run from the build
-  directory: its asset path is relative to it) and
+  a base directory).
+- `cna_extended_minimal`, `cna_extended_tiled_demo` and
   `cna_extended_world3d_demo`: all completed headlessly; the demos saved
-  nonempty PNG frames.
+  nonempty PNG frames. The tiled demo finds its assets through an absolute
+  path, so it runs from any working directory.
 - Version 0.2.0: an installed CMake package (`find_package(CnaExtended 0.2)`,
   README "Installed package"); `tools/check_package.sh` built and ran a
   consumer of it against the revisions above.
 - Website: Doxygen generated `web/reference/html/index.html` from the public
-  headers, and all source-page local links resolved (2026-09-30).
+  headers.
 
-Local downstream-migration verification also passes against CNA
-`1fd90048730cf7ec97676ae14d4322a9c3a1f0b9` and Sharp Runtime
-`3bf0e4077d682535178f055daee269c421db586c`: the same linked software/headless
-configuration builds with warnings as errors and passes all 2372 tests, with
-none skipped. Provider-free World3DEXT fixtures use the parameterless
-`ContentManager`; the hand-built render-test mesh explicitly names its parent
-bone. The ECS documentation's free `RunOneFrame` helper is unrelated to
-`Game::RunOneFrame` and needs no migration.
-
-CI still pins the published revisions above; this local migration check does
-not change that baseline. Update the baseline and CI refs together when
-promoting newer revisions. Current constraints are documented in
-[docs/known-issues.md](docs/known-issues.md).
+CI pins the `cna` and `sharp-runtime` revisions above. Update the baseline and
+CI refs together when promoting newer revisions. Current constraints are
+documented in [docs/known-issues.md](docs/known-issues.md).
 
 ## Reproduce locally
 

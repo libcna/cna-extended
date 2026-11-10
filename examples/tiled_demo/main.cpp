@@ -162,7 +162,7 @@ namespace
         graphicsDevice.setViewportProperty(Viewport(0, 0, kMapPixelWidth, kMapPixelHeight));
 
         // ---- Load the real Tiled TMX map (assets/map.tmx + assets/tileset.png next to it) ----
-        const std::filesystem::path assetsDir = std::filesystem::path(__FILE__).parent_path() / "assets";
+        const std::filesystem::path assetsDir = CNA_EXTENDED_TILED_DEMO_ASSETS_DIR;
         const std::filesystem::path mapPath = assetsDir / "map.tmx";
 
         TiledTmxParser parser;

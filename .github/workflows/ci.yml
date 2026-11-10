@@ -24,14 +24,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: libcna/cna
-          ref: 08c1387eca7f9707d6180ff57d07f0360e059672
+          ref: 1c75052a5ddc7dcdf4ef430e5b68b0558ac2f377
           path: cna
 
       - name: Check out sharp-runtime
         uses: actions/checkout@v4
         with:
           repository: libcna/sharp-runtime
-          ref: 1dc8785b35284b5cf50f3aec361703bfaf090b72
+          ref: cda173e1ef2ad45f2d87b08daa99df98a5ebf46a
           path: sharp-runtime
 
       - name: Configure

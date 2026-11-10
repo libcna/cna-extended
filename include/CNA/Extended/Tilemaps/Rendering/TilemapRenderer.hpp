@@ -21,10 +21,10 @@
 // `Microsoft::Xna::Framework::Graphics::BasicEffect` instead:
 //  - It is the genuine, standard XNA 4.0 effect class (`DefaultEffect` is MonoGame.Extended's own
 //    invention, with no XNA equivalent).
-//  - It is already fully implemented and pixel-verified across all 3 CNA backends (EasyGL/Vulkan/
-//    Bgfx), specifically including `TextureEnabled=true` + `VertexColorEnabled=true` +
-//    `LightingEnabled=false` over the exact `VertexPositionColorTexture` stride-24 vertex layout
-//    this renderer uses -- see `cna/docs/basiceffect-support.md`.
+//  - CNA implements it as the XNA stock effect, including `TextureEnabled=true` +
+//    `VertexColorEnabled=true` + `LightingEnabled=false` over the exact
+//    `VertexPositionColorTexture` stride-24 vertex layout this renderer uses -- see
+//    `cna/docs/basiceffect-support.md` for its contract and the evidence for each renderer.
 //  - Its API (`World`/`View`/`Projection` public fields, `getTextureProperty()`/
 //    `setTextureProperty()`, `getTextureEnabledProperty()`/`setTextureEnabledProperty()`, public
 //    `VertexColorEnabled` field, `getLightingEnabledProperty()` defaulting to `false`) is a strict

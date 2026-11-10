@@ -10,6 +10,10 @@
 if(CNA_EXTENDED_CNA_LINKED)
     add_executable(cna_extended_tiled_demo main.cpp)
     target_link_libraries(cna_extended_tiled_demo PRIVATE CNA_EXTENDED)
+    # An absolute asset path: __FILE__ is relative under ccache's base directory, which made the
+    # demo depend on being started from the build directory.
+    target_compile_definitions(cna_extended_tiled_demo PRIVATE
+        CNA_EXTENDED_TILED_DEMO_ASSETS_DIR="${CMAKE_CURRENT_SOURCE_DIR}/assets")
     if(MSVC)
         target_compile_options(cna_extended_tiled_demo PRIVATE /W4 /WX)
     else()
@@ -18,6 +22,8 @@ if(CNA_EXTENDED_CNA_LINKED)
 else()
     add_library(cna_extended_tiled_demo_compilecheck OBJECT main.cpp)
     target_link_libraries(cna_extended_tiled_demo_compilecheck PRIVATE CNA_EXTENDED)
+    target_compile_definitions(cna_extended_tiled_demo_compilecheck PRIVATE
+        CNA_EXTENDED_TILED_DEMO_ASSETS_DIR="${CMAKE_CURRENT_SOURCE_DIR}/assets")
     if(MSVC)
         target_compile_options(cna_extended_tiled_demo_compilecheck PRIVATE /W4 /WX)
     else()

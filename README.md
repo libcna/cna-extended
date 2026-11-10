@@ -59,7 +59,7 @@ dependency do not silently change the result.
 
 - [Contributing](CONTRIBUTING.md): setup, tests, conventions, and review checklist.
 - [Architecture](docs/architecture.md): module map, dependencies, ownership, and render testing.
-- [Known limitations](docs/known-issues.md): active constraints and the two skipped tests.
+- [Known limitations](docs/known-issues.md): active constraints.
 - [Examples](examples/): minimal link, 2D tilemap, and 3D scene integrations.
 - [API catalogue](web/api.html): curated entry points to the public headers.
 

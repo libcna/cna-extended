@@ -12,7 +12,7 @@ render target is active. The current pattern is demonstrated by
 `TilemapIntegrationTests.cpp` and the tiled demo. See
 [docs/architecture.md](docs/architecture.md) for the render-test contract.
 
-The two remaining skipped frustum tests and other active constraints are in
+Active constraints are in
 [docs/known-issues.md](docs/known-issues.md). The former detailed account is
 preserved in Git history and the archived
 [long handoff](docs/history/NEXT-2026-09-30.md) for provenance; do not use its

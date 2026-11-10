@@ -44,14 +44,16 @@ option(CNA_EXTENDED_LINK_CNA
 # OPENGLES3/SDL3/SDL3.
 set(CNA_EXTENDED_CNA_RENDERER "SOFTWARE"
     CACHE STRING "cna renderer used by a standalone cna-extended build")
+# The choices below are CNA's public selections (its cmake/RendererIdentities.cmake,
+# PlatformSelection.cmake and AudioPlatformSelection.cmake); CNA validates the value.
 set_property(CACHE CNA_EXTENDED_CNA_RENDERER PROPERTY STRINGS
-    SOFTWARE HEADLESS SDL_RENDERER OPENGLES2 OPENGLES3 OPENGL33 BGFX VULKAN)
+    SOFTWARE HEADLESS STUB OPENGLES3 OPENGL33 WEBGL2 WEBGPU DIRECTX9 SDLGPU FNA3D)
 set(CNA_EXTENDED_CNA_PLATFORM "HEADLESS"
     CACHE STRING "cna platform used by a standalone cna-extended build")
-set_property(CACHE CNA_EXTENDED_CNA_PLATFORM PROPERTY STRINGS HEADLESS SDL3 SDL2 TERMINAL)
+set_property(CACHE CNA_EXTENDED_CNA_PLATFORM PROPERTY STRINGS HEADLESS SDL3 TERMINAL)
 set(CNA_EXTENDED_CNA_AUDIO_PLATFORM "NULL"
     CACHE STRING "cna audio platform used by a standalone cna-extended build")
-set_property(CACHE CNA_EXTENDED_CNA_AUDIO_PLATFORM PROPERTY STRINGS NULL SDL3 SDL2)
+set_property(CACHE CNA_EXTENDED_CNA_AUDIO_PLATFORM PROPERTY STRINGS NULL SDL3 ALSA)
 
 # Direct CNA module ownership, derived from every Microsoft/Xna and CNA header
 # included by include/ and src/. Their PUBLIC dependency closure supplies the
@@ -252,7 +254,7 @@ else()
     # CNA::BuildFlags normally publishes these definitions. Headers-only mode
     # deliberately does not create that target, so reproduce its API-selection
     # surface without pulling any implementation archive into the build.
-    if(CNA_EXTENDED_CNA_RENDERER MATCHES "^(OPENGLES2|OPENGLES3|OPENGL33)$")
+    if(CNA_EXTENDED_CNA_RENDERER MATCHES "^(OPENGLES3|OPENGL33|WEBGL2)$")
         target_compile_definitions(CNA_EXTENDED PUBLIC
             XNA5
             CNA_RENDERER_EASYGL
