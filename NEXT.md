@@ -1,6 +1,6 @@
 # Current maintainer status
 
-Updated 2026-11-10. This is the short handoff for ongoing C++ maintenance.
+Updated 2026-11-11. This is the short handoff for ongoing C++ maintenance.
 The previous detailed session record is archived in
 [docs/history/NEXT-2026-09-30.md](docs/history/NEXT-2026-09-30.md).
 
@@ -15,9 +15,11 @@ in `plan.md`, `plan3d.md`, and `3d.md`.
 
 ## Verified dependencies and result
 
-- `cna`: `1c75052a5ddc7dcdf4ef430e5b68b0558ac2f377` (published `next`, C ABI
-  0.60.0).
-- `sharp-runtime`: `cda173e1ef2ad45f2d87b08daa99df98a5ebf46a` (published
+- `cna`: `4ef67873b252bb07bcb270011ae7bc5a55aac105` (published `next`, C ABI
+  0.60.0). Its stock effects latch their parameters at `EffectPass.Apply`, as
+  XNA's do; every renderer here assigns the effect's properties before
+  `Apply`, so nothing needed to change.
+- `sharp-runtime`: `f8ea4b1f781fffab887d55966949395ae6e1b5ab` (published
   `next`).
 - Linked build: C++23, CNA `SOFTWARE` renderer, `HEADLESS` platform, `NULL`
   audio, `CNA_ENABLE_SDL=OFF`, `CNA_ENABLE_VIDEO=OFF`; zero compiler warnings.
