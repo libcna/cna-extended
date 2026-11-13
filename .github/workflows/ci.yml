@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: libcna/cna
-          ref: 4ccbe5b8048ee9ce3aba06bcc2663427156405da
+          ref: d1c93622503e8a3a45fbafa949046dc965f4a92e
           path: cna
 
       - name: Check out sharp-runtime
